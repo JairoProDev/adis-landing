@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0C4A6E"/>
+      <stop offset="100%" style="stop-color:#0369A1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <text x="80" y="200" font-family="Georgia, serif" font-size="88" font-weight="bold" fill="#ffffff">ADIS</text>
+  <text x="80" y="300" font-family="system-ui, sans-serif" font-size="42" fill="rgba(255,255,255,0.9)">M�s ventas por WhatsApp y Google Maps</text>
+  <text x="80" y="380" font-family="system-ui, sans-serif" font-size="32" fill="#F59E0B">Junio completo � S/. 300 � Kallpa Warmi</text>
+  <text x="80" y="520" font-family="system-ui, sans-serif" font-size="28" fill="rgba(255,255,255,0.65)">adis.lat � Reserva hoy � Empiezas 1 de junio</text>
+  <circle cx="1050" cy="315" r="120" fill="rgba(14,165,233,0.25)"/>
+  <text x="1050" y="330" text-anchor="middle" font-family="system-ui" font-size="72" fill="#ffffff">=�</text>
+</svg>
