@@ -20,7 +20,7 @@ Este junio nos ofrecen un programa completo para que nuestro negocio:
 ✓ Sin aprender tecnología — ellos hacen todo
 
 💰 Precio solo comunidad: S/. 300 por TODO junio
-📅 Empiezan el 1 de junio — hay solo 8 cupos
+📅 Empiezan el 1 de junio — hay solo 10 cupos
 🔗 Entren aquí: https://adis.lat
 
 Si les gusta: Yapean S/. 300 y mandan captura al WhatsApp ADIS: 937 054 328
@@ -33,7 +33,7 @@ Cualquier duda me escriben o escriben directo a ADIS. Esto puede cambiar su nego
 ## 2. Mensaje corto (si el grupo es muy activo)
 
 ```
-Hermosas 💜 Programa ADIS solo Kallpa Warmi: más ventas WhatsApp + Google en junio por S/. 300. 8 cupos. https://adis.lat → Yape y captura al 937 054 328. Empiezan 1 de junio.
+Hermosas 💜 Programa ADIS solo Kallpa Warmi: más ventas WhatsApp + Google en junio por S/. 300. 10 cupos. https://adis.lat → Yape y captura al 937 054 328. Empiezan 1 de junio.
 ```
 
 ---
