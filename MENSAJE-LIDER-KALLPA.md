@@ -7,7 +7,7 @@ Copia, personaliza lo marcado con [corchetes] y envía **texto + link** (no solo
 ## 1. Mensaje para la líder (grupo de WhatsApp)
 
 ```
-Hola hermanas 💜
+Hola emprendedoras 💜
 
 Les comparto algo especial que prepararon Jairo y Shantall de ADIS, solo para nosotras de Kallpa Warmi.
 
@@ -61,7 +61,7 @@ Si te animas hoy: Yape S/. 300 al 953 865 163 y me mandas captura al 937 054 328
 ```
 Hola [nombre]! Vi que entraste a ver la propuesta de ADIS 😊
 
-¿Te quedó alguna duda? Los cupos para junio son solo 10 y cierran el 30 de mayo — varias hermanas ya están preguntando.
+¿Te quedó alguna duda? Los cupos para junio son solo 10 y cierran el 30 de mayo — varias emprendedorasimage.png ya están preguntando.
 
 Si quieres reservar: Yape S/. 300 → captura al 937 054 328 y listo, empiezas el 1 de junio con todo el apoyo.
 
