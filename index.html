@@ -571,10 +571,12 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 <div id="progress"></div>
 
 <!-- COUNTDOWN -->
-<div id="countdown-bar">
-  ⏰ Precio Kallpa Warmi termina <strong>30 mayo</strong> ·
-  <span class="cd-time" id="countdown">--:--:--</span>
-  · <span id="spotsNav">10</span> cupos
+<div id="countdown-bar" style="padding: 0 8px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 500; letter-spacing: 0.02em;">
+  <span style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; width: 100%; justify-content: center;">
+    <span style="font-size: 15px; margin-right: 3px;">📢</span>
+    <span style="white-space:nowrap;">Solo Kallpa Warmi hasta el <strong style="font-weight: 800;">30 de mayo</strong></span>
+    <span class="cd-time" id="countdown" style="font-weight: 800; font-size: 16px; color: #FFF; margin-left: 6px; letter-spacing: 0.01em;">--:--:--</span>
+  </span>
 </div>
 
 <!-- NAV -->
@@ -585,12 +587,6 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 
 <!-- NAV DOTS -->
 <div id="dots"></div>
-
-<!-- SCROLL HINT -->
-<div id="hint">
-  <span class="hint-text">Solo 10 cupos · desliza ↓</span>
-  <div class="hint-arrow">↓</div>
-</div>
 
 <!-- STICKY CTA -->
 <div id="sticky-cta">
@@ -608,10 +604,19 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 <div class="slide light" data-theme="light">
   <div class="content" style="align-items:center;text-align:center;">
     <div class="badge badge-gold anim anim-1">💜 Exclusivo Kallpa Warmi · Solo 10 cupos</div>
-    <h1 class="hero-h anim anim-2" style="text-align:center;">Más ventas por WhatsApp<br>y en <span class="hl-teal">Google Maps</span><br>todo junio.</h1>
+    <h1 class="hero-h anim anim-2" style="text-align:center;">
+      Transformamos tu <span class="hl-teal">negocio </span>
+       en una máquina digital de <span class="hl-teal">ventas online</span><br>
+    </h1>
     <p class="hero-pain anim anim-3">Tienes un buen producto.<br><em>Pero si no te encuentran, no te compran.</em></p>
     <p class="hero-sub anim anim-4" style="text-align:center;">Nosotros hacemos el trabajo digital por ti: fotos bonitas, catálogo online, mensajes que venden y plan claro. Tú sigues atendiendo tu negocio.</p>
-    <div class="anim anim-5" style="font-family:'Fraunces',serif;font-size:42px;font-weight:800;color:var(--ink);line-height:1;">S/. 300</div>
+    <div class="anim anim-5" style="font-family:'Fraunces',serif;font-size:42px;font-weight:800;color:var(--ink);line-height:1;">
+      <span style="text-decoration:line-through;color:var(--dim);font-weight:400;font-size:28px;vertical-align:middle;margin-right:10px;">S/. 3,000</span>
+      <span style="background: linear-gradient(90deg, #ef4444, #fbbf24); color:white; padding:2px 8px; border-radius:6px; font-size:15px; font-weight:700; margin-right:10px; vertical-align:middle;">
+        -90%
+      </span>
+      S/. 300
+    </div>
     <p class="anim anim-5" style="font-size:13px;color:var(--dim);margin-top:-8px;"><strong style="color:var(--red);">Inversión inteligente</strong> · Junio completo · Cierra 30 mayo</p>
     <div class="hero-trust anim anim-5">
       <span><strong>14+</strong> páginas vivas</span>
