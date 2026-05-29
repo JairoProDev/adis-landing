@@ -3,13 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>ADIS — Invierte S/. 300 · Página + Catálogo · Kallpa Warmi</title>
-<meta name="description" content="Exclusivo Kallpa Warmi: página, catálogo y publicidad en Buscadis por S/. 300. 14+ páginas en portafolio, Noticiadis ~2K. Solo 10 cupos. Cierra 30 mayo.">
+<title>ADIS — Tu negocio se ve profesional · S/. 300 · Kallpa Warmi</title>
+<meta name="description" content="Más clientes por WhatsApp y Google Maps. Fotos pro, catálogo online — nosotros lo hacemos. S/. 300 solo Kallpa Warmi. Paga hoy y gana 3 días extra de mayo.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://adis.lat">
-<meta property="og:title" content="ADIS — Tu negocio online en junio · S/. 300 · 10 cupos">
-<meta property="og:description" content="Página + catálogo + publicidad. Exclusivo Kallpa Warmi. Cierra 30 de mayo. Invierte hoy.">
+<meta property="og:title" content="Tu negocio se ve profesional · S/. 300">
+<meta property="og:description" content="Más clientes por WhatsApp y Google Maps. Fotos pro, catálogo online — nosotros lo hacemos por ti. Solo Kallpa Warmi · 10 cupos.">
 <meta property="og:image" content="https://adis.lat/og-image.svg">
+<meta property="og:image:alt" content="Tu negocio se ve profesional — más clientes por WhatsApp y Google Maps por S/. 300">
 <meta property="og:locale" content="es_PE">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect fill='%230EA5E9' width='32' height='32' rx='6'/%3E%3Ctext x='16' y='22' font-family='sans-serif' font-size='14' font-weight='bold' fill='white' text-anchor='middle'%3EAD%3C/text%3E%3C/svg%3E">
@@ -580,6 +581,22 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 .hero-wa-link{font-size:13px;margin-top:4px;}
 .hero-wa-link a{color:var(--dim);font-weight:500;text-decoration:none;border-bottom:1px solid var(--line2);}
 .hero-wa-link a:active{color:var(--teal);}
+.bonus-today{
+  width:100%;max-width:360px;
+  background:linear-gradient(135deg,rgba(239,68,68,.12),rgba(245,158,11,.15));
+  border:2px solid rgba(239,68,68,.35);
+  border-radius:14px;padding:12px 14px;text-align:center;
+  margin-bottom:4px;
+}
+.bonus-today .bonus-tag{
+  display:inline-block;font-size:10px;font-weight:800;
+  text-transform:uppercase;letter-spacing:.06em;
+  background:var(--red);color:var(--white);
+  padding:3px 10px;border-radius:99px;margin-bottom:6px;
+}
+.bonus-today strong{display:block;font-size:15px;font-weight:700;color:var(--ink);line-height:1.3;}
+.bonus-today .bonus-sub{font-size:11px;color:var(--dim);margin-top:4px;line-height:1.4;}
+.bonus-today .bonus-cd{font-family:'Fraunces',serif;font-size:14px;font-weight:800;color:var(--red);margin-top:6px;}
 .cred-mini{font-size:11px;color:rgba(255,255,255,.6);line-height:1.5;max-width:380px;text-align:center;}
 @media (max-width:380px){
   :root{--countdown-h:38px;--nav-h:44px;--sticky-h:46px;}
@@ -597,8 +614,8 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 <!-- COUNTDOWN -->
 <div id="countdown-bar" style="padding: 0 8px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 500; letter-spacing: 0.02em;">
   <span style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; width: 100%; justify-content: center;">
-    <span style="font-size: 15px; margin-right: 3px;">📢</span>
-    <span style="white-space:nowrap;">Solo Kallpa Warmi hasta el <strong style="font-weight: 800;">30 de mayo</strong></span>
+    <span id="countdownBonusLine" class="bonus-only" style="font-size: 15px; margin-right: 3px;">🔥</span>
+    <span id="countdownMainText" style="white-space:nowrap;">Paga <strong>HOY</strong> → 3 días extra mayo · Cupos cierran <strong>30 mayo</strong></span>
     <span class="cd-time" id="countdown" style="font-weight: 800; font-size: 16px; color: #FFF; margin-left: 6px; letter-spacing: 0.01em;">--:--:--</span>
   </span>
 </div>
@@ -627,6 +644,12 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 <!-- SLIDE 1: HERO HOOK -->
 <div class="slide light" data-theme="light">
   <div class="content" style="align-items:center;text-align:center;">
+    <div id="heroBonus" class="bonus-today anim anim-1 bonus-only">
+      <span class="bonus-tag">🔥 Solo si pagas hoy · 29 mayo</span>
+      <strong>3 días extra de mayo GRATIS</strong>
+      <span class="bonus-sub">Empezamos hoy, mañana 30 y pasado 31 — antes que todas. Mañana ya no incluye este bono.</span>
+      <span class="bonus-cd">Termina en <span id="bonusCountdown">--:--:--</span></span>
+    </div>
     <div class="badge badge-gold anim anim-1">💜 Exclusivo Kallpa Warmi · Solo 10 cupos</div>
     <h1 class="hero-h anim anim-2" style="text-align:center;">
       Transformamos tu <span class="hl-teal">negocio </span>
@@ -637,9 +660,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
     <div class="hero-price anim anim-5">
       <span class="hero-price-was">S/. 3,000</span>
       <span class="hero-price-badge">-90%</span>
-      <span class="hero-price-now">S/. 300!</span>
+      <span class="hero-price-now">S/. 300</span>
     </div>
-    <p class="anim anim-5" style="font-size:13px;color:var(--dim);margin-top:6px;"><strong style="color:var(--red);">Inversión inteligente</strong> · Junio completo · Cierra 30 mayo</p>
+    <p class="anim anim-5" style="font-size:13px;color:var(--dim);margin-top:6px;"><strong style="color:var(--red);">Tu negocio se ve profesional</strong> · Junio completo · Cierra cupos 30 mayo</p>
     <div class="hero-trust anim anim-5">
       <span><strong>14+</strong> páginas vivas</span>
       <span>·</span>
@@ -648,8 +671,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
       <span>Noticiadis <strong>~2K</strong></span>
     </div>
     <div style="width:100%;display:flex;flex-direction:column;gap:8px;max-width:340px;" class="anim anim-5">
-      <a href="#pagar" class="btn btn-invest" id="heroPayBtn">Reservar mi cupo ahora →</a>
-      <p class="btn-invest-sub">Menos que 1 día sin clientes. Tu página + catálogo + publicidad incluidos.</p>
+      <a href="#pagar" class="btn btn-invest" id="heroPayBtn">Quiero que mi negocio se vea así →</a>
+      <p class="btn-invest-sub bonus-only">Paga hoy y arrancamos ya — 3 días extra mayo incluidos.</p>
+      <p class="btn-invest-sub bonus-gone" hidden>Menos que 1 día sin clientes. Fotos pro + catálogo + más ventas por WhatsApp.</p>
       <p class="hero-wa-link"><a href="#" id="heroWaBtn" target="_blank">¿Tienes dudas? Escríbenos por WhatsApp</a></p>
     </div>
   </div>
@@ -664,9 +688,10 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
     <h2 class="section-h white-text anim anim-2">Kallpa Warmi:<br>ya nos conocemos.</h2>
     <p class="section-sub dimw anim anim-3" style="max-width:360px;">Jairo y Shantall de ADIS ya apoyaron a varias emprendedoras de la comunidad en ferias, redes y presencia digital. Este junio preparamos algo especial solo para ustedes.</p>
     <div class="kallpa-list anim anim-4">
+      <div class="kallpa-item bonus-only"><span>🔥</span><span><strong style="color:var(--gold);">Solo HOY (29 mayo):</strong> pagas hoy y ganas <strong style="color:var(--white);">3 días extra de mayo gratis</strong> — empezamos ya, no esperas al 1 de junio.</span></div>
       <div class="kallpa-item"><span>✓</span><span>Solo <strong style="color:var(--white);">10 cupos</strong> — cuando se llenen, cierra. No habrá segunda oportunidad a este precio.</span></div>
-      <div class="kallpa-item"><span>✓</span><span>Precio comunidad: <strong style="color:var(--white);">S/. 300</strong> (página + catálogo + publicidad — no S/. 1,500+ de agencia)</span></div>
-      <div class="kallpa-item"><span>✓</span><span>Reserva hasta el <strong style="color:var(--green);">30 de mayo</strong> · Empiezas el 1 de junio</span></div>
+      <div class="kallpa-item"><span>✓</span><span>Precio comunidad: <strong style="color:var(--white);">S/. 300</strong> — tu negocio se ve profesional y vende más por WhatsApp</span></div>
+      <div class="kallpa-item"><span>✓</span><span>Reserva hasta el <strong style="color:var(--green);">30 de mayo</strong> · Junio completo incluido</span></div>
       <div class="kallpa-item"><span>✓</span><span>WhatsApp ADIS <strong style="color:var(--white);">937 054 328</strong> + respaldo Jairo y Shantall</span></div>
     </div>
     <a href="#pagar" class="btn btn-white anim anim-5" id="kallpaPayBtn">Asegurar uno de los 10 cupos →</a>
@@ -1110,7 +1135,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 <div class="slide light scroll-y" data-theme="light">
   <div class="content">
     <div class="badge badge-teal anim anim-1">Antes de decidir</div>
-    <h2 class="section-h anim anim-2">Las 4 dudas<br>que todas tienen.</h2>
+    <h2 class="section-h anim anim-2">Las 5 dudas<br>que todas tienen.</h2>
     <div class="faq-list anim anim-3">
       <div class="faq-item">
         <h4>“¿Y si no sé de tecnología?”</h4>
@@ -1123,6 +1148,10 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
       <div class="faq-item">
         <h4>“¿Qué pasa después de junio?”</h4>
         <p>Tu página y catálogo ya están hechos. Por S/. 300/mes los mantenemos activos, actualizamos productos y te damos visibilidad en buscadis.com. Sin volver a pagar por construir todo desde cero.</p>
+      </div>
+      <div class="faq-item bonus-only">
+        <h4>“¿Qué son los 3 días extra de mayo?”</h4>
+        <p>Solo si pagas <strong>hoy 29 de mayo</strong>: empezamos de inmediato con tu negocio — hoy, mañana 30 y pasado 31 — sin costo extra. Es ventaja para las que se animan ya. Si pagas mañana en adelante, entras el 1 de junio como todas.</p>
       </div>
       <div class="faq-item">
         <h4>“¿Por qué confiar en ustedes?”</h4>
@@ -1192,15 +1221,20 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 <div id="pagar" class="slide light scroll-y" data-theme="light">
   <div class="content">
     <div class="badge badge-teal anim anim-1">Último paso</div>
+    <div id="payBonus" class="bonus-today anim anim-2 bonus-only" style="max-width:360px;margin-bottom:8px;">
+      <span class="bonus-tag">🔥 Bono solo HOY · 29 mayo</span>
+      <strong>+3 días extra mayo GRATIS</strong>
+      <span class="bonus-sub">Pagas hoy → arrancamos ya (29, 30 y 31). Mañana este bono desaparece.</span>
+    </div>
     <div class="price-big anim anim-2">
       <div class="price-was">Valor real: S/. 8,850+</div>
       <div class="price-now" style="color:var(--ink);">S/.300</div>
-      <div class="price-period" style="color:var(--dim);">Inversión junio · Página + catálogo + publicidad</div>
-      <div class="price-save"><span style="color:var(--green);">▲</span> Exclusivo Kallpa Warmi · Cierra 30 mayo</div>
+      <div class="price-period" style="color:var(--dim);">Tu negocio se ve profesional · Junio completo</div>
+      <div class="price-save"><span style="color:var(--green);">▲</span> Exclusivo Kallpa Warmi · Cierra cupos 30 mayo</div>
     </div>
     <div class="invest-box anim anim-3">
-      No es un gasto — es poner tu negocio donde te encuentren y te compren.<br>
-      <strong>1 venta extra al mes ya paga esto 10 veces.</strong>
+      Imagina que te buscan en Google y tu WhatsApp vende solo.<br>
+      <strong>Eso es lo que construimos por ti — tú sigues con tu negocio.</strong>
     </div>
     <div class="steps-pay anim anim-3">
       <div class="step-pay">
@@ -1211,7 +1245,11 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
         <div class="step-num">2</div>
         <div><h4>Manda captura al WhatsApp ADIS</h4><p>937 054 328 — confirmamos tu cupo en minutos</p></div>
       </div>
-      <div class="step-pay">
+      <div class="step-pay bonus-only">
+        <div class="step-num">3</div>
+        <div><h4>Arrancamos HOY mismo</h4><p>3 días extra mayo (29·30·31) + junio completo desde el 1</p></div>
+      </div>
+      <div class="step-pay bonus-gone" hidden>
         <div class="step-num">3</div>
         <div><h4>El 1 de junio arrancamos</h4><p>Te escribimos con tu plan personalizado el mismo día</p></div>
       </div>
@@ -1283,7 +1321,9 @@ const ADIS = {
   DEL_SLIDE: 10,
   PORT_SLIDE: 7,
   DEADLINE: new Date('2026-05-30T23:59:59-05:00'),
-  MSG_PAGO: 'Hola ADIS! Vi adis.lat y quiero invertir en mi cupo de junio por S/. 300. Ya hice el Yape, adjunto comprobante.',
+  BONUS_DEADLINE: new Date('2026-05-29T23:59:59-05:00'),
+  MSG_PAGO: 'Hola ADIS! Vi adis.lat y quiero que mi negocio se vea profesional. Invierto S/. 300 en mi cupo Kallpa Warmi. Ya hice el Yape, adjunto comprobante.',
+  MSG_PAGO_BONUS: 'Hola ADIS! Vi adis.lat y quiero mi cupo HOY para los 3 días extra de mayo. Ya Yapeé S/. 300, adjunto comprobante.',
   MSG_DUDA: 'Hola ADIS! Vi la propuesta exclusiva Kallpa Warmi y tengo una pregunta antes de reservar.',
   MSG_LISTA: 'Hola ADIS! Vi adis.lat y quiero la lista completa de los 30 bonus de junio por favor.'
 };
@@ -1309,7 +1349,7 @@ function applyConfig(){
   const spots = document.querySelectorAll('#spots, #spots2, #spots3, #spotsNav');
   spots.forEach(el=>{ if(el) el.textContent = ADIS.CUPOS; });
 
-  const waPay = waUrl(ADIS.WA_EMPRESA, ADIS.MSG_PAGO);
+  const waPay = waUrl(ADIS.WA_EMPRESA, isBonusActive() ? ADIS.MSG_PAGO_BONUS : ADIS.MSG_PAGO);
   const waDuda = waUrl(ADIS.WA_EMPRESA, ADIS.MSG_DUDA);
   const waLista = waUrl(ADIS.WA_EMPRESA, ADIS.MSG_LISTA);
 
@@ -1437,15 +1477,43 @@ document.addEventListener('keydown', e=>{
   if(e.key === 'Escape') closePreview();
 });
 
+function isBonusActive(){
+  return Date.now() <= ADIS.BONUS_DEADLINE.getTime();
+}
+
+function fmtCountdown(ms){
+  if(ms <= 0) return 'CERRADO';
+  const h = Math.floor(ms / 3600000);
+  const m = Math.floor((ms % 3600000) / 60000);
+  const s = Math.floor((ms % 60000) / 1000);
+  return `${h}h ${String(m).padStart(2,'0')}m ${String(s).padStart(2,'0')}s`;
+}
+
+function updateBonusUI(){
+  const active = isBonusActive();
+  document.querySelectorAll('.bonus-only').forEach(el=>{ el.hidden = !active; });
+  document.querySelectorAll('.bonus-gone').forEach(el=>{ el.hidden = active; });
+  const mainText = document.getElementById('countdownMainText');
+  if(mainText){
+    mainText.innerHTML = active
+      ? 'Paga <strong>HOY</strong> → 3 días extra mayo · Cupos cierran <strong>30 mayo</strong>'
+      : 'Cupos Kallpa Warmi cierran <strong>30 mayo</strong> · Solo <span id="spotsNavInline">10</span> lugares';
+  }
+  const spotsInline = document.getElementById('spotsNavInline');
+  if(spotsInline) spotsInline.textContent = ADIS.CUPOS;
+}
+
 function updateCountdown(){
   const el = document.getElementById('countdown');
-  if(!el) return;
-  const diff = ADIS.DEADLINE - Date.now();
-  if(diff <= 0){ el.textContent = 'CERRADO'; return; }
-  const h = Math.floor(diff / 3600000);
-  const m = Math.floor((diff % 3600000) / 60000);
-  const s = Math.floor((diff % 60000) / 1000);
-  el.textContent = `${h}h ${String(m).padStart(2,'0')}m ${String(s).padStart(2,'0')}s`;
+  const bonusEl = document.getElementById('bonusCountdown');
+  const cupoDiff = ADIS.DEADLINE - Date.now();
+  if(el) el.textContent = fmtCountdown(cupoDiff);
+  if(bonusEl && isBonusActive()){
+    bonusEl.textContent = fmtCountdown(ADIS.BONUS_DEADLINE - Date.now());
+  }
+  if(!isBonusActive() && document.querySelector('.bonus-only:not([hidden])')){
+    updateBonusUI();
+  }
 }
 
 // ===== STATE =====
@@ -1547,6 +1615,7 @@ document.getElementById('overviewDelBtn')?.addEventListener('click', e=>{
 
 slides[0].classList.add('active');
 renderPortfolio();
+updateBonusUI();
 applyConfig();
 updateCountdown();
 setInterval(updateCountdown, 1000);
