@@ -1,593 +1,567 @@
 # ADIS × Kallpa Warmi — Oferta completa (envío personal WhatsApp)
 
-**Uso:** copiar secciones a cada emprendedora por WhatsApp. Personalizar `[nombre]` y `[negocio]`.  
-**Link:** [https://adis.lat](https://adis.lat)  
-**Regla:** ser honestos en tiempos (primero investigamos, luego construimos). El valor se siente por la suma de muchas acciones concretas, no por inflar un solo ítem.
+**Uso:** copiar a cada emprendedora. Personalizar `[nombre]` y `[negocio]`.  
+**Link:** https://adis.lat  
+**Estructura:** ~**5 entregables por día** (informes, guías, manuales, piezas de contenido, configuraciones). No todo de golpe — una entrega diaria con valor claro.  
+**Tono:** sin “aprender tecnología” → *“sin complicaciones técnicas”*, *“nosotros hacemos lo digital, tú ves resultados”*.
 
 ---
 
 ## Contactos
 
+| Rol | Número |
+|-----|--------|
+| WhatsApp ADIS | **937 054 328** |
+| Yape / Plin | **990 551 461** · Shantall |
+| Respaldo Jairo | 953 865 163 |
 
-| Rol                             | Número                     |
-| ------------------------------- | -------------------------- |
-| WhatsApp ADIS (capturas, dudas) | **937 054 328**            |
-| Yape / Plin                     | **990 551 461** · Shantall |
-| Respaldo Jairo                  | 953 865 163                |
-| Respaldo Shantall               | 990 551 461                |
-
-
-**Reserva:** Yape S/. 300 → captura al **937 054 328**  
-**Condiciones:** solo **10 cupos** · cierra reserva **30 de mayo** · exclusivo comunidad Kallpa Warmi
+**Reserva:** Yape S/. 300 → captura **937 054 328** · **10 cupos** (quedan 8) · cierra **30 mayo**
 
 ---
 
-## Cómo funciona el programa (versión honesta)
+## Cómo funciona (honesto)
 
-No empezamos a “entregar todo” el mismo día que pagas. Primero **investigamos** tu negocio para que lo que construyamos encaje contigo y con tu mercado en Cusco.
+| Fase | Cuándo | Qué es |
+|------|--------|--------|
+| **0 — Investigación** | 29·30·31 mayo *(solo si pagan 29 mayo)* | Estudiamos rubro, competencia, presencia digital. **5 entregables/día.** |
+| **1 — Ejecución** | 1–30 junio | Construimos y entregamos. **~5 entregables/día.** |
+| **2 — Continuidad** *(opcional)* | Desde julio | S/. 300/mes: página, catálogo, Buscadis |
 
+**Bono 3 días mayo** = investigación con ventaja, no “junio adelantado”. El 1 de junio arranca ejecución con plan listo.
 
-| Fase                                  | Cuándo                                            | Qué pasa                                                                     | Qué ganas tú                                                 |
-| ------------------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| **Fase 0 — Investigación**            | 29, 30 y 31 de mayo *(solo si pagas HOY 29 mayo)* | 3 días de estudio profundo de tu rubro, competencia y presencia digital      | Decisiones con datos, no a ciegas                            |
-| **Fase 1 — Construcción**             | 1 al 30 de junio                                  | **1 entregable principal por día** (cada uno incluye varias tareas internas) | Tu negocio digital armado paso a paso, sin abrumarte         |
-| **Fase 2 — Continuidad** *(opcional)* | Desde julio                                       | S/. 300/mes                                                                  | Página activa, catálogo actualizado, visibilidad en Buscadis |
-
-
-**Bono “3 días extra de mayo”** = no es “te damos junio antes”. Es: **si pagas hoy, empezamos hoy a investigar** (industria, competencia, auditoría, SEO/redes). El 1 de junio arranca la ejecución con un plan ya listo.
-
-Si pagas el 30 de mayo o después: entras el **1 de junio** con investigación incluida en los primeros días de junio (sin los 3 días de mayo de regalo).
+**Total programa:** 33 días × ~5 entregables = **~165 piezas** · valor ref. **S/. 3,850** · precio Kallpa **S/. 300**
 
 ---
 
-## Mensaje personal — copiar y enviar (sorpresa + convencer)
+## Mensaje personal (WhatsApp)
 
 ```
 Hola [nombre]! 💜 Soy [Shantall/Jairo] de ADIS.
 
-Te escribo personalmente porque reservamos algo SOLO para emprendedoras de Kallpa Warmi — y pensé en [negocio].
-
-No es un link genérico: te cuento qué incluye y por qué tiene sentido para ti.
+Te escribo porque reservamos algo SOLO para Kallpa Warmi — y pensé en [negocio].
 
 🎯 En una frase:
-Que tu negocio se vea profesional, te encuentren en Google y vendas más por WhatsApp — sin que aprendas tecnología. Nosotros hacemos el trabajo; tú sigues atendiendo.
+Tu negocio se ve profesional, te encuentran por internet y vendes más por WhatsApp. Nosotros hacemos lo digital; tú sigues atendiendo y ves los resultados.
 
-📋 Cómo lo hacemos (realista):
-1) Primero investigamos tu rubro, competencia y presencia digital (3 días si pagas hoy).
-2) En junio: un entregable claro por día — página, catálogo, fotos, Maps, plantillas WA, posts, etc.
-3) Todo con precio de comunidad: S/. 300 por todo junio.
+📋 Cómo funciona:
+· Si pagas HOY: 3 días de mayo de investigación (auditoría, competencia, plan).
+· Junio: ~5 entregables por día — página, catálogo, fotos, Maps, contenido, guías… repartidos, no todo de golpe.
 
-🔥 Solo si pagas HOY (29 mayo):
-Arrancamos investigación YA (29·30·31 mayo) — ventaja antes que todas. Mañana este bono no incluye los 3 días de mayo.
+👉 https://adis.lat
+Quival (510 productos), Agril Sur, 14+ páginas, Noticiadis ~2K lectores.
 
-👉 Portafolio: https://adis.lat
-(Quival, Agril Sur, Buscadis, Publicadis, Noticiadis ~2K)
-
-💰 Inversión: S/. 300
-📅 10 cupos · cierra 30 mayo
+💰 S/. 300 todo junio · quedan [X]/10 cupos
 Yape 990 551 461 → captura 937 054 328
 
-¿Te mando la lista completa de entregables con lo que ganas en cada uno? Solo dime "sí" 💜
+¿Te mando el detalle día por día? 💜
 ```
 
 ---
 
-## Mensaje 2 — Lista resumida (si responden “sí”)
+## Mensaje 2 — si dicen “sí”
 
 ```
-Perfecto [nombre] 💜 Aquí va lo que recibes:
+Perfecto [nombre] 💜
 
-FASE 0 (si pagas hoy): 3 días de investigación
-→ Auditoría digital, competencia, mercado Cusco, SEO/redes, nivel de innovación de tu negocio.
+165 entregables repartidos en 33 días (~5 por día):
+· 3 días mayo (investigación) si pagas hoy
+· 30 días junio (ejecución)
 
-FASE JUNIO: 30 entregables (1 por día)
-→ Página, catálogo, Google Maps, fotos IA, WhatsApp que vende, 30 posts listos, publicidad en Buscadis, estrategia, y más.
+Incluye: página + catálogo, Google Maps, fotos pro, WhatsApp que vende, publicidad ADIS, informes, manuales, posts listos, estrategia y más.
 
-RESULTADO:
-✓ Te encuentran en internet
-✓ Fotos que venden
-✓ WhatsApp ordenado
-✓ Redes con contenido del mes
-
-Valor referencial de todo: S/. [VER TOTAL ABAJO]
-Precio Kallpa Warmi: S/. 300 (promo única)
+Valor ref. total: S/. 3,850
+Tu precio Kallpa Warmi: S/. 300
 
 Garantía semana 1: página + catálogo en marcha, 10 fotos, plantillas WA — o devolución 100%.
 
-¿Te animas? Yape → captura y arrancamos 💜
+¿Te animas? 💜
 ```
 
 ---
 
-# FASE 0 — 3 días de investigación (29 · 30 · 31 mayo)
+# FASE 0 — Investigación (29 · 30 · 31 mayo)
 
-*Solo incluido si pagan el 29 de mayo. No son entregables “finales” de página o catálogo: son la base para hacerlos bien.*
-
----
-
-### Entregable 0.1 — Día 29 mayo · Diagnóstico digital completo
-
-**Qué hacemos (sub-ítems):**
-
-- Revisión de Google Maps / Google Business (si existe o no)
-- Revisión de Instagram, Facebook y WhatsApp Business
-- Score de madurez digital (1–11) para tu negocio
-- Lista priorizada: qué arreglar primero según tu rubro
-- Informe corto en PDF o mensaje estructurado por WhatsApp
-
-**Resultado que ganas:** Sabes exactamente dónde estás parada hoy y qué duele más (visibilidad, fotos, mensajes, etc.).
-
-
-| Referencia mercado | Incluido en programa |
-| ------------------ | -------------------- |
-| S/. 120            | ✓                    |
-
+*5 entregables por día · solo si pagan el 29 de mayo*
 
 ---
 
-### Entregable 0.2 — Día 30 mayo · Inteligencia de mercado y competencia
+### Día 29 mayo · Diagnóstico digital — **Ref. día: S/. 125**
 
-**Qué hacemos (sub-ítems):**
-
-- Mapeo de 5–8 competidores directos en Cusco (online)
-- Qué venden, cómo se ven, precios visibles, fortalezas
-- Análisis de búsquedas locales de tu rubro (palabras que usa tu cliente)
-- Oportunidades: huecos donde tú puedes destacar
-- Resumen “cómo diferenciarte” en lenguaje simple
-
-**Resultado que ganas:** Dejas de copiar a ciegas; sabes cómo posicionarte frente a otras emprendedoras del mismo rubro.
-
-
-| Referencia mercado | Incluido en programa |
-| ------------------ | -------------------- |
-| S/. 150            | ✓                    |
-
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Informe PDF auditoría digital | Sabes dónde estás hoy (Maps, redes, WA) | S/. 35 |
+| 2 | Score madurez digital 1–11 + explicación | Priorizas qué duele más | S/. 25 |
+| 3 | Checklist presencia online (Google, IG, FB, WA) | Nada importante se te escapa | S/. 20 |
+| 4 | Informe “3 urgencias a corregir ya” | Acción inmediata clara | S/. 25 |
+| 5 | Guía PDF + post tip: “Señales de que no te encuentran” | Contenido listo para entender el problema | S/. 20 |
 
 ---
 
-### Entregable 0.3 — Día 31 mayo · Estrategia de arranque junio
+### Día 30 mayo · Mercado y competencia — **Ref. día: S/. 145**
 
-**Qué hacemos (sub-ítems):**
-
-- Evaluación de alcance actual en redes e internet
-- Nivel de innovación / digitalización del negocio (benchmark)
-- Calendario de junio personalizado: qué entregable va cada semana
-- Definición de tono de marca, cliente ideal y mensaje principal
-- Sesión breve por WhatsApp (o audio) para alinear expectativas
-
-**Resultado que ganas:** Entras a junio con plan claro; no improvisamos tu página ni tu catálogo.
-
-
-| Referencia mercado | Incluido en programa |
-| ------------------ | -------------------- |
-| S/. 130            | ✓                    |
-
-
-**Subtotal Fase 0 (investigación):** S/. 400
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Informe competencia (5–8 negocios Cusco) | Ves con quién compites de verdad | S/. 40 |
+| 2 | Tabla comparativa precios y propuesta | Sabes cómo te diferencias | S/. 25 |
+| 3 | Lista 15 palabras clave locales | Hablas el idioma de tu cliente en Google | S/. 25 |
+| 4 | Documento oportunidades en tu rubro | Huecos donde puedes ganar | S/. 30 |
+| 5 | Post educativo listo: “Así te ven vs tu competencia” | Primera pieza de contenido del mes | S/. 25 |
 
 ---
 
-# FASE 1 — Junio: 30 entregables (1 por día laborable)
+### Día 31 mayo · Plan de arranque junio — **Ref. día: S/. 125**
 
-Cada día = **1 entregable nombrable** con varias tareas dentro. Así el trabajo es real, el valor se entiende, y no prometemos “30 cosas distintas el día 1”.
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Calendario junio personalizado (PDF) | Sabes qué llega cada semana | S/. 30 |
+| 2 | Perfil cliente ideal (1 pág.) | Enfocas mensajes y fotos | S/. 25 |
+| 3 | 3 variantes mensaje principal de marca | Copy listo para web y redes | S/. 25 |
+| 4 | Audio WhatsApp 3–5 min con tu plan | Lo entiendes sin leer 10 páginas | S/. 20 |
+| 5 | Manual “Qué necesitamos de ti semana 1” | Empiezas junio preparada | S/. 25 |
 
-*Los días son referenciales; si un entregable necesita 2 días, se comunica por WhatsApp sin perder contenido.*
-
----
-
-### Semana 1 — Fundamentos y presencia (Días 1–7)
-
-#### 1 · Día 1 junio — Perfil de negocio digital
-
-- Ficha maestra: nombre, rubro, propuesta de valor, horarios, zona Cusco  
-- Definición de servicios/productos estrella  
-- Checklist de materiales que necesitamos de ti (fotos, precios, logos)  
-**Ganas:** Una sola “fuente de verdad” para todo lo digital.  
-**Ref.:** S/. 60
-
-#### 2 · Día 2 junio — Google Maps / Google Business
-
-- Creación o reclamo de perfil  
-- Categorías, descripción optimizada, horarios, zona  
-- Primera ronda de fotos subidas al perfil  
-- Enlace a WhatsApp y web/catálogo (cuando exista)  
-**Ganas:** Apareces cuando buscan “[tu rubro] en Cusco”.  
-**Ref.:** S/. 90
-
-#### 3 · Día 3 junio — SEO local básico
-
-- Palabras clave locales para tu rubro  
-- Textos cortos optimizados para Maps y futura web  
-- Recomendaciones de nombre y descripción en redes  
-**Ganas:** Google te entiende mejor; no eres invisible.  
-**Ref.:** S/. 70
-
-#### 4 · Día 4 junio — Banco de fotos (lote 1)
-
-- Mejora con IA de hasta 5 fotos de productos que nos envíes  
-- Fondo limpio, luz uniforme, listas para catálogo y redes  
-**Ganas:** Productos que se ven profesionales, no “foto de celular oscura”.  
-**Ref.:** S/. 100
-
-#### 5 · Día 5 junio — Catálogo digital (estructura)
-
-- Arquitectura de categorías y productos  
-- Textos base por producto (tú validas precios)  
-- Link provisional para revisión por WhatsApp  
-**Ganas:** Vitrina ordenada antes del diseño final.  
-**Ref.:** S/. 120
-
-#### 6 · Día 6 junio — Página web + catálogo (publicación)
-
-- Página responsive con tu marca  
-- Catálogo integrado + botón WhatsApp  
-- Prueba en celular y corrección de errores  
-**Ganas:** Link único para mandar a clientes 24/7.  
-**Ref.:** S/. 350 *(referencia: Quival pagó S/. 250 solo por parte de esto)*
-
-#### 7 · Día 7 junio — Publicación en buscadis.com
-
-- Alta de tu negocio en marketplace ADIS  
-- Categoría, descripción, enlace a tu catálogo  
-**Ganas:** Visibilidad donde ya hay cientos de emprendedores.  
-**Ref.:** S/. 80
-
-**Subtotal semana 1:** S/. 870
+**Subtotal Fase 0:** S/. 395
 
 ---
 
-### Semana 2 — Ventas por WhatsApp y contenido (Días 8–14)
+# FASE 1 — Junio (30 días · ~5 entregables/día)
 
-#### 8 · Día 8 junio — WhatsApp Business configurado
-
-- Perfil comercial, catálogo WA si aplica, mensaje de bienvenida  
-- Horario de atención y respuesta automática fuera de horario  
-**Ganas:** WhatsApp se ve negocio serio, no chat personal.  
-**Ref.:** S/. 50
-
-#### 9 · Día 9 junio — Plantillas de venta (lote 1: 8 mensajes)
-
-- Saludo, precios, envíos, formas de pago, cierre suave  
-- Copiar-pegar listos  
-**Ganas:** Respondes rápido sin pensar cada vez.  
-**Ref.:** S/. 80
-
-#### 10 · Día 10 junio — Plantillas de venta (lote 2: 7 mensajes)
-
-- Objeciones, seguimiento, reactivación de clientes fríos  
-- Mensaje para quien “solo pregunta”  
-**Ganas:** Menos ventas perdidas por no saber qué decir.  
-**Ref.:** S/. 70
-
-#### 11 · Día 11 junio — Banco de fotos (lote 2)
-
-- 15 fotos más con edición profesional  
-**Ganas:** Catálogo y redes más completos.  
-**Ref.:** S/. 100
-
-#### 12 · Día 12 junio — Pack contenido redes (semana 1)
-
-- 7 posts escritos (texto + hashtags + horario sugerido)  
-- 2 ideas de story + 1 guion corto de Reel  
-**Ganas:** Primera semana de junio en redes sin bloqueo creativo.  
-**Ref.:** S/. 120
-
-#### 13 · Día 13 junio — Pack contenido redes (semana 2)
-
-- 7 posts más (venta, educativo, prueba social)  
-**Ganas:** Consistencia; el algoritmo te nota.  
-**Ref.:** S/. 120
-
-#### 14 · Día 14 junio — Flyer digital promocional
-
-- 1 flyer horizontal + 1 vertical para WhatsApp/Instagram  
-- Con tu logo, precio estrella y CTA a WhatsApp  
-**Ganas:** Material listo para promocionar sin Canva a las 11pm.  
-**Ref.:** S/. 60
-
-**Subtotal semana 2:** S/. 600
+*Cada día incluye al menos 1 pieza de contenido (post, guía, tutorial o informe). Los días son referenciales; el contenido no se pierde si algo toma 2 días — se avisa por WhatsApp.*
 
 ---
 
-### Semana 3 — Autoridad, reseñas y publicidad ADIS (Días 15–21)
+## Semana 1 — Fundamentos (Días 1–7)
 
-#### 15 · Día 15 junio — Sistema de reseñas Google
+### Día 1 · Perfil de negocio digital — **Ref. S/. 115**
 
-- QR para mostrador (imprimible)  
-- Mensaje para pedir reseña sin sonar desesperada  
-- Respuestas tipo a reseñas positivas y negativas  
-**Ganas:** Más estrellas = más confianza.  
-**Ref.:** S/. 70
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Ficha maestra negocio (PDF) | Una sola fuente de verdad | S/. 30 |
+| 2 | Top 5 productos/servicios estrella definidos | Enfoque en lo que más vende | S/. 20 |
+| 3 | Checklist materiales que necesitamos de ti | Sabes qué enviar y cuándo | S/. 15 |
+| 4 | Manual: cómo mandarnos fotos y precios por WA | Menos ida y vuelta, más avance | S/. 20 |
+| 5 | Post #1 junio: “Así empezamos tu transformación” | Contenido listo para publicar | S/. 30 |
 
-#### 16 · Día 16 junio — Video corto promocional (15–30 seg)
+### Día 2 · Google Maps / Google Business — **Ref. S/. 130**
 
-- Edición simple con tus fotos/productos  
-- Para WhatsApp status e Instagram  
-**Ganas:** Contenido dinámico que detiene el scroll.  
-**Ref.:** S/. 150
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Creación o reclamo de perfil Google Business | Dueña de tu ficha en Google | S/. 35 |
+| 2 | Descripción optimizada + categorías + horarios | Apareces bien categorizada | S/. 25 |
+| 3 | Foto de portada Maps subida | Perfil que inspira confianza | S/. 20 |
+| 4 | Enlace WhatsApp en perfil | Cliente te escribe en 1 clic | S/. 15 |
+| 5 | Guía PDF: “Cómo te encuentran en Google Maps Cusco” | Entiendes qué hicimos y por qué | S/. 35 |
 
-#### 17 · Día 17 junio — Publicidad en redes ADIS (Publicadis)
+### Día 3 · SEO local — **Ref. S/. 120**
 
-- 1 pieza en canal Noticiadis / redes ADIS mencionando tu negocio  
-- Copy + creativo alineado a tu rubro  
-**Ganas:** Ojos nuevos fuera de tu círculo actual.  
-**Ref.:** S/. 100
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Informe 10 keywords locales priorizadas | Google entiende tu rubro | S/. 30 |
+| 2 | 3 textos SEO para Maps (versiones A/B/C) | Eliges el que suena más a ti | S/. 25 |
+| 3 | Bios optimizadas IG + Facebook | Coherencia en todas partes | S/. 25 |
+| 4 | Informe posición actual en búsquedas (baseline) | Punto de partida medible | S/. 20 |
+| 5 | Post #2 + hashtags locales | Contenido geolocalizado listo | S/. 20 |
 
-#### 18 · Día 18 junio — Post dedicado Buscadis + redes
+### Día 4 · Fotos pro lote 1 — **Ref. S/. 125**
 
-- Publicación cruzada en ecosistema ADIS  
-- Enlace a tu catálogo  
-**Ganas:** Tráfico al link de ventas.  
-**Ref.:** S/. 120
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | 2 fotos producto mejoradas con IA | Productos que se ven de tienda | S/. 40 |
+| 2 | Guía PDF: 5 tips para fotear en casa | Mejores fotos cuando mandes más | S/. 20 |
+| 3 | Plantilla nombres de archivo organizados | Orden para catálogo futuro | S/. 10 |
+| 4 | Before/after visual 1 producto | Prueba social de la mejora | S/. 15 |
+| 5 | Story script + post #3 “Antes y después” | Contenido visual listo | S/. 40 |
 
-#### 19 · Día 19 junio — Pack contenido redes (semana 3)
+### Día 5 · Catálogo (estructura) — **Ref. S/. 130**
 
-- 7 posts + calendario visual simple del mes  
-**Ganas:** Mitad de mes cubierta.  
-**Ref.:** S/. 120
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Arquitectura categorías y productos | Catálogo lógico, no un caos | S/. 35 |
+| 2 | Textos base por producto (borrador) | Descripciones que venden | S/. 30 |
+| 3 | Link preview catálogo para tu revisión | Ves avance antes de publicar | S/. 20 |
+| 4 | Manual: cómo leer y aprobar tu catálogo | Participas sin complicaciones | S/. 15 |
+| 5 | Post #4: “Conoce mi catálogo” (teaser) | Anticipas lanzamiento | S/. 30 |
 
-#### 20 · Día 20 junio — Business Model Canvas simplificado
+### Día 6 · Página web + catálogo live — **Ref. S/. 145**
 
-- Canvas en PDF/imagen: clientes, valor, costos, canales  
-- Explicación por audio 3–5 min si lo necesitas  
-**Ganas:** Claridad de negocio más allá del Instagram.  
-**Ref.:** S/. 100
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Página responsive publicada | Link profesional 24/7 | S/. 50 |
+| 2 | Catálogo integrado + botón WhatsApp | Vendes desde un solo link | S/. 40 |
+| 3 | Prueba en celular + correcciones | Se ve bien en el teléfono de tus clientes | S/. 20 |
+| 4 | Tutorial corto: “Cómo compartir tu link” | Empiezas a mandarlo ya | S/. 15 |
+| 5 | Post #5: “Ya puedes ver mi tienda online” | Anuncio de lanzamiento | S/. 20 |
 
-#### 21 · Día 21 junio — Scripts de objeciones (8 frases)
+### Día 7 · Marketplace Buscadis — **Ref. S/. 115**
 
-- “Está caro”, “lo pienso”, “ya tengo proveedor”, etc.  
-- Adaptado a tu rubro  
-**Ganas:** Cierras más conversaciones por chat.  
-**Ref.:** S/. 80
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Alta perfil buscadis.com | Visibilidad en marketplace ADIS | S/. 35 |
+| 2 | Descripción y categoría optimizadas | Te encuentran dentro de Buscadis | S/. 25 |
+| 3 | Enlace cruzado catálogo ↔ Buscadis | Tráfico entre plataformas | S/. 15 |
+| 4 | Informe semana 1: qué quedó listo | Transparencia total | S/. 20 |
+| 5 | Post #6 + story: “Estoy en Buscadis” | Difusión del nuevo canal | S/. 20 |
 
-**Subtotal semana 3:** S/. 740
-
----
-
-### Semana 4 — Estrategia, cierre de mes y bonus (Días 22–30)
-
-#### 22 · Día 22 junio — Pack contenido redes (semana 4)
-
-- 7 posts (cierre de mes, ofertas, testimonio tipo)  
-**Ganas:** Junio completo de contenido escrito.  
-**Ref.:** S/. 120
-
-#### 23 · Día 23 junio — Community management (calendario)
-
-- Calendario de publicación resto de mes  
-- Qué publicar tú vs qué republicamos nosotros  
-**Ganas:** Sabes qué hacer cada día en redes.  
-**Ref.:** S/. 90
-
-#### 24 · Día 24 junio — Lista de clientes organizada
-
-- Plantilla simple (nombre, contacto, último pedido, notas)  
-- Guía de uso en Google Sheets o papel  
-**Ganas:** Dejas el caos de chats sueltos.  
-**Ref.:** S/. 50
-
-#### 25 · Día 25 junio — Plan estratégico 90 días
-
-- Metas, acciones por mes, indicadores simples  
-- Sin tecnicismos  
-**Ganas:** Sabes qué viene después de junio.  
-**Ref.:** S/. 120
-
-#### 26 · Día 26 junio — Guía concursos / fondos no reembolsables
-
-- Lista de convocatorias relevantes + qué suele pedirse  
-- Checklist de documentos típicos  
-**Ganas:** Mejor preparada si aplicas a fondos.  
-**Ref.:** S/. 80
-
-#### 27 · Día 27 junio — Plan transformación digital (documento)
-
-- Hoja de ruta 6 meses: digital, ventas, redes  
-- Prioridades post-junio  
-**Ganas:** Continuidad sin depender de improvisar.  
-**Ref.:** S/. 100
-
-#### 28 · Día 28 junio — Auditoría de cierre junio
-
-- Qué quedó listo vs pendiente  
-- Recomendaciones julio  
-**Ganas:** Transparencia total del mes.  
-**Ref.:** S/. 60
-
-#### 29 · Día 29 junio — Capacitación express (30 min)
-
-- Cómo actualizar precios en catálogo  
-- Cómo usar plantillas WA y publicar posts  
-**Ganas:** No dependes 100% de nosotros para lo básico.  
-**Ref.:** S/. 80
-
-#### 30 · Día 30 junio — Entrega final + kit de marca
-
-- Resumen PDF o mensaje con todos tus links  
-- Archivos de flyers, plantillas, accesos  
-- Propuesta de continuidad julio (opcional S/. 300/mes)  
-**Ganas:** Paquete cerrado; negocio digital funcionando.  
-**Ref.:** S/. 100
-
-**Subtotal semana 4:** S/. 800
+**Subtotal semana 1:** S/. 880
 
 ---
 
-## Resumen de valor (referencia mercado — precios realistas)
+## Semana 2 — WhatsApp y contenido (Días 8–14)
 
+### Día 8 · WhatsApp Business — **Ref. S/. 110**
 
-| Bloque                               | Entregables | Valor ref.    |
-| ------------------------------------ | ----------- | ------------- |
-| Fase 0 — Investigación (3 días mayo) | 3           | S/. 400       |
-| Fase 1 — Junio (30 días)             | 30          | S/. 3,010     |
-| **TOTAL referencia**                 | **33**      | **S/. 3,410** |
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Perfil comercial WA configurado | WhatsApp se ve negocio serio | S/. 25 |
+| 2 | Mensaje bienvenida automático | Cliente se siente atendido al instante | S/. 20 |
+| 3 | Respuesta fuera de horario | No pierdes consultas de noche | S/. 20 |
+| 4 | Etiquetas WA sugeridas (cliente nuevo, pedido, etc.) | Chats organizados | S/. 15 |
+| 5 | Guía PDF: “Tu WhatsApp vendiendo en 10 min” | Sabes usar lo configurado | S/. 30 |
 
+### Día 9 · Plantillas WA lote 1 — **Ref. S/. 125**
 
-### Lo principal que no debe perderse en el mensaje
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | 4 plantillas: saludo + presentación catálogo | Primera impresión pro | S/. 25 |
+| 2 | 2 plantillas: precios y formas de pago | Respondes rápido lo más preguntado | S/. 20 |
+| 3 | 2 plantillas: envíos y zonas de entrega | Menos mensajes de ida y vuelta | S/. 20 |
+| 4 | Manual copiar-pegar plantillas | Uso fácil diario | S/. 15 |
+| 5 | Post #7: “Escríbeme al WhatsApp” + CTA | Traes tráfico al chat | S/. 45 |
 
+### Día 10 · Plantillas WA lote 2 — **Ref. S/. 120**
 
-| #   | Entregable estrella                | Resultado                          |
-| --- | ---------------------------------- | ---------------------------------- |
-| 1   | Página + catálogo digital          | Vendes 24/7 por link y WhatsApp    |
-| 2   | Google Maps profesional            | Te encuentran en Cusco             |
-| 3   | Publicidad ecosistema ADIS         | Más clientes fuera de tu círculo   |
-| 4   | 10 fotos IA + flyers + video       | Negocio se ve grande y confiable   |
-| 5   | 15+ plantillas WhatsApp            | Vendes sin estar pegada al celular |
-| 6   | ~30 posts listos                   | Un mes de redes sin estrés         |
-| 7   | Estrategia + Canvas + plan 90 días | Sabes a dónde vas                  |
-| 8   | Garantía semana 1                  | Sin riesgo al empezar              |
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | 3 plantillas objeciones (“caro”, “lo pienso”) | Cierras más ventas | S/. 30 |
+| 2 | 2 plantillas seguimiento cliente tibio | Recuperas ventas perdidas | S/. 25 |
+| 3 | 2 plantillas cierre y agradecimiento post-venta | Fidelizas y pides recomendación | S/. 25 |
+| 4 | Infografía: flujo conversación venta WA | Ves el camino completo | S/. 20 |
+| 5 | Post #8 educativo: “Cómo pido por WhatsApp” | Cliente sabe qué hacer | S/. 20 |
 
+### Día 11 · Fotos pro lote 2 — **Ref. S/. 125**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | 2 fotos IA adicionales | Catálogo más completo | S/. 40 |
+| 2 | 1 foto “hero” banner web/redes | Imagen estrella para portada | S/. 35 |
+| 3 | Guía iluminación con lo que tienes en casa | Autonomía para futuras fotos | S/. 15 |
+| 4 | Informe progreso fotos (cuántas van, cuántas faltan) | Control del avance | S/. 10 |
+| 5 | Post #9 carrusel 3 fotos producto | Contenido visual denso | S/. 25 |
+
+### Día 12 · Contenido semana A — **Ref. S/. 130**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | 3 posts escritos (venta, educativo, behind scenes) | Medio mes cubierto en copy | S/. 45 |
+| 2 | Hashtags pack personalizado rubro Cusco | Mayor alcance local | S/. 15 |
+| 3 | 2 ideas story con texto listo | Stories sin bloqueo | S/. 20 |
+| 4 | 1 guion Reel 30 seg | Video corto planificado | S/. 25 |
+| 5 | Calendario visual publicación semana A | Sabes cuándo publicar qué | S/. 25 |
+
+### Día 13 · Contenido semana B — **Ref. S/. 130**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | 3 posts más (prueba social, oferta, FAQ) | Consistencia en redes | S/. 45 |
+| 2 | 2 captions cortos para stories venta | Publicación rápida | S/. 20 |
+| 3 | Banco 10 frases para responder comentarios | Interacción pro | S/. 15 |
+| 4 | Tutorial: “Cómo publicar un post en 2 min” | Ejecutas sin miedo | S/. 20 |
+| 5 | Post #10: testimonio tipo / caso éxito rubro | Credibilidad | S/. 30 |
+
+### Día 14 · Flyers promocionales — **Ref. S/. 115**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Flyer horizontal WA/IG | Promo lista para compartir | S/. 30 |
+| 2 | Flyer vertical stories | Formato móvil nativo | S/. 25 |
+| 3 | Versión flyer con precio estrella | Oferta clara visual | S/. 20 |
+| 4 | Manual: cuándo usar cada flyer | Estrategia, no spam | S/. 15 |
+| 5 | Post #11: “Promo del mes” con flyer | Lanzamiento promocional | S/. 25 |
+
+**Subtotal semana 2:** S/. 855
 
 ---
 
-## Precio promocional único Kallpa Warmi
+## Semana 3 — Autoridad y publicidad ADIS (Días 15–21)
+
+### Día 15 · Reseñas Google — **Ref. S/. 120**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | QR imprimible mostrador → reseñas | Pides reseñas sin incomodar | S/. 25 |
+| 2 | 3 mensajes para pedir reseña por WA | Script natural | S/. 20 |
+| 3 | 4 respuestas tipo reseñas + y − | Manejas reputación online | S/. 25 |
+| 4 | Informe reseñas actuales + plan mejora | Sabes tu punto de partida | S/. 20 |
+| 5 | Post #12: “Tu opinión nos importa” | Pide reseñas en redes | S/. 30 |
+
+### Día 16 · Video promocional — **Ref. S/. 135**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Video 15–30 seg productos/servicios | Contenido dinámico | S/. 55 |
+| 2 | Versión video para WA status | Formato vertical | S/. 25 |
+| 3 | Texto overlay + música sugerida | Listo para publicar | S/. 15 |
+| 4 | Guía: dónde publicar el video | Maximizas vistas | S/. 15 |
+| 5 | Post #13 anunciando video | Tráfico al reel/status | S/. 25 |
+
+### Día 17 · Publicidad Noticiadis / Publicadis — **Ref. S/. 125**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Mención negocio canal Noticiadis | Ojos nuevos (~2K lectores) | S/. 40 |
+| 2 | Copy promocional redactado | Mensaje alineado a tu rubro | S/. 25 |
+| 3 | Creativo gráfico para la pieza | Visual pro | S/. 30 |
+| 4 | Informe alcance estimado | Entiendes el beneficio | S/. 10 |
+| 5 | Post #14: “Salimos en Noticiadis” | Prueba social | S/. 20 |
+
+### Día 18 · Post dedicado Buscadis — **Ref. S/. 125**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Publicación cruzada ecosistema ADIS | Tráfico al catálogo | S/. 45 |
+| 2 | Enlace destacado buscadis.com | Más clics a tu vitrina | S/. 25 |
+| 3 | Captura pantalla perfil para que compartas | Material listo | S/. 10 |
+| 4 | Informe clics/visitas si disponible | Resultados medibles | S/. 15 |
+| 5 | Post #15: “Encuéntrame en Buscadis” | Difusión cruzada | S/. 30 |
+
+### Día 19 · Contenido semana C — **Ref. S/. 130**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | 3 posts (educativo rubro, humano, CTA fuerte) | Mitad de mes cubierta | S/. 45 |
+| 2 | Calendario visual resto junio | Visión completa del mes | S/. 25 |
+| 3 | 2 guiones stories secuencia 3 días | Mini-campaña stories | S/. 30 |
+| 4 | Tutorial: mejor hora publicar tu rubro | Optimizas alcance | S/. 15 |
+| 5 | Post #16: tip del día rubro | Autoridad en tu nicho | S/. 15 |
+
+### Día 20 · Business Model Canvas — **Ref. S/. 125**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Canvas visual PDF/imagen | Mapa completo negocio | S/. 40 |
+| 2 | Explicación 1 pág. cada bloque del canvas | Lo entiendes aplicado a ti | S/. 25 |
+| 3 | Audio 3 min walkthrough canvas | Escuchas en el camino | S/. 20 |
+| 4 | 3 acciones prioritarias post-canvas | Enfoque en qué mover primero | S/. 20 |
+| 5 | Post #17: “Así veo mi negocio hoy” | Contenido reflexivo / marca | S/. 20 |
+
+### Día 21 · Scripts objeciones — **Ref. S/. 120**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | 8 scripts objeciones rubro específico | Cierras por chat | S/. 40 |
+| 2 | Tarjetas imprimibles “respuesta rápida” | Consulta en mostrador | S/. 20 |
+| 3 | Role-play guía: practica 3 objeciones | Ganas confianza | S/. 15 |
+| 4 | Informe semana 3: métricas avance | Mitad de camino clara | S/. 20 |
+| 5 | Post #18: “Preguntas frecuentes” carrusel | Reduce objeciones antes del chat | S/. 25 |
+
+**Subtotal semana 3:** S/. 880
+
+---
+
+## Semana 4 — Cierre, estrategia y continuidad (Días 22–30)
+
+### Día 22 · Contenido semana D — **Ref. S/. 130**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | 3 posts cierre mes (oferta, urgencia suave, gracias) | Cierras junio fuerte | S/. 45 |
+| 2 | 2 posts evergreen (reutilizables) | Contenido para julio también | S/. 30 |
+| 3 | Pack 20 hashtags rotativos | Variedad sin pensar | S/. 15 |
+| 4 | Guía reciclar posts top | Aprovechas lo que funcionó | S/. 20 |
+| 5 | Post #19: resumen mes en stories guion | Cierra narrativa del mes | S/. 20 |
+
+### Día 23 · Community management — **Ref. S/. 115**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Calendario CM julio borrador | Sigues publicando con orden | S/. 30 |
+| 2 | Matriz qué publicas tú vs nosotros | Roles claros post-junio | S/. 20 |
+| 3 | 5 respuestas tipo comentarios difíciles | Manejas haters/dudas | S/. 25 |
+| 4 | Informe engagement junio (si hay data) | Sabes qué funcionó | S/. 20 |
+| 5 | Post #20: interacción / encuesta stories | Subes engagement | S/. 20 |
+
+### Día 24 · CRM clientes — **Ref. S/. 110**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Plantilla lista clientes (Sheets o papel) | Orden en contactos | S/. 25 |
+| 2 | Manual uso plantilla + ejemplo lleno | Empiezas en 5 min | S/. 20 |
+| 3 | 3 mensajes reactivación clientes antiguos | Recuperas ventas dormidas | S/. 30 |
+| 4 | Segmentación básica (nuevo / frecuente / VIP) | Tratas mejor a cada uno | S/. 20 |
+| 5 | Post #21: “Clientes especiales” | Humaniza marca | S/. 15 |
+
+### Día 25 · Plan 90 días — **Ref. S/. 130**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Documento plan 90 días PDF | Hoja de ruta trimestre | S/. 45 |
+| 2 | Metas mes a mes jul–sep | Objetivos claros | S/. 25 |
+| 3 | 3 KPIs simples a mirar | Sabes si vas bien sin Excel | S/. 20 |
+| 4 | Checklist revisión mensual | Ritmo de mejora continua | S/. 15 |
+| 5 | Post #22: “Mis metas próximos 3 meses” | Compromiso público = motivación | S/. 25 |
+
+### Día 26 · Fondos y concursos — **Ref. S/. 115**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Lista convocatorias relevantes Perú/Cusco | Oportunidades de fondos | S/. 30 |
+| 2 | Checklist documentos típicos postulación | Menos estrés al aplicar | S/. 25 |
+| 3 | Guía “cómo contar tu historia emprendedora” | Mejor postulación | S/. 25 |
+| 4 | Template carta motivación 1 pág. | Base editable | S/. 20 |
+| 5 | Post #23: tu historia emprendedora | Contenido emocional marca | S/. 15 |
+
+### Día 27 · Transformación digital 6 meses — **Ref. S/. 125**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Hoja ruta digital 6 meses | Visión medio plazo | S/. 40 |
+| 2 | Prioridades post-junio numeradas | Sabes qué pedir en julio | S/. 25 |
+| 3 | Comparativa “antes ADIS / después ADIS” | Ves tu avance | S/. 20 |
+| 4 | Manual mantenimiento mínimo mensual | No se cae lo construido | S/. 20 |
+| 5 | Post #24: “Mi negocio hoy vs hace 1 mes” | Contenido transformación | S/. 20 |
+
+### Día 28 · Auditoría cierre — **Ref. S/. 115**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Informe PDF todo lo entregado junio | Transparencia total | S/. 35 |
+| 2 | Score madurez digital post-programa | Comparas con día 29 mayo | S/. 25 |
+| 3 | Lista pendientes menores (si hay) | Nada queda colgado | S/. 15 |
+| 4 | Recomendaciones julio personalizadas | Siguiente paso claro | S/. 25 |
+| 5 | Post #25: agradecimiento comunidad | Cierra ciclo con calidez | S/. 15 |
+
+### Día 29 · Capacitación express — **Ref. S/. 120**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Video/tutorial actualizar precios catálogo | Autonomía básica | S/. 30 |
+| 2 | Tutorial usar plantillas WA | Vendes sola día a día | S/. 25 |
+| 3 | Tutorial publicar post con calendario | Redes sin depender de nosotros | S/. 25 |
+| 4 | FAQ 10 preguntas típicas post-programa | Referencia rápida | S/. 20 |
+| 5 | Post #26: “Lo que aprendí este mes” | Cierre contenido | S/. 20 |
+
+### Día 30 · Kit final de marca — **Ref. S/. 130**
+
+| # | Entregable | Qué ganas | Ref. |
+|---|------------|-----------|------|
+| 1 | Carpeta digital todos tus links | Todo en un solo lugar | S/. 25 |
+| 2 | ZIP flyers + plantillas + informes clave | Respaldo descargable | S/. 30 |
+| 3 | Certificado participación Kallpa Warmi × ADIS | Reconocimiento simbólico | S/. 15 |
+| 4 | Propuesta continuidad julio S/. 300/mes | Decides sin presión | S/. 20 |
+| 5 | Post #27: “Gracias junio — esto sigue” | Anuncio continuidad opcional | S/. 40 |
+
+**Subtotal semana 4:** S/. 1,090
+
+---
+
+## Resumen valor
+
+| Bloque | Días | Entregables | Ref. |
+|--------|------|-------------|------|
+| Fase 0 — Investigación mayo | 3 | 15 | S/. 395 |
+| Fase 1 — Junio sem. 1 | 7 | 35 | S/. 880 |
+| Fase 1 — Junio sem. 2 | 7 | 35 | S/. 855 |
+| Fase 1 — Junio sem. 3 | 7 | 35 | S/. 880 |
+| Fase 1 — Junio sem. 4 | 9 | 45 | S/. 1,090 |
+| **TOTAL** | **33** | **~165** | **S/. 4,100** |
 
 ```
-Valor referencial total:     S/. 3,410
-Precio normal ADIS (ref.):   S/. 1,200 – 1,500 / mes (servicios sueltos)
-────────────────────────────────────
-TU PRECIO COMUNIDAD:         S/. 300  (todo junio + investigación si pagas 29 mayo)
-Ahorro referencial:          S/. 3,110  (~91%)
+Valor referencial total:     S/. 4,100
+Precio comunidad Kallpa:     S/. 300
+Ahorro referencial:          S/. 3,800  (~93%)
 ```
 
-**Cómo decirlo sin sonar exagerados:**
-
-> “Cada cosa tiene un valor de mercado modesto y realista. Sumadas, son más de S/. 3,400 en trabajo. Para Kallpa Warmi lo dejamos en **S/. 300 una sola vez** porque ya nos conocemos de ferias y talleres — y son solo 10 cupos.”
+**Cómo decirlo:** *“Son más de 165 piezas repartidas en 33 días — informes, guías, fotos, posts, configuraciones. Cada una vale entre S/. 15 y S/. 55 por separado. Todo junio por S/. 300 porque ya nos conocemos de Kallpa Warmi.”*
 
 ---
 
-## Garantía semana 1 (primera semana de junio)
+## Garantía semana 1 (días 1–7 junio)
 
-Si al día 7 de junio no tienes como mínimo:
+Mínimo al día 7:
+1. Página + catálogo en marcha  
+2. 10 fotos producto mejoradas (lotes 1–2 + hero)  
+3. Plantillas WhatsApp listas  
 
-1. Página + catálogo en marcha (publicados o en revisión final contigo)
-2. 10 fotos de productos mejoradas
-3. Plantillas de WhatsApp listas para usar
-
-→ **Devolución 100%** en 48 horas. Lo ya entregado es tuyo.
-
----
-
-## Después de junio (sin presión)
-
-**S/. 300/mes** (opcional): mantenemos página activa, catálogo actualizado, visibilidad en buscadis.com. No reconstruyes todo desde cero.
+→ **Devolución 100%** en 48 h si no se cumple. Lo entregado es tuyo.
 
 ---
 
-## Prueba social (mencionar en chat)
+## Después de junio
 
-- **Quival** — catálogo con 510 productos (pagó S/. 250 solo por parte del trabajo digital)  
-- **Agril Sur** — presencia en Buscadis + web  
-- **14+** páginas vivas · **500+** negocios en ecosistema  
-- **Noticiadis** ~2K seguidores  
-- Portafolio: [https://adis.lat](https://adis.lat)
+**S/. 300/mes** (opcional): página activa, catálogo actualizado, visibilidad Buscadis.
 
 ---
 
-## Mensajes rápidos — seguimiento
+## Prueba social
 
-### Si abrió adis.lat y no pagó (2–4 h)
+- **Quival** — 510 productos online  
+- **Agril Sur** — página + catálogo en línea  
+- **14+** páginas · **500+** negocios · **Noticiadis ~2K**  
+- https://adis.lat  
 
-```
-Hola [nombre]! Vi que miraste adis.lat 😊
+---
 
-¿Te mando el detalle día por día de lo que incluye?
+## Mensajes seguimiento
 
-Recuerda: si pagas HOY, los 3 días de mayo son de investigación con nosotros (auditoría, competencia, plan) — no esperas al 1 de junio para empezar.
-
-Quedan [X]/10 cupos · cierra 30 mayo.
-Yape 990 551 461 → captura 937 054 328 💜
-```
-
-### Respuesta al pagar — pagó 29 mayo
+### 5c — Respuesta al pagar (versión explícita investigación)
 
 ```
 ¡Recibido, [nombre]! 🎉 Cupo CONFIRMADO.
 
 Como pagaste HOY, Fase 0 empieza YA:
-· 29 mayo — auditoría digital
+· 29 mayo — auditoría digital (5 entregables)
 · 30 mayo — competencia y mercado
-· 31 mayo — plan personalizado junio
+· 31 mayo — tu plan personalizado junio
 
-El 1 de junio arranca entregable #1 (perfil de negocio digital).
+El 1 de junio arranca ejecución (~5 entregables por día).
 
-Envíanos por favor:
-1) Nombre del negocio
-2) Link Instagram o Facebook
-3) 3 fotos de productos
-
-¡Gracias por confiar en ADIS! 💜
-```
-
-### Respuesta al pagar — pagó 30 mayo+
-
-```
-¡Recibido, [nombre]! 🎉 Cupo junio CONFIRMADO.
-
-El 1 de junio arrancamos (investigación + entregables según calendario).
-
-Envíanos:
-1) Nombre del negocio
-2) Link redes
-3) 3 fotos de productos
+Envíanos: nombre negocio · link redes · 3 fotos productos.
 
 ¡Gracias! 💜
 ```
 
-### Si preguntan “¿por qué 3 días de mayo?”
+### Si preguntan “¿165 cosas?”
 
 ```
-Porque no construimos a ciegas.
+No te llegan 165 archivos el mismo día 😊
 
-Esos 3 días estudiamos tu rubro, competencia y presencia digital para que en junio cada entregable (página, catálogo, Maps, fotos…) encaje con TU negocio.
-
-Si pagas mañana, igual entras junio — pero sin los 3 días de mayo de regalo.
+Son ~5 por día repartidos en 33 días: un informe, una guía, fotos, un post… Así avanzas sin abrumarte y cada día ves progreso.
 ```
 
-### Si preguntan “¿30 cosas en un día?”
+### Si preguntan “¿por qué tan barato?”
 
 ```
-No 😊 Es 1 entregable principal por día en junio.
-
-Cada entregable trae varias tareas por dentro (por eso el valor suma fuerte), pero tú recibes algo claro cada día — no todo el día 1.
+Porque es promo única Kallpa Warmi (10 cupos) y ya trabajamos juntas en ferias y talleres. El valor está en la suma de todo el mes — no es un solo servicio suelto.
 ```
 
 ---
 
 ## Qué decir / qué evitar
 
-
-| ❌ Evitar                               | ✅ Mejor                                                   |
-| -------------------------------------- | --------------------------------------------------------- |
-| “Te entregamos todo el día 1”          | “Primero investigamos; en junio un entregable por día”    |
-| “Google Maps cuesta S/. 250 solo”      | “Maps es parte del paquete; el valor es la suma de todo”  |
-| “30 entregables” sin contexto          | “33 pasos: 3 de investigación + 30 de ejecución en junio” |
-| Solo el link                           | Texto personal + link + invitación a lista                |
-| “Digitalizamos tu negocio” (abstracto) | “Te encuentran, fotos que venden, WhatsApp que cierra”    |
-
+| ❌ Evitar | ✅ Mejor |
+|---------|----------|
+| “Sin aprender tecnología” | “Sin complicaciones técnicas” / “nosotros hacemos lo digital” |
+| “Todo el día 1” | “~5 entregables por día, repartidos” |
+| “30 entregables” | “165 piezas en 33 días” |
+| Precio inflado por ítem suelto | “Cada pieza tiene ref. modesta; el pack suma S/. 4,100” |
 
 ---
 
-## Checklist antes de enviar masivo personal
+## Checklist envío personal
 
-- Personalizar `[nombre]` y `[negocio]` en cada chat  
-- Actualizar cupos reales `[X]/10`  
-- [https://adis.lat](https://adis.lat) abre en celular  
-- Yape **990 551 461** activo  
-- WhatsApp **937 054 328** responde rápido  
-- Equipo alineado: **3 días mayo = investigación**, no entrega final  
-- Preview link: imagen `assets/og-image.jpg` en servidor
+- [ ] `[nombre]` y `[negocio]` personalizados  
+- [ ] Cupos actualizados (quedan **8**/10)  
+- [ ] Yape 990 · WA 937 activos  
+- [ ] Equipo alineado: mayo = investigación, junio = ~5/día  
 
 ---
 
-## Nota interna (equipo ADIS)
+## Nota interna
 
-- Los precios “ref.” son **modestos y creíbles** en Cusco; la fuerza está en la **suma**, no en inflar un ítem.  
-- Si el ritmo de una emprendedora es más lento, **agrupar 2 entregables en una semana** está bien; comunicar siempre por WhatsApp.  
-- La landing (`index.html`) aún puede decir “día 1 auditoría”; conviene alinear copy con este doc en una siguiente actualización.  
-- Mensajes para **líder del grupo**: seguir usando `MENSAJE-LIDER-KALLPA.md`.  
-- **Flyer vertical** (`assets/kallpa-flyer-vertical.jpg`): enviar como imagen adjunta, no como og:image del link.
+- Precios ref. **modestos** (S/. 10–55/ítem); credibilidad en la **suma**.  
+- Si un día se atrasa, **no se eliminan ítems** — se comunica por WA.  
+- Flyer vertical: `assets/kallpa-flyer-vertical.jpg` — adjunto, no og:image.  
+- Mensajes grupo: `MENSAJE-LIDER-KALLPA.md`.
 
 ---
 
-*Documento creado para campaña Kallpa Warmi · ADIS · Jairo & Shantall*
+*ADIS · Jairo & Shantall · Kallpa Warmi 2026*

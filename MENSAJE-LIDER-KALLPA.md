@@ -1,19 +1,19 @@
 # Kit de mensajes — Kallpa Warmi (29 mayo · pagar HOY)
 
-Copia, personaliza lo marcado con [corchetes] y envía **texto + link** (no solo el link).
+Copia, personaliza lo marcado con `[corchetes]` y envía **texto + link** (no solo el link).
 
-**Regla de oro:** vende la imagen mental (*“mi negocio se ve profesional”*), no la lista de servicios (*“página + catálogo”*).
+**Regla de oro:** vende la imagen mental (*“mi negocio se ve profesional y vende más”*), no la lista de servicios (*“página + catálogo”*).
+
+**Nota equipo:** los 3 días de mayo (bono) = **investigación** (auditoría, competencia, plan). Junio = ejecución día a día. Ver `OFERTA-KALLPA-WARMI-COMPLETA.md`.
 
 ---
 
-## Preview WhatsApp (og:tags — ya actualizado en adis.lat)
-
-Cuando compartan el link, debería verse así:
+## Preview WhatsApp (og:tags — adis.lat)
 
 **Título:** Tu negocio se ve profesional · S/. 300  
-**Descripción:** Más clientes por WhatsApp y Google Maps. Fotos pro, catálogo online — nosotros lo hacemos por ti.
+**Descripción:** Más clientes por WhatsApp e internet. Fotos pro, catálogo online — nosotros lo hacemos por ti.
 
-> WhatsApp tarda en refrescar previews. Si sigue viéndose el texto viejo: compartir en chat privado primero o usar [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) con `https://adis.lat`.
+> WhatsApp cachea previews. Si se ve texto viejo: [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) con `https://adis.lat`.
 
 ---
 
@@ -24,24 +24,24 @@ Hola hermosas emprendedoras 💜
 
 Les comparto algo que Jairo y Shantall de ADIS prepararon SOLO para nosotras de Kallpa Warmi.
 
-Ya nos han apoyado antes con [ferias / redes / fotos / presencia digital — completar con lo real].
+Ya nos han apoyado antes con videos, fotos, concursos, en ferias y también conocen de presencia digital, tecnología, marketing e innovación, que es lo que necesitan nuestros emprendimientos.
 
-¿La idea? Que tu negocio se vea profesional y te encuentren más clientes — por WhatsApp y Google Maps — sin que tú aprendas tecnología.
+¿La idea? Que tu negocio se vea profesional y te encuentren más clientes — por internet — sin que tú necesites configurar cosas complejas.
 
-Ellos ya lo hicieron con Quival (510 productos online), Agril Sur, y tienen 14+ páginas vivas + canal Noticiadis con ~2K seguidores. Todo el portafolio está en:
+Ellos ya lo hicieron con otros negocios que tienen en su portafolio empresas y emprendimientos como Distribuidora Quival (510 productos online), Agril Sur que ya tiene su página y catálogo en línea, y tienen 14+ páginas en funcionamiento, un canal de noticias en redes con casi 2 mil lectores. Todo el portafolio está en:
 👉 https://adis.lat
 
 💰 S/. 300 por todo junio (valor real S/. 3,000+)
-📅 Solo 10 cupos · cierran el 30 de mayo
+📅 Solo 10 cupos, quedan 8 · cierran el 30 de mayo
 
 🔥 BONO SOLO HOY (29 mayo):
-Si Yapeas HOY, arrancan de inmediato contigo — 3 días EXTRA de mayo GRATIS (hoy, mañana 30 y pasado 31). Mañana ya no incluye este bono.
+Solo para quienes se animen HOY, arrancan de inmediato contigo — 3 días EXTRA de mayo GRATIS (hoy 29, mañana 30 y pasado 31). Mañana ya no incluye este regalo.
 
 Cómo reservar:
 1) Yape S/. 300 al 990 551 461 (Shantall / ADIS)
 2) Captura al WhatsApp ADIS: 937 054 328
 
-Cualquier duda, escríbanme o directo a ADIS. Esto puede cambiar cómo se ve su negocio este mes 🙌
+Cualquier duda, escríbanme o directo a ADIS. Esto cambiará por completo cómo venden nuestros negocios este mes 🙌
 ```
 
 ---
@@ -68,7 +68,7 @@ Hola [nombre]! 💜
 Te comparto la propuesta exclusiva Kallpa Warmi:
 👉 https://adis.lat
 
-En una frase: hacemos que tu negocio se vea profesional — fotos pro, catálogo, Google Maps, WhatsApp que vende. Tú sigues atendiendo, nosotros hacemos el digital.
+En una frase: hacemos que tu negocio se vea profesional para VENDER MÁS — página web, fotos pro, catálogo, Google Maps, WhatsApp que vende. Tú sigues atendiendo, nosotros hacemos lo digital.
 
 S/. 300 todo junio.
 
@@ -76,7 +76,7 @@ S/. 300 todo junio.
 
 Yape S/. 300 al 990 551 461 → captura al 937 054 328.
 
-¿Alguna duda? Estoy aquí.
+¿Cualquier duda? Estamos para atenderle.
 ```
 
 ---
@@ -115,6 +115,8 @@ Mientras tanto, mándanos:
 
 ¡Gracias por confiar en ADIS! 💜
 ```
+
+*(Interno: esos 3 días = investigación — auditoría, competencia, plan. Ver mensaje 5c en OFERTA-KALLPA-WARMI-COMPLETA.md si quieres ser más explícita.)*
 
 ---
 
@@ -159,6 +161,8 @@ Si pagas mañana (30) o después, entras normal el 1 de junio. El bono de mayo n
 Es nuestra forma de premiar a las que se animan primero 🔥
 ```
 
+*(Versión más explícita — opcional: “Esos 3 días estudiamos tu rubro y competencia para que en junio todo encaje contigo.”)*
+
 ---
 
 ## 8. Broadcast Shantall (WhatsApp directo al grupo o contactos)
@@ -172,7 +176,7 @@ Este junio preparamos algo solo para ustedes:
 
 👉 https://adis.lat
 
-Imaginen su negocio con fotos profesionales, catálogo online y más clientes por WhatsApp — sin aprender tecnología. Nosotros hacemos todo. Ustedes siguen atendiendo.
+Imaginen su negocio con la mejor página web, fotos profesionales, catálogo online y más clientes por WhatsApp — sin complicaciones técnicas. Nosotros hacemos todo. Ustedes solo ven los resultados.
 
 S/. 300 todo junio · solo 10 cupos · cierran 30 de mayo
 
@@ -190,23 +194,22 @@ Yape 990 551 461 → captura al 937 054 328
 
 | ❌ Evitar | ✅ Mejor |
 |---|---|
-| "Página + catálogo + publicidad" | "Tu negocio se ve profesional" |
-| "30 entregables" | "Más clientes por WhatsApp y Google" |
-| "Digitalizamos tu negocio" | "Te encuentran y te compran" |
-| Solo el link sin contexto | Texto + link + bono de hoy |
-| "Empiezan el 1 de junio" (sin mencionar bono hoy) | "Paga hoy → arrancamos ya + 3 días mayo gratis" |
+| "Página + catálogo + publicidad" | "Tu negocio se ve profesional y vende más" |
+| "30 entregables" sin contexto | "~5 cosas por día en junio, repartidas — no todo de golpe" |
+| "Sin aprender tecnología" | "Sin complicaciones técnicas" / "nosotros hacemos lo digital" |
+| "Digitalizamos tu negocio" | "Te encuentran en internet y te compran" |
+| Solo el link | Texto + link + bono de hoy |
+| "Empiezan el 1 de junio" (sin bono) | "Paga hoy → 3 días mayo gratis + junio completo" |
 
 ---
 
 ## Checklist antes de enviar
 
 - [ ] Link https://adis.lat abre bien en celular
-- [ ] Preview WhatsApp muestra texto nuevo (o esperar cache)
 - [ ] WhatsApp 937 054 328 responde rápido (< 10 min)
 - [ ] Yape 990 551 461 activo
-- [ ] Completaste [corchetes] con ayuda real previa
-- [ ] Líder de acuerdo en enviar al grupo **hoy 29 mayo**
-- [ ] Actualizar cupos reales en mensaje de seguimiento ([X] de 10)
+- [ ] Actualizar cupos reales ([X] de 10 — hoy: quedan 8)
+- [ ] Líder de acuerdo en enviar **hoy 29 mayo**
 
 ---
 
@@ -218,3 +221,9 @@ Yape 990 551 461 → captura al 937 054 328
 | Yape / Plin | 990 551 461 · Shantall |
 | Respaldo Jairo | 953 865 163 |
 | Respaldo Shantall | 990 551 461 |
+
+---
+
+## Lista completa de entregables
+
+Ver **`OFERTA-KALLPA-WARMI-COMPLETA.md`** — ~5 entregables por día, mensajes personalizados, precios ref. y total.
