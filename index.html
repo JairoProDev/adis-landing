@@ -39,18 +39,19 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
   --dim:#64748B;
   --line:#E2E8F0;
   --line2:#CBD5E1;
-  --countdown-h:34px;
+  --countdown-h:52px;
   --nav-h:48px;
-  --top-safe:calc(var(--countdown-h) + var(--nav-h) + 12px);
+  --top-safe:calc(var(--countdown-h) + var(--nav-h) + 16px);
   --urgency-h:32px;
   --sticky-h:50px;
-  --bottom-safe:calc(var(--urgency-h) + var(--sticky-h) + 20px);
+  --bottom-safe:calc(var(--urgency-h) + var(--sticky-h) + 24px);
 }
 
 /* ===== SLIDES ENGINE ===== */
 #deck{
   width:100vw;
   height:100vh;
+  height:100dvh;
   overflow-y:scroll;
   scroll-snap-type:y mandatory;
   -webkit-overflow-scrolling:touch;
@@ -60,6 +61,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 .slide{
   width:100vw;
   height:100vh;
+  height:100dvh;
   scroll-snap-align:start;
   display:flex;
   flex-direction:column;
@@ -68,6 +70,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
   padding:var(--top-safe) 20px var(--bottom-safe);
   position:relative;
   overflow:hidden;
+}
+.slide.slide-hero{
+  padding-bottom:calc(var(--urgency-h) + 16px);
 }
 .slide.light{background:var(--white);}
 .slide.off{background:var(--off);}
@@ -284,10 +289,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 /* ===== SCROLL INDICATOR OVERLAY ===== */
 .slide-num{
   position:absolute;
-  bottom:calc(var(--urgency-h) + var(--sticky-h) + 6px);
-  left:20px;
-  font-size:11px;color:var(--dim);font-weight:500;letter-spacing:.04em;
-  z-index:10;pointer-events:none;
+  bottom:12px;left:20px;
+  font-size:10px;color:var(--dim);font-weight:500;letter-spacing:.04em;
+  z-index:2;pointer-events:none;opacity:.55;
 }
 .slide.dark .slide-num,.slide.teal .slide-num,.slide.dark2 .slide-num,.slide.gold .slide-num{
   color:rgba(255,255,255,.3);
@@ -344,6 +348,13 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 /* ===== CONTENT CONTAINER ===== */
 .content{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;max-width:480px;}
 .content.left{align-items:flex-start;}
+.slide-hero .content{gap:10px;}
+.slide-hero .badge{margin-bottom:4px;}
+.slide-hero .hero-h{font-size:clamp(22px,6.2vw,42px);line-height:1.12;}
+.slide-hero .hero-sub{font-size:clamp(13px,3.5vw,16px);line-height:1.45;}
+.slide-hero .hero-pain{font-size:clamp(14px,3.8vw,17px);padding-left:10px;margin:0;}
+.slide-hero .btn{padding:13px 20px;font-size:15px;}
+.slide-hero .btn-invest-sub{display:none;}
 
 /* ===== BIG PRICE ===== */
 .price-big{
@@ -418,13 +429,25 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 /* ===== COUNTDOWN ===== */
 #countdown-bar{
   position:fixed;top:0;left:0;right:0;z-index:160;
-  height:var(--countdown-h);
+  min-height:var(--countdown-h);
   background:linear-gradient(90deg,#7F1D1D,#DC2626);
-  color:var(--white);padding:0 14px;
+  color:var(--white);
   display:flex;align-items:center;justify-content:center;
-  font-size:11px;font-weight:600;line-height:1.2;
 }
-#countdown-bar .cd-time{font-family:'Fraunces',serif;font-size:16px;font-weight:800;letter-spacing:.04em;}
+.countdown-inner{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:2px;width:100%;padding:5px 10px 6px;
+  text-align:center;
+}
+.countdown-msg{
+  font-size:10px;font-weight:600;line-height:1.25;letter-spacing:.02em;
+  max-width:100%;
+}
+.countdown-msg strong{font-weight:800;}
+#countdown-bar .cd-time{
+  font-family:'Fraunces',serif;font-size:15px;font-weight:800;
+  letter-spacing:.03em;line-height:1;white-space:nowrap;
+}
 .hero-pain{
   font-size:clamp(16px,4.2vw,19px);font-weight:600;color:var(--ink);
   line-height:1.45;max-width:360px;text-align:center;
@@ -476,11 +499,12 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 }
 .invest-box strong{color:var(--green);}
 
-/* ===== SCROLLABLE SLIDE ===== */
+/* ===== SCROLLABLE SLIDE (solo slides con mucho contenido, no el hero) ===== */
 .slide.scroll-y{
   justify-content:flex-start;
   overflow-y:auto;
   -webkit-overflow-scrolling:touch;
+  overscroll-behavior-y:none;
   align-items:center;
 }
 .slide.scroll-y .content{padding-bottom:12px;min-height:min-content;}
@@ -586,8 +610,12 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
   background:linear-gradient(135deg,rgba(239,68,68,.12),rgba(245,158,11,.15));
   border:2px solid rgba(239,68,68,.35);
   border-radius:14px;padding:12px 14px;text-align:center;
-  margin-bottom:4px;
+  margin-bottom:0;flex-shrink:0;
 }
+.bonus-today.bonus-compact{padding:10px 14px;margin-bottom:2px;}
+.bonus-today.bonus-compact .bonus-sub,
+.bonus-today.bonus-compact .bonus-cd{display:none;}
+.bonus-today.bonus-compact strong{font-size:14px;}
 .bonus-today .bonus-tag{
   display:inline-block;font-size:10px;font-weight:800;
   text-transform:uppercase;letter-spacing:.06em;
@@ -598,11 +626,26 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 .bonus-today .bonus-sub{font-size:11px;color:var(--dim);margin-top:4px;line-height:1.4;}
 .bonus-today .bonus-cd{font-family:'Fraunces',serif;font-size:14px;font-weight:800;color:var(--red);margin-top:6px;}
 .cred-mini{font-size:11px;color:rgba(255,255,255,.6);line-height:1.5;max-width:380px;text-align:center;}
+@media (max-height:740px){
+  .slide-hero .hero-sub{display:none;}
+  .slide-hero .hero-trust{display:none;}
+  .slide-hero .hero-wa-link{margin-top:0;}
+}
+@media (max-width:480px){
+  .slide-num{display:none;}
+  #dots{right:10px;gap:5px;}
+}
 @media (max-width:380px){
-  :root{--countdown-h:38px;--nav-h:44px;--sticky-h:46px;}
+  :root{--nav-h:44px;--sticky-h:46px;}
   .nav-cta{font-size:11px;padding:7px 12px;}
-  #countdown-bar{font-size:10px;}
+  .countdown-msg{font-size:9px;}
+  #countdown-bar .cd-time{font-size:14px;}
   .urgency{font-size:11px;padding:4px 10px;}
+  .slide-hero .hero-trust{font-size:10px;gap:4px 6px;}
+}
+@media (min-width:520px){
+  .countdown-inner{flex-direction:row;flex-wrap:wrap;justify-content:center;gap:6px;padding:6px 14px;}
+  .countdown-msg{font-size:11px;}
 }
 </style>
 </head>
@@ -612,12 +655,14 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 <div id="progress"></div>
 
 <!-- COUNTDOWN -->
-<div id="countdown-bar" style="padding: 0 8px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 500; letter-spacing: 0.02em;">
-  <span style="display: flex; align-items: center; gap: 6px; flex-wrap: wrap; width: 100%; justify-content: center;">
-    <span id="countdownBonusLine" class="bonus-only" style="font-size: 15px; margin-right: 3px;">🔥</span>
-    <span id="countdownMainText" style="white-space:nowrap;">Paga <strong>HOY</strong> → 3 días extra mayo · Cupos cierran <strong>30 mayo</strong></span>
-    <span class="cd-time" id="countdown" style="font-weight: 800; font-size: 16px; color: #FFF; margin-left: 6px; letter-spacing: 0.01em;">--:--:--</span>
-  </span>
+<div id="countdown-bar">
+  <div class="countdown-inner">
+    <span class="countdown-msg">
+      <span id="countdownBonusLine" class="bonus-only">🔥 </span>
+      <span id="countdownMainText">Paga <strong>HOY</strong> → 3 días extra · Cupos cierran <strong>30 mayo</strong></span>
+    </span>
+    <span class="cd-time" id="countdown">--:--:--</span>
+  </div>
 </div>
 
 <!-- NAV -->
@@ -642,9 +687,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 <div id="deck">
 
 <!-- SLIDE 1: HERO HOOK -->
-<div class="slide light" data-theme="light">
+<div class="slide light slide-hero" data-theme="light">
   <div class="content" style="align-items:center;text-align:center;">
-    <div id="heroBonus" class="bonus-today anim anim-1 bonus-only">
+    <div id="heroBonus" class="bonus-today bonus-compact anim anim-1 bonus-only">
       <span class="bonus-tag">🔥 Solo si pagas hoy · 29 mayo</span>
       <strong>3 días extra de mayo GRATIS</strong>
       <span class="bonus-sub">Empezamos hoy, mañana 30 y pasado 31 — antes que todas. Mañana ya no incluye este bono.</span>
@@ -1501,6 +1546,7 @@ function updateBonusUI(){
   }
   const spotsInline = document.getElementById('spotsNavInline');
   if(spotsInline) spotsInline.textContent = ADIS.CUPOS;
+  syncChromeHeights();
 }
 
 function updateCountdown(){
@@ -1554,7 +1600,7 @@ deck.addEventListener('scroll', () => {
     current = idx;
     updateUI();
   }
-  if(deck.scrollTop > 50) hint.classList.add('hide');
+  if(deck.scrollTop > 50) hint?.classList.add('hide');
 });
 
 function updateUI(){
@@ -1577,7 +1623,18 @@ function updateUI(){
   const onPaySlide = current === total - 1;
   sticky?.classList.toggle('is-hidden', onHero || onPaySlide);
   navPay?.classList.toggle('is-hidden', onHero);
-  hint.classList.toggle('hide', current !== 0);
+  hint?.classList.toggle('hide', current !== 0);
+}
+
+function syncChromeHeights(){
+  const cd = document.getElementById('countdown-bar');
+  if(cd) document.documentElement.style.setProperty('--countdown-h', cd.offsetHeight + 'px');
+}
+window.addEventListener('resize', syncChromeHeights);
+if(typeof ResizeObserver !== 'undefined'){
+  const ro = new ResizeObserver(syncChromeHeights);
+  const cdBar = document.getElementById('countdown-bar');
+  if(cdBar) ro.observe(cdBar);
 }
 
 function goToSlide(i){
@@ -1616,6 +1673,7 @@ document.getElementById('overviewDelBtn')?.addEventListener('click', e=>{
 slides[0].classList.add('active');
 renderPortfolio();
 updateBonusUI();
+syncChromeHeights();
 applyConfig();
 updateCountdown();
 setInterval(updateCountdown, 1000);
