@@ -348,13 +348,80 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 /* ===== CONTENT CONTAINER ===== */
 .content{display:flex;flex-direction:column;align-items:center;gap:14px;width:100%;max-width:480px;}
 .content.left{align-items:flex-start;}
-.slide-hero .content{gap:10px;}
-.slide-hero .badge{margin-bottom:4px;}
-.slide-hero .hero-h{font-size:clamp(22px,6.2vw,42px);line-height:1.12;}
-.slide-hero .hero-sub{font-size:clamp(13px,3.5vw,16px);line-height:1.45;}
-.slide-hero .hero-pain{font-size:clamp(14px,3.8vw,17px);padding-left:10px;margin:0;}
-.slide-hero .btn{padding:13px 20px;font-size:15px;}
+.slide-hero .content{gap:0;}
+.slide-hero .badge{margin-bottom:0;}
+.slide-hero .hero-h{font-size:clamp(22px,6.2vw,40px);line-height:1.12;}
+.hero-pain{
+  width:100%;max-width:360px;
+  font-size:clamp(13px,3.6vw,16px);font-weight:600;color:var(--ink);
+  background:rgba(239,68,68,.06);
+  border:1px solid rgba(239,68,68,.15);
+  border-left:3px solid var(--red);
+  border-radius:10px;padding:10px 12px;
+  text-align:left;line-height:1.4;margin:0;
+}
+.hero-pain em{font-style:normal;color:var(--red);font-weight:600;}
+
+.slide-hero .btn{padding:14px 22px;font-size:15px;}
 .slide-hero .btn-invest-sub{display:none;}
+
+.hero-layout{
+  height:100%;
+  max-height:calc(100dvh - var(--top-safe) - var(--urgency-h) - 12px);
+  justify-content:space-between;
+  padding:2px 0 4px;
+}
+.hero-block{
+  width:100%;
+  display:flex;flex-direction:column;align-items:center;
+  gap:clamp(6px,1.4vh,10px);
+}
+.hero-block-head{gap:clamp(8px,1.8vh,14px);}
+.hero-block-cta{gap:10px;padding-top:4px;}
+
+.hero-perks{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:clamp(6px,1.2vh,10px);
+  width:100%;max-width:360px;
+}
+.hero-perk{
+  display:flex;align-items:center;gap:8px;
+  background:var(--off);border:1px solid var(--line);
+  border-radius:11px;padding:10px 10px;
+  text-align:left;font-size:12px;font-weight:500;
+  color:var(--ink);line-height:1.25;
+}
+.hero-perk-ico{
+  font-size:18px;line-height:1;flex-shrink:0;
+  width:26px;text-align:center;
+}
+
+.hero-offer{
+  display:flex;flex-direction:column;align-items:center;
+  gap:6px;width:100%;
+}
+.hero-offer-tag{
+  font-size:12px;color:var(--dim);line-height:1.35;text-align:center;
+}
+.hero-offer-tag strong{color:var(--teal);font-weight:600;}
+
+.hero-stats{
+  display:flex;gap:clamp(6px,1.2vh,10px);
+  width:100%;max-width:360px;
+}
+.hero-stat{
+  flex:1;text-align:center;
+  background:var(--teal-l);border:1px solid rgba(14,165,233,.2);
+  border-radius:11px;padding:clamp(8px,1.5vh,12px) 6px;
+}
+.hero-stat-ico{font-size:16px;line-height:1;margin-bottom:4px;}
+.hero-stat-n{
+  font-family:'Fraunces',serif;font-size:clamp(16px,4vw,20px);
+  font-weight:800;color:var(--teal);line-height:1;
+}
+.hero-stat-l{font-size:9px;color:var(--dim);margin-top:3px;line-height:1.2;}
+
+.hero-cta-wrap{width:100%;max-width:340px;display:flex;flex-direction:column;gap:8px;align-items:center;}
 
 /* ===== BIG PRICE ===== */
 .price-big{
@@ -448,12 +515,6 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
   font-family:'Fraunces',serif;font-size:15px;font-weight:800;
   letter-spacing:.03em;line-height:1;white-space:nowrap;
 }
-.hero-pain{
-  font-size:clamp(16px,4.2vw,19px);font-weight:600;color:var(--ink);
-  line-height:1.45;max-width:360px;text-align:center;
-  border-left:3px solid var(--red);padding-left:12px;text-align:left;
-}
-.hero-pain em{font-style:normal;color:var(--red);}
 
 /* ===== CORE OFFER / CASES ===== */
 .offer-grid{width:100%;max-width:400px;display:flex;flex-direction:column;gap:10px;}
@@ -626,10 +687,11 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 .bonus-today .bonus-sub{font-size:11px;color:var(--dim);margin-top:4px;line-height:1.4;}
 .bonus-today .bonus-cd{font-family:'Fraunces',serif;font-size:14px;font-weight:800;color:var(--red);margin-top:6px;}
 .cred-mini{font-size:11px;color:rgba(255,255,255,.6);line-height:1.5;max-width:380px;text-align:center;}
-@media (max-height:740px){
-  .slide-hero .hero-sub{display:none;}
-  .slide-hero .hero-trust{display:none;}
-  .slide-hero .hero-wa-link{margin-top:0;}
+@media (max-height:680px){
+  .hero-perk{font-size:11px;padding:8px;}
+  .hero-perk-ico{font-size:16px;width:22px;}
+  .hero-stat-l{font-size:8px;}
+  .hero-block-head .hero-h{font-size:clamp(20px,5.8vw,34px);}
 }
 @media (max-width:480px){
   .slide-num{display:none;}
@@ -641,7 +703,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
   .countdown-msg{font-size:9px;}
   #countdown-bar .cd-time{font-size:14px;}
   .urgency{font-size:11px;padding:4px 10px;}
-  .slide-hero .hero-trust{font-size:10px;gap:4px 6px;}
+}
+@media (max-width:340px){
+  .hero-perks{grid-template-columns:1fr;}
 }
 @media (min-width:520px){
   .countdown-inner{flex-direction:row;flex-wrap:wrap;justify-content:center;gap:6px;padding:6px 14px;}
@@ -688,39 +752,71 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 
 <!-- SLIDE 1: HERO HOOK -->
 <div class="slide light slide-hero" data-theme="light">
-  <div class="content" style="align-items:center;text-align:center;">
-    <div id="heroBonus" class="bonus-today bonus-compact anim anim-1 bonus-only">
-      <span class="bonus-tag">🔥 Solo si pagas hoy · 29 mayo</span>
-      <strong>3 días extra de mayo GRATIS</strong>
-      <span class="bonus-sub">Empezamos hoy, mañana 30 y pasado 31 — antes que todas. Mañana ya no incluye este bono.</span>
-      <span class="bonus-cd">Termina en <span id="bonusCountdown">--:--:--</span></span>
+  <div class="content hero-layout" style="align-items:center;text-align:center;">
+
+    <div class="hero-block anim anim-1">
+      <div id="heroBonus" class="bonus-today bonus-compact bonus-only">
+        <span class="bonus-tag">🔥 Solo si pagas hoy · 29 mayo</span>
+        <strong>3 días extra de mayo GRATIS</strong>
+        <span class="bonus-sub">Empezamos hoy, mañana 30 y pasado 31 — antes que todas. Mañana ya no incluye este bono.</span>
+        <span class="bonus-cd">Termina en <span id="bonusCountdown">--:--:--</span></span>
+      </div>
+      <div class="badge badge-gold">💜 Exclusivo Kallpa Warmi · Solo 10 cupos</div>
     </div>
-    <div class="badge badge-gold anim anim-1">💜 Exclusivo Kallpa Warmi · Solo 10 cupos</div>
-    <h1 class="hero-h anim anim-2" style="text-align:center;">
-      Transformamos tu <span class="hl-teal">negocio </span>
-       en una máquina digital de <span class="hl-teal">ventas online</span><br>
-    </h1>
-    <p class="hero-pain anim anim-3">Tienes un buen producto.<br><em>Pero si no te encuentran, no te compran.</em></p>
-    <p class="hero-sub anim anim-4" style="text-align:center;">Nosotros hacemos el trabajo digital por ti: fotos bonitas, catálogo online, mensajes que venden y plan claro. Tú sigues atendiendo tu negocio.</p>
-    <div class="hero-price anim anim-5">
-      <span class="hero-price-was">S/. 3,000</span>
-      <span class="hero-price-badge">-90%</span>
-      <span class="hero-price-now">S/. 300</span>
+
+    <div class="hero-block hero-block-head anim anim-2">
+      <h1 class="hero-h" style="text-align:center;">
+        Transformamos tu <span class="hl-teal">negocio</span> en una máquina digital de <span class="hl-teal">ventas online</span>
+      </h1>
+      <p class="hero-pain">Tienes un buen producto. <em>Pero si no te encuentran, no te compran.</em></p>
     </div>
-    <p class="anim anim-5" style="font-size:13px;color:var(--dim);margin-top:6px;"><strong style="color:var(--red);">Tu negocio se ve profesional</strong> · Junio completo · Cierra cupos 30 mayo</p>
-    <div class="hero-trust anim anim-5">
-      <span><strong>14+</strong> páginas vivas</span>
-      <span>·</span>
-      <span><strong>500+</strong> negocios publicados</span>
-      <span>·</span>
-      <span>Noticiadis <strong>~2K</strong></span>
+
+    <div class="hero-block anim anim-3">
+      <div class="hero-perks">
+        <div class="hero-perk"><span class="hero-perk-ico">📸</span><span>Fotos pro de tus productos</span></div>
+        <div class="hero-perk"><span class="hero-perk-ico">🛒</span><span>Catálogo online que vende</span></div>
+        <div class="hero-perk"><span class="hero-perk-ico">💬</span><span>WhatsApp con mensajes listos</span></div>
+        <div class="hero-perk"><span class="hero-perk-ico">🙌</span><span>Nosotros lo hacemos por ti</span></div>
+      </div>
     </div>
-    <div style="width:100%;display:flex;flex-direction:column;gap:8px;max-width:340px;" class="anim anim-5">
-      <a href="#pagar" class="btn btn-invest" id="heroPayBtn">Quiero que mi negocio se vea así →</a>
-      <p class="btn-invest-sub bonus-only">Paga hoy y arrancamos ya — 3 días extra mayo incluidos.</p>
-      <p class="btn-invest-sub bonus-gone" hidden>Menos que 1 día sin clientes. Fotos pro + catálogo + más ventas por WhatsApp.</p>
-      <p class="hero-wa-link"><a href="#" id="heroWaBtn" target="_blank">¿Tienes dudas? Escríbenos por WhatsApp</a></p>
+
+    <div class="hero-block anim anim-4">
+      <div class="hero-offer">
+        <div class="hero-price">
+          <span class="hero-price-was">S/. 3,000</span>
+          <span class="hero-price-badge">-90%</span>
+          <span class="hero-price-now">S/. 300</span>
+        </div>
+        <p class="hero-offer-tag"><strong>Tu negocio se ve profesional</strong> · Junio completo</p>
+      </div>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-ico">🌐</div>
+          <div class="hero-stat-n">14+</div>
+          <div class="hero-stat-l">páginas vivas</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-ico">🏪</div>
+          <div class="hero-stat-n">500+</div>
+          <div class="hero-stat-l">negocios</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-ico">📣</div>
+          <div class="hero-stat-n">~2K</div>
+          <div class="hero-stat-l">Noticiadis</div>
+        </div>
+      </div>
     </div>
+
+    <div class="hero-block hero-block-cta anim anim-5">
+      <div class="hero-cta-wrap">
+        <a href="#pagar" class="btn btn-invest" id="heroPayBtn">Quiero que mi negocio se vea así →</a>
+        <p class="btn-invest-sub bonus-only">Paga hoy y arrancamos ya — 3 días extra mayo incluidos.</p>
+        <p class="btn-invest-sub bonus-gone" hidden>Menos que 1 día sin clientes. Fotos pro + catálogo + más ventas por WhatsApp.</p>
+        <p class="hero-wa-link"><a href="#" id="heroWaBtn" target="_blank">💬 ¿Tienes dudas? Escríbenos por WhatsApp</a></p>
+      </div>
+    </div>
+
   </div>
   <div class="slide-num">01 / 17</div>
 </div>
