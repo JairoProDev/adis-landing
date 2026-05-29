@@ -29,11 +29,51 @@
 
 **Bono 3 días mayo** = investigación con ventaja, no “junio adelantado”. El 1 de junio arranca ejecución con plan listo.
 
-**Total programa:** 33 días × ~5 entregables = **~165 piezas** · valor ref. **S/. 3,850** · precio Kallpa **S/. 300**
+**Total programa:** 33 días × ~5 entregables = **~165 piezas** · valor ref. **S/. 4,100** · precio Kallpa **S/. 300**
 
 ---
 
-## Mensaje personal (WhatsApp)
+## Mensaje 0 — ULTRA CORTO (10 estrellas · primer contacto)
+
+*Usar cuando quieras sorprender sin abrumar. Si responden, mandas Mensaje 2 o el detalle día por día.*
+
+```
+Hola [nombre]! 💜 Soy [Shantall/Jairo] de ADIS.
+
+Te escribo solo a emprendedoras Kallpa Warmi — pensé en [negocio] y quiero contarte algo en 30 segundos:
+
+Por S/. 300 (todo junio) te llevamos esto — nosotros hacemos lo digital, tú ves resultados:
+
+1️⃣ Página web + catálogo online → vendes 24/7 con un solo link
+2️⃣ Google Maps profesional → te encuentran cuando buscan en Cusco
+3️⃣ Fotos pro de tus productos → se ven de tienda, no de celular
+4️⃣ WhatsApp con mensajes listos → respondes rápido y cierras más ventas
+5️⃣ Publicidad en Buscadis y Noticiadis → clientes nuevos fuera de tu círculo
+6️⃣ Posts listos para todo el mes → redes sin quedarte en blanco
+7️⃣ Informes, guías y plan de ventas → sabes qué hacer cada semana
+8️⃣ 🔥 Si pagas HOY: 3 días de mayo GRATIS de investigación (auditoría + competencia + plan)
+9️⃣ Garantía semana 1 → o te devolvemos todo
+🔟 Valor ref. S/. 4,100+ · tú pagas S/. 300 · solo 10 cupos (quedan 8)
+
+👉 https://adis.lat
+Yape 990 551 461 → captura 937 054 328
+
+¿Te mando el detalle día por día o alguna duda? 💜
+```
+
+### Variante aún más corta (si el chat es muy activo)
+
+```
+[nombre] 💜 ADIS · solo Kallpa Warmi
+
+10 en 1: página + catálogo · Maps · fotos pro · WA que vende · publicidad ADIS · posts del mes · estrategia · 🔥3 días mayo gratis si pagas HOY · garantía semana 1 · S/. 300 (val. S/. 4,100+)
+
+👉 adis.lat · Yape 990 → captura 937 054 328 · quedan 8 cupos
+```
+
+---
+
+## Mensaje personal (WhatsApp — versión media)
 
 ```
 Hola [nombre]! 💜 Soy [Shantall/Jairo] de ADIS.
@@ -69,7 +109,7 @@ Perfecto [nombre] 💜
 
 Incluye: página + catálogo, Google Maps, fotos pro, WhatsApp que vende, publicidad ADIS, informes, manuales, posts listos, estrategia y más.
 
-Valor ref. total: S/. 3,850
+Valor ref. total: S/. 4,100
 Tu precio Kallpa Warmi: S/. 300
 
 Garantía semana 1: página + catálogo en marcha, 10 fotos, plantillas WA — o devolución 100%.
@@ -165,7 +205,7 @@ Garantía semana 1: página + catálogo en marcha, 10 fotos, plantillas WA — o
 
 | # | Entregable | Qué ganas | Ref. |
 |---|------------|-----------|------|
-| 1 | 2 fotos producto mejoradas con IA | Productos que se ven de tienda | S/. 40 |
+| 1 | 2 fotos producto con edición profesional | Productos que se ven de tienda | S/. 40 |
 | 2 | Guía PDF: 5 tips para fotear en casa | Mejores fotos cuando mandes más | S/. 20 |
 | 3 | Plantilla nombres de archivo organizados | Orden para catálogo futuro | S/. 10 |
 | 4 | Before/after visual 1 producto | Prueba social de la mejora | S/. 15 |
@@ -241,7 +281,7 @@ Garantía semana 1: página + catálogo en marcha, 10 fotos, plantillas WA — o
 
 | # | Entregable | Qué ganas | Ref. |
 |---|------------|-----------|------|
-| 1 | 2 fotos IA adicionales | Catálogo más completo | S/. 40 |
+| 1 | 2 fotos de estudio profesional | Catálogo más completo | S/. 40 |
 | 2 | 1 foto “hero” banner web/redes | Imagen estrella para portada | S/. 35 |
 | 3 | Guía iluminación con lo que tienes en casa | Autonomía para futuras fotos | S/. 15 |
 | 4 | Informe progreso fotos (cuántas van, cuántas faltan) | Control del avance | S/. 10 |

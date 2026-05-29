@@ -226,4 +226,7 @@ Yape 990 551 461 → captura al 937 054 328
 
 ## Lista completa de entregables
 
-Ver **`OFERTA-KALLPA-WARMI-COMPLETA.md`** — ~5 entregables por día, mensajes personalizados, precios ref. y total.
+Ver **`OFERTA-KALLPA-WARMI-COMPLETA.md`**:
+- **Mensaje 0** — ultra corto (10 estrellas · primer contacto)
+- Mensajes personal + día por día (~165 piezas)
+- Precios ref. y total S/. 4,100
