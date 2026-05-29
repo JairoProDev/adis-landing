@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>ADIS — Más ventas por WhatsApp y Google · Junio S/. 300</title>
-<meta name="description" content="Programa exclusivo Kallpa Warmi: digitaliza tu negocio en junio por S/. 300. Más clientes por WhatsApp, Google Maps y fotos profesionales. Reserva tu cupo hoy en adis.lat">
+<title>ADIS — Invierte S/. 300 · Página + Catálogo · Kallpa Warmi</title>
+<meta name="description" content="Exclusivo Kallpa Warmi: página, catálogo y publicidad en Buscadis por S/. 300. Solo 10 cupos. Cierra 30 mayo. Quival y Agril Sur ya confían en ADIS.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://adis.lat">
-<meta property="og:title" content="ADIS — Tu negocio vende más en junio · S/. 300">
-<meta property="og:description" content="Exclusivo integrantes Kallpa Warmi. Sin aprender tecnología. Empiezas el 1 de junio. Reserva con Yape hoy.">
+<meta property="og:title" content="ADIS — Tu negocio online en junio · S/. 300 · 10 cupos">
+<meta property="og:description" content="Página + catálogo + publicidad. Exclusivo Kallpa Warmi. Cierra 30 de mayo. Invierte hoy.">
 <meta property="og:image" content="https://adis.lat/og-image.svg">
 <meta property="og:locale" content="es_PE">
 <meta name="twitter:card" content="summary_large_image">
@@ -398,17 +398,85 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 .slide{padding-bottom:130px;}
 #hint{bottom:100px;}
 .slide-num{bottom:112px;}
+
+/* ===== COUNTDOWN ===== */
+#countdown-bar{
+  position:fixed;top:52px;left:0;right:0;z-index:140;
+  background:linear-gradient(90deg,#7F1D1D,#DC2626);
+  color:var(--white);padding:8px 14px;text-align:center;
+  font-size:12px;font-weight:600;line-height:1.4;
+}
+#countdown-bar .cd-time{font-family:'Fraunces',serif;font-size:18px;font-weight:800;letter-spacing:.04em;}
+.hero-pain{
+  font-size:clamp(16px,4.2vw,19px);font-weight:600;color:var(--ink);
+  line-height:1.45;max-width:360px;text-align:center;
+  border-left:3px solid var(--red);padding-left:12px;text-align:left;
+}
+.hero-pain em{font-style:normal;color:var(--red);}
+
+/* ===== CORE OFFER / CASES ===== */
+.offer-grid{width:100%;max-width:400px;display:flex;flex-direction:column;gap:10px;}
+.offer-main{
+  background:linear-gradient(135deg,rgba(14,165,233,.15),rgba(16,185,129,.12));
+  border:2px solid var(--teal);border-radius:14px;padding:16px;text-align:left;
+}
+.offer-main h3{font-family:'Fraunces',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:6px;}
+.offer-main p{font-size:12px;color:var(--dim);line-height:1.5;}
+.offer-bonus{font-size:12px;color:var(--dim);padding:10px 14px;background:var(--gray);border-radius:10px;line-height:1.5;}
+.case-card{
+  width:100%;max-width:400px;background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.12);border-radius:14px;overflow:hidden;
+}
+.case-img{width:100%;height:140px;object-fit:cover;object-position:top;display:block;background:var(--ink2);}
+.case-body{padding:12px 14px;}
+.case-body h4{font-size:14px;font-weight:700;color:var(--white);margin-bottom:4px;}
+.case-body p{font-size:12px;color:rgba(255,255,255,.6);line-height:1.45;}
+.case-tag{display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:3px 8px;border-radius:99px;background:rgba(16,185,129,.2);color:var(--green);margin-bottom:6px;}
+.traction-row{display:flex;gap:8px;width:100%;max-width:400px;}
+.traction-stat{flex:1;text-align:center;background:rgba(255,255,255,.08);border-radius:10px;padding:12px 8px;}
+.traction-stat .n{font-family:'Fraunces',serif;font-size:24px;font-weight:800;color:var(--gold);line-height:1;}
+.traction-stat .l{font-size:10px;color:rgba(255,255,255,.55);margin-top:4px;line-height:1.3;}
+
+/* ===== FAQ ===== */
+.faq-list{width:100%;max-width:400px;display:flex;flex-direction:column;gap:10px;}
+.faq-item{
+  background:var(--white);border:1px solid var(--line);border-radius:12px;
+  padding:14px 16px;text-align:left;
+}
+.faq-item h4{font-size:14px;font-weight:700;color:var(--ink);margin-bottom:6px;line-height:1.3;}
+.faq-item p{font-size:12px;color:var(--dim);line-height:1.55;}
+
+/* ===== INVESTMENT CTA ===== */
+.btn-invest{
+  background:linear-gradient(135deg,#059669,#10B981);color:var(--white);
+  box-shadow:0 4px 20px rgba(16,185,129,.35);
+}
+.btn-invest-sub{font-size:11px;color:var(--dim);text-align:center;max-width:320px;line-height:1.4;}
+.invest-box{
+  width:100%;max-width:360px;background:rgba(16,185,129,.08);border:1px solid rgba(16,185,129,.25);
+  border-radius:12px;padding:14px;font-size:12px;color:var(--dim);line-height:1.5;text-align:center;
+}
+.invest-box strong{color:var(--green);}
+#nav{top:36px;}
+body.has-countdown #countdown-bar{top:0;}
 </style>
 </head>
-<body>
+<body class="has-countdown">
 
 <!-- PROGRESS -->
 <div id="progress"></div>
 
+<!-- COUNTDOWN -->
+<div id="countdown-bar">
+  ⏰ Precio Kallpa Warmi termina <strong>30 mayo</strong> ·
+  <span class="cd-time" id="countdown">--:--:--</span>
+  · <span id="spotsNav">10</span> cupos
+</div>
+
 <!-- NAV -->
 <nav id="nav">
   <div class="nav-logo"><span class="a">AD</span><span class="d" id="navD">IS</span></div>
-  <a href="#pagar" class="nav-cta" id="navPayBtn">S/. 300 →</a>
+  <a href="#pagar" class="nav-cta" id="navPayBtn">Invertir S/. 300 →</a>
 </nav>
 
 <!-- NAV DOTS -->
@@ -416,18 +484,18 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 
 <!-- SCROLL HINT -->
 <div id="hint">
-  <span class="hint-text">Desliza</span>
+  <span class="hint-text">Solo 10 cupos · desliza ↓</span>
   <div class="hint-arrow">↓</div>
 </div>
 
 <!-- STICKY CTA -->
 <div id="sticky-cta">
-  <a href="#pagar" class="sticky-btn sticky-yape" id="stickyYape">💜 Yapear S/. 300</a>
+  <a href="#pagar" class="sticky-btn sticky-yape" id="stickyYape">💜 Invertir S/. 300</a>
   <a href="#" class="sticky-btn sticky-wa" id="stickyWa" target="_blank">WhatsApp</a>
 </div>
 
 <!-- URGENCY STRIP -->
-<div class="urgency" id="urgencyStrip">⚡ <span id="spots">8</span> cupos · Kallpa Warmi · Reserva hoy · Empiezas 1 de junio</div>
+<div class="urgency" id="urgencyStrip">⚡ Quedan <span id="spots">10</span> de 10 cupos · Exclusivo Kallpa Warmi · Cierra 30 mayo</div>
 
 <!-- ============================== SLIDES ============================== -->
 <div id="deck">
@@ -435,21 +503,19 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 <!-- SLIDE 1: HERO HOOK -->
 <div class="slide light" data-theme="light">
   <div class="content" style="align-items:center;text-align:center;">
-    <div class="badge badge-gold anim anim-1">💜 Exclusivo Kallpa Warmi · Junio 2026</div>
+    <div class="badge badge-gold anim anim-1">💜 Exclusivo Kallpa Warmi · Solo 10 cupos</div>
     <h1 class="hero-h anim anim-2" style="text-align:center;">Más ventas por WhatsApp<br>y en <span class="hl-teal">Google Maps</span><br>todo junio.</h1>
-    <p class="hero-sub anim anim-3" style="text-align:center;">Nosotros hacemos el trabajo digital por ti: fotos bonitas, catálogo online, mensajes que venden y plan claro. Tú sigues atendiendo tu negocio.</p>
-    <div class="anim anim-4" style="font-family:'Fraunces',serif;font-size:42px;font-weight:800;color:var(--ink);line-height:1;">S/. 300</div>
-    <p class="anim anim-4" style="font-size:13px;color:var(--dim);margin-top:-8px;">Junio completo · Reserva hoy con Yape</p>
+    <p class="hero-pain anim anim-3">Tienes un buen producto.<br><em>Pero si no te encuentran, no te compran.</em></p>
+    <p class="hero-sub anim anim-4" style="text-align:center;">Nosotros hacemos el trabajo digital por ti: fotos bonitas, catálogo online, mensajes que venden y plan claro. Tú sigues atendiendo tu negocio.</p>
+    <div class="anim anim-5" style="font-family:'Fraunces',serif;font-size:42px;font-weight:800;color:var(--ink);line-height:1;">S/. 300</div>
+    <p class="anim anim-5" style="font-size:13px;color:var(--dim);margin-top:-8px;"><strong style="color:var(--red);">Inversión inteligente</strong> · Junio completo · Cierra 30 mayo</p>
     <div style="width:100%;display:flex;flex-direction:column;gap:10px;max-width:340px;" class="anim anim-5">
-      <a href="#pagar" class="btn btn-teal" id="heroPayBtn">Reservar mi cupo →</a>
-      <a href="#" class="btn btn-wa" id="heroWaBtn" target="_blank">💬 Preguntar por WhatsApp</a>
-    </div>
-    <div class="anim anim-5" style="display:flex;align-items:center;gap:8px;font-size:12px;color:var(--dim);flex-wrap:wrap;justify-content:center;">
-      <span style="color:var(--green);">●</span>
-      Paqarina Wasi · IdeaLab · Startup Perú 13G
+      <a href="#pagar" class="btn btn-invest" id="heroPayBtn">Reservar mi cupo ahora →</a>
+      <p class="btn-invest-sub">Menos que 1 día sin clientes. Tu página + catálogo + publicidad incluidos.</p>
+      <a href="#" class="btn btn-wa" id="heroWaBtn" target="_blank">💬 Tengo una duda — escríbenos</a>
     </div>
   </div>
-  <div class="slide-num">01 / 12</div>
+  <div class="slide-num">01 / 14</div>
 </div>
 
 <!-- SLIDE 2: KALLPA WARMI -->
@@ -460,17 +526,39 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
     <h2 class="section-h white-text anim anim-2">Kallpa Warmi:<br>ya nos conocemos.</h2>
     <p class="section-sub dimw anim anim-3" style="max-width:360px;">Jairo y Shantall de ADIS ya apoyaron a varias hermanas de la comunidad en ferias, redes y presencia digital. Este junio preparamos algo especial solo para ustedes.</p>
     <div class="kallpa-list anim anim-4">
-      <div class="kallpa-item"><span>✓</span><span>Conocen nuestra forma de trabajar — cercana, sin tecnicismos</span></div>
-      <div class="kallpa-item"><span>✓</span><span>Precio comunidad: <strong style="color:var(--white);">S/. 300</strong> por todo junio (no S/. 1,500+ de una agencia)</span></div>
-      <div class="kallpa-item"><span>✓</span><span>Empiezas el <strong style="color:var(--white);">1 de junio</strong> — reserva hoy y aseguras tu cupo</span></div>
+      <div class="kallpa-item"><span>✓</span><span>Solo <strong style="color:var(--white);">10 cupos</strong> — cuando se llenen, cierra. No habrá segunda oportunidad a este precio.</span></div>
+      <div class="kallpa-item"><span>✓</span><span>Precio comunidad: <strong style="color:var(--white);">S/. 300</strong> (página + catálogo + publicidad — no S/. 1,500+ de agencia)</span></div>
+      <div class="kallpa-item"><span>✓</span><span>Reserva hasta el <strong style="color:var(--red);">30 de mayo</strong> · Empiezas el 1 de junio</span></div>
       <div class="kallpa-item"><span>✓</span><span>WhatsApp ADIS <strong style="color:var(--white);">937 054 328</strong> + respaldo Jairo y Shantall</span></div>
     </div>
-    <a href="#pagar" class="btn btn-white anim anim-5" id="kallpaPayBtn">Quiero mi cupo en junio →</a>
+    <a href="#pagar" class="btn btn-white anim anim-5" id="kallpaPayBtn">Asegurar uno de los 10 cupos →</a>
   </div>
-  <div class="slide-num">02 / 12</div>
+  <div class="slide-num">02 / 14</div>
 </div>
 
-<!-- SLIDE 3: EL PROBLEMA -->
+<!-- SLIDE 3: CORE OFFER — LO PRINCIPAL -->
+<div class="slide off" data-theme="light">
+  <div class="content">
+    <div class="badge badge-teal anim anim-1">Lo que realmente compras</div>
+    <h2 class="section-h anim anim-2">Tu página + catálogo<br><span class="hl-teal">+ publicidad en Cusco.</span></h2>
+    <p class="section-sub anim anim-3">El corazón del programa: presencia profesional en el ecosistema ADIS — <strong>buscadis.com</strong> y <strong>publicadis.com</strong>. Lo demás es regalo.</p>
+    <div class="offer-grid anim anim-4">
+      <div class="offer-main">
+        <h3>🌐 Página y catálogo digital</h3>
+        <p>Tu negocio con vitrina online 24/7, botón WhatsApp, fotos profesionales y productos organizados. Como Quival con 510 productos — o Agril Sur con su línea de bebidas artesanales.</p>
+      </div>
+      <div class="offer-main" style="border-color:var(--green);">
+        <h3>📣 Publicidad en Buscadis</h3>
+        <p>Promovemos tu negocio en nuestras redes (TikTok, Instagram) + post dedicado + flyers y video para que tú también publiques. Cientos de emprendedores ya confían en nosotros.</p>
+      </div>
+      <div class="offer-bonus">🎁 <strong>Bonus junio:</strong> community management, plan de transformación digital, preparación para concursos de fondos no reembolsables, Google Maps, plantillas WA y +30 entregables de valor.</div>
+    </div>
+    <a href="#pagar" class="btn btn-invest anim anim-5" id="corePayBtn">Quiero mi página + catálogo →</a>
+  </div>
+  <div class="slide-num">03 / 14</div>
+</div>
+
+<!-- SLIDE 4: EL PROBLEMA -->
 <div class="slide dark" data-theme="dark">
   <div class="content">
     <div class="badge badge-white anim anim-1">El problema real</div>
@@ -494,10 +582,10 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
       </div>
     </div>
   </div>
-  <div class="slide-num">03 / 12</div>
+  <div class="slide-num">04 / 14</div>
 </div>
 
-<!-- SLIDE 4: BEFORE / AFTER -->
+<!-- SLIDE 5: BEFORE / AFTER -->
 <div class="slide dark2" data-theme="dark">
   <div class="content">
     <div class="badge badge-teal anim anim-1">La transformación</div>
@@ -524,10 +612,10 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
     </div>
     <p class="anim anim-4" style="font-size:13px;color:rgba(255,255,255,.5);text-align:center;max-width:320px;">Todo esto sin que tengas que aprender tecnología ni pasar horas en una pantalla. Nosotros hacemos todo.</p>
   </div>
-  <div class="slide-num">04 / 12</div>
+  <div class="slide-num">05 / 14</div>
 </div>
 
-<!-- SLIDE 5: QUIÉNES SOMOS -->
+<!-- SLIDE 6: QUIÉNES SOMOS -->
 <div class="slide teal" data-theme="dark">
   <div class="content">
     <div class="badge badge-white anim anim-1">Quiénes somos</div>
@@ -536,63 +624,68 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
       <div class="team-card">
         <div class="team-av av-teal has-img"><img src="https://ui-avatars.com/api/?name=Jairo&background=0EA5E9&color=fff&size=128&bold=true" alt="Jairo" width="56" height="56"></div>
         <h4>Jairo</h4>
-        <p>Te ayudo con tecnología, IA y que te encuentren en internet</p>
+        <p>Programador · 5 años · innovación, transformación digital y presencia online</p>
       </div>
       <div class="team-card">
         <div class="team-av av-gold has-img"><img src="https://ui-avatars.com/api/?name=Shantall&background=F59E0B&color=fff&size=128&bold=true" alt="Shantall" width="56" height="56"></div>
         <h4>Shantall</h4>
-        <p>Te ayudo con marketing, redes y mensajes que venden</p>
+        <p>Comunicadora UNSAAC · marketing digital, diseño, foto, video y redes</p>
       </div>
     </div>
     <div class="cred-row anim anim-4">
       <div class="cred-item">
         <div class="cred-icon">🏆</div>
-        <div class="cred-text"><h4>1° Lugar Hackathon Paqarina</h4><p>Mejor proyecto tecnológico de innovación · Cusco 2024</p></div>
+        <div class="cred-text"><h4>1° Hackathon Paqarina Wasi</h4><p>Mejor proyecto tecnológico · Cusco</p></div>
       </div>
       <div class="cred-item">
         <div class="cred-icon">🚀</div>
-        <div class="cred-text"><h4>Ganadores 3 veces en  IDEALAB</h4><p>Programa de incubación para startups · Cusco</p></div>
+        <div class="cred-text"><h4>2× Incubación + aceleración IDEALAB</h4><p>Programa de startups · Cusco</p></div>
       </div>
       <div class="cred-item">
         <div class="cred-icon">✅</div>
-        <div class="cred-text"><h4>Aprobados Startup Perú 13G</h4><p>Superamos todas las etapas del concurso nacional</p></div>
+        <div class="cred-text"><h4>Acreditados Startup Perú 13G</h4><p>Aprobados en concurso nacional de innovación</p></div>
       </div>
     </div>
   </div>
-  <div class="slide-num">05 / 12</div>
+  <div class="slide-num">06 / 14</div>
 </div>
 
-<!-- SLIDE 6: LOS 30 — OVERVIEW -->
+<!-- SLIDE 7: JUNIO COMPLETO -->
 <div class="slide off" data-theme="light">
   <div class="content">
-    <div class="badge badge-teal anim anim-1">El plan completo</div>
-    <h2 class="section-h anim anim-2">Todo junio trabajando<br><span class="hl-teal">para tu negocio.</span></h2>
-    <p class="section-sub anim anim-3">30 entregas concretas: más clientes por WhatsApp, Google Maps, fotos y plan de ventas. Sin que aprendas tecnología.</p>
-    <div class="stats-row anim anim-4" style="background:var(--ink);border-radius:16px;padding:20px;width:100%;max-width:380px;">
+    <div class="badge badge-teal anim anim-1">Junio completo + después</div>
+    <h2 class="section-h anim anim-2">Todo lo que recibes<br><span class="hl-teal">en junio y más.</span></h2>
+    <p class="section-sub anim anim-3">Mes 1: construimos todo. Mes 2+: tu página activa, catálogo actualizado y visibilidad en buscadis.com por S/. 300/mes.</p>
+    <div class="stats-row anim anim-4" style="background:var(--ink);border-radius:16px;padding:16px;width:100%;max-width:400px;">
       <div class="stat">
-        <div class="stat-n">15</div>
-        <div class="stat-l">Presencia<br>digital</div>
+        <div class="stat-n" style="font-size:22px;">1</div>
+        <div class="stat-l">Página<br>profesional</div>
       </div>
       <div style="width:1px;background:rgba(255,255,255,.1);"></div>
       <div class="stat">
-        <div class="stat-n">15</div>
-        <div class="stat-l">Estrategia<br>y ventas</div>
+        <div class="stat-n" style="font-size:22px;">∞</div>
+        <div class="stat-l">Catálogo<br>online</div>
       </div>
       <div style="width:1px;background:rgba(255,255,255,.1);"></div>
       <div class="stat">
-        <div class="stat-n">30</div>
-        <div class="stat-l">Total<br>entregables</div>
+        <div class="stat-n" style="font-size:22px;">+30</div>
+        <div class="stat-l">Bonus<br>entregables</div>
       </div>
     </div>
-    <a href="#" class="btn btn-teal anim anim-5" id="overviewDelBtn">Ver qué incluye →</a>
+    <div class="offer-bonus anim anim-5" style="max-width:400px;text-align:left;">
+      ✓ Post promocional en nuestras redes · ✓ Flyers y video para tus redes<br>
+      ✓ Community management · ✓ Plan innovación para fondos concursables<br>
+      ✓ Google Maps · ✓ Plantillas WhatsApp · ✓ Estrategia 90 días
+    </div>
+    <a href="#" class="btn btn-teal anim anim-5" id="overviewDelBtn">Ver los 30 bonus →</a>
   </div>
-  <div class="slide-num">06 / 12</div>
+  <div class="slide-num">07 / 14</div>
 </div>
 
-<!-- SLIDE 7: DELIVERABLES CAROUSEL -->
+<!-- SLIDE 8: DELIVERABLES CAROUSEL -->
 <div class="slide light" data-theme="light">
   <div class="content" style="gap:10px;">
-    <div class="badge badge-teal anim anim-1">Desliza para ver todos</div>
+    <div class="badge badge-teal anim anim-1">Bonus incluidos · desliza →</div>
     <div class="del-container anim anim-2">
       <div class="del-track" id="delTrack">
         <!-- Card 1 -->
@@ -707,50 +800,53 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
     </div>
     <p style="font-size:12px;color:var(--dim);text-align:center;">10 ejemplos de 30 · <a href="#" style="color:var(--teal);" id="delFullPlanLink">lista completa por WhatsApp →</a></p>
   </div>
-  <div class="slide-num">07 / 12</div>
+  <div class="slide-num">08 / 14</div>
 </div>
 
-<!-- SLIDE 8: VALUE STACK -->
+<!-- SLIDE 9: VALUE STACK -->
 <div class="slide dark" data-theme="dark">
   <div class="content">
-    <div class="badge badge-gold anim anim-1">Lo que realmente vale</div>
-    <h2 class="section-h white-text anim anim-2">S/. 13,450 en valor.<br><span class="hl-gold">S/. 300 tu precio.</span></h2>
+    <div class="badge badge-gold anim anim-1">La ecuación simple</div>
+    <h2 class="section-h white-text anim anim-2">Inviertes S/. 300.<br><span class="hl-gold">Recibes S/. 3,000+.</span></h2>
     <div class="value-table anim anim-3">
       <div class="vt-row">
-        <span class="vt-name">15 entregables presencia digital</span>
-        <span class="vt-price">S/. 7,200</span>
+        <span class="vt-name">Página + catálogo digital (Quival pagó S/. 250 solo esto)</span>
+        <span class="vt-price">S/. 1,200</span>
       </div>
       <div class="vt-row">
-        <span class="vt-name">15 entregables estrategia y ventas</span>
+        <span class="vt-name">Publicidad Buscadis + post en nuestras redes</span>
+        <span class="vt-price">S/. 800</span>
+      </div>
+      <div class="vt-row">
+        <span class="vt-name">Community management + flyers y video</span>
+        <span class="vt-price">S/. 600</span>
+      </div>
+      <div class="vt-row">
+        <span class="vt-name">+30 bonus (Maps, IA, estrategia, fondos)</span>
         <span class="vt-price">S/. 6,250</span>
       </div>
       <div class="vt-row">
-        <span class="vt-name">Soporte WhatsApp todo el mes</span>
+        <span class="vt-name">Visibilidad en marketplace buscadis.com</span>
         <span class="vt-price">S/. —</span>
       </div>
       <div class="vt-row" style="margin-top:6px;">
-        <span class="vt-name" style="color:rgba(255,255,255,.4);font-size:12px;">Valor total de mercado</span>
-        <span class="vt-total">S/. 13,450</span>
+        <span class="vt-name" style="color:rgba(255,255,255,.4);font-size:12px;">Valor real junio</span>
+        <span class="vt-total">S/. 8,850+</span>
       </div>
     </div>
     <div style="width:100%;max-width:380px;" class="anim anim-4">
-      <div style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.25);border-radius:12px;padding:18px;display:flex;justify-content:space-between;align-items:center;">
-        <div>
-          <div style="font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:rgba(255,255,255,.4);margin-bottom:4px;">Tu precio de lanzamiento</div>
-          <div class="vt-total" style="color:var(--white);">S/. 300 <span style="font-size:14px;color:rgba(255,255,255,.4);">· junio completo</span></div>
-        </div>
-        <div style="text-align:right;">
-          <div style="font-size:11px;color:rgba(255,255,255,.4);">Ahorras</div>
-          <div style="font-family:'Fraunces',serif;font-size:26px;font-weight:700;color:var(--green);">S/. 13,150</div>
-        </div>
+      <div style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.25);border-radius:12px;padding:18px;text-align:center;">
+        <div style="font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:rgba(255,255,255,.4);margin-bottom:4px;">Tu inversión Kallpa Warmi</div>
+        <div class="vt-total" style="color:var(--white);">S/. 300</div>
+        <div style="font-size:13px;color:var(--green);font-weight:600;margin-top:6px;">Ganas 29× lo que pagas en valor real</div>
       </div>
     </div>
-    <p class="anim anim-5" style="font-size:13px;text-align:center;color:rgba(255,255,255,.4);max-width:320px;">Eso es pagar 1 sol por cada S/. 44.8 de valor. Como si contrataras una agencia premium y pagaras el 2%.</p>
+    <p class="anim anim-5" style="font-size:13px;text-align:center;color:rgba(255,255,255,.5);max-width:340px;">Después de junio: S/. 300/mes mantiene tu página activa, catálogo actualizado y visibilidad en Buscadis. Sin reconstruir todo.</p>
   </div>
-  <div class="slide-num">08 / 12</div>
+  <div class="slide-num">09 / 14</div>
 </div>
 
-<!-- SLIDE 9: COMPARISON -->
+<!-- SLIDE 10: COMPARISON -->
 <div class="slide dark2" data-theme="dark">
   <div class="content">
     <div class="badge badge-teal anim anim-1">ADIS vs las alternativas</div>
@@ -767,7 +863,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
         <div class="col-r">S/. 1,500-3,000</div>
       </div>
       <div class="comp-row">
-        <div class="col-l">Presencia digital</div>
+        <div class="col-l">Página + catálogo + marketplace</div>
         <div class="col-mid"><span class="comp-check">✓</span></div>
         <div class="col-r"><span class="comp-x">Parcial</span></div>
       </div>
@@ -798,82 +894,99 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
       </div>
     </div>
   </div>
-  <div class="slide-num">09 / 12</div>
+  <div class="slide-num">10 / 14</div>
 </div>
 
-<!-- SLIDE 10: GUARANTEE -->
+<!-- SLIDE 11: FAQ -->
+<div class="slide light" data-theme="light">
+  <div class="content">
+    <div class="badge badge-teal anim anim-1">Antes de decidir</div>
+    <h2 class="section-h anim anim-2">Las 3 dudas<br>que todas tienen.</h2>
+    <div class="faq-list anim anim-3">
+      <div class="faq-item">
+        <h4>“¿Y si no sé de tecnología?”</h4>
+        <p>No necesitas saber nada. Nosotros creamos tu página, catálogo y publicidad. Tú solo nos mandas fotos de tu celular y atiendes WhatsApp. En 7 días ya ves resultados.</p>
+      </div>
+      <div class="faq-item">
+        <h4>“¿S/. 300 no es mucho para mí?”</h4>
+        <p>Quival pagó S/. 250 solo por página y catálogo — sin publicidad ni bonus. Tú recibes todo eso + promoción en Buscadis + 30 entregables extra. Es menos que lo que pierdes en un fin de semana sin clientes online.</p>
+      </div>
+      <div class="faq-item">
+        <h4>“¿Qué pasa después de junio?”</h4>
+        <p>Tu página y catálogo ya están hechos. Por S/. 300/mes los mantenemos activos, actualizamos productos y te damos visibilidad en buscadis.com. Sin volver a pagar por construir todo desde cero.</p>
+      </div>
+    </div>
+    <a href="#" class="btn btn-wa anim anim-4" id="faqWaBtn" target="_blank">💬 Otra duda — pregúntanos sin compromiso</a>
+  </div>
+  <div class="slide-num">11 / 14</div>
+</div>
+
+<!-- SLIDE 12: REAL PROOF -->
+<div class="slide gold" data-theme="dark">
+  <div class="content">
+    <div class="badge badge-white anim anim-1">Resultados reales · Cusco</div>
+    <h2 class="section-h white-text anim anim-2">No empezamos ayer.<br>Ya lo hicimos.</h2>
+    <div class="traction-row anim anim-3">
+      <div class="traction-stat"><div class="n">500+</div><div class="l">Emprendedores<br>publicados</div></div>
+      <div class="traction-stat"><div class="n">864</div><div class="l">Likes<br>Buscadis</div></div>
+      <div class="traction-stat"><div class="n">510</div><div class="l">Productos<br>Quival</div></div>
+    </div>
+    <div class="case-card anim anim-4">
+      <img class="case-img" src="assets/quival-catalogo.png" alt="Catálogo Quival en Buscadis">
+      <div class="case-body">
+        <span class="case-tag">Cliente pagante</span>
+        <h4>Quival · Ferretería mayorista</h4>
+        <p>Pagó S/. 250 por página y catálogo. Hoy usa su vitrina con 510 productos todos los días en buscadis.com/quival</p>
+      </div>
+    </div>
+    <div class="case-card anim anim-5">
+      <img class="case-img" src="assets/agrilsur-catalogo.png" alt="Catálogo Agril Sur">
+      <div class="case-body">
+        <span class="case-tag">Proyecto activo</span>
+        <h4>Agril Sur · Destilería ancestral</h4>
+        <p>Página, catálogo y múltiples versiones digitales de su línea de bebidas artesanales andinas.</p>
+      </div>
+    </div>
+  </div>
+  <div class="slide-num">12 / 14</div>
+</div>
+
+<!-- SLIDE 13: GUARANTEE + URGENCY -->
 <div class="slide dark" data-theme="dark">
   <div class="content">
     <div class="badge badge-green anim anim-1">Sin riesgos</div>
-    <div style="font-size:64px;" class="anim anim-2">🛡️</div>
-    <h2 class="section-h white-text anim anim-3">Garantía total.<br><span class="hl-green">Sin letra pequeña.</span></h2>
-    <div class="guar-box anim anim-4">
-      <h3>Semana 1 con resultados o te devolvemos todo.</h3>
-      <p>En los primeros 7 días entregamos como mínimo:</p>
+    <h2 class="section-h white-text anim anim-2">Semana 1 con resultados<br><span class="hl-green">o te devolvemos todo.</span></h2>
+    <div class="guar-box anim anim-3">
+      <p>En 7 días entregamos como mínimo:</p>
       <ul class="guar-list">
-        <li>Auditoría digital de tu negocio (informe claro)</li>
-        <li>10 fotos de tus productos mejoradas con IA</li>
-        <li>Plantillas de WhatsApp listas para copiar y pegar</li>
+        <li>Tu página + catálogo digital en marcha</li>
+        <li>10 fotos de productos mejoradas con IA</li>
+        <li>Plantillas de WhatsApp listas para vender</li>
       </ul>
-      <p style="margin-top:12px;">Si no lo recibes, devolución del 100% en 48 horas. Sin preguntas. Y lo ya entregado es tuyo para siempre.</p>
+      <p style="margin-top:12px;">Si no lo recibes: devolución 100% en 48 horas. Lo ya entregado es tuyo para siempre.</p>
     </div>
-    <div class="stats-row anim anim-5" style="width:100%;max-width:340px;">
-      <div class="stat">
-        <div class="stat-n" style="font-size:24px;">30</div>
-        <div class="stat-l">días de trabajo</div>
-      </div>
-      <div class="stat">
-        <div class="stat-n" style="font-size:24px;">∞</div>
-        <div class="stat-l">tuyo para siempre</div>
-      </div>
-      <div class="stat">
-        <div class="stat-n" style="font-size:24px;">0</div>
-        <div class="stat-l">riesgo para ti</div>
-      </div>
+    <div style="background:rgba(239,68,68,.15);border:2px solid rgba(239,68,68,.4);border-radius:14px;padding:16px 20px;width:100%;max-width:380px;text-align:center;" class="anim anim-4">
+      <p style="font-size:12px;color:rgba(255,255,255,.7);margin-bottom:4px;">⏰ Cierra <strong style="color:#FCA5A5;">30 de mayo</strong> · Solo para Kallpa Warmi</p>
+      <p style="font-family:'Fraunces',serif;font-size:32px;font-weight:800;color:var(--white);"><span id="spots2">10</span> cupos</p>
+      <p style="font-size:11px;color:rgba(255,255,255,.5);margin-top:4px;">Cuando se llenen, este precio no vuelve</p>
     </div>
   </div>
-  <div class="slide-num">10 / 12</div>
+  <div class="slide-num">13 / 14</div>
 </div>
 
-<!-- SLIDE 11: SOCIAL PROOF + URGENCY -->
-<div class="slide gold" data-theme="dark">
-  <div class="content">
-    <div class="badge badge-white anim anim-1">Lo que dicen nuestros clientes</div>
-    <h2 class="section-h white-text anim anim-2">Negocios de Cusco<br>que ya lo vivieron.</h2>
-    <div style="display:flex;flex-direction:column;gap:10px;width:100%;max-width:380px;" class="anim anim-3">
-      <div style="background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:18px;">
-        <p style="font-size:14px;color:var(--white);font-style:italic;line-height:1.6;margin-bottom:12px;">"En menos de una semana ya tenía mi catálogo digital y las fotos de mis productos se veían increíbles. Mis clientes me dicen que mi negocio se ve muy profesional."</p>
-        <div style="display:flex;align-items:center;gap:10px;">
-          <img src="https://ui-avatars.com/api/?name=Teresa&background=ffffff&color=78350F&size=72" alt="" width="36" height="36" style="border-radius:50%;flex-shrink:0;">
-          <div><div style="font-size:13px;font-weight:600;color:var(--white);">Teresa · Licores artesanales</div><div style="font-size:11px;color:rgba(255,255,255,.5);">Feria Kallpa Warmi · Cusco</div></div>
-        </div>
-      </div>
-      <div style="background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);border-radius:14px;padding:18px;">
-        <p style="font-size:14px;color:var(--white);font-style:italic;line-height:1.6;margin-bottom:12px;">"Lo que me entregaron en una semana me hubiera tomado meses hacer sola. Ahora mis clientes me encuentran en Google sin que yo haga nada."</p>
-        <div style="display:flex;align-items:center;gap:10px;">
-          <img src="https://ui-avatars.com/api/?name=Maria&background=ffffff&color=78350F&size=72" alt="" width="36" height="36" style="border-radius:50%;flex-shrink:0;">
-          <div><div style="font-size:13px;font-weight:600;color:var(--white);">María · Negocio multiservicios</div><div style="font-size:11px;color:rgba(255,255,255,.5);">Cusco · clienta ADIS 2024</div></div>
-        </div>
-      </div>
-    </div>
-    <div style="background:rgba(0,0,0,.25);border-radius:12px;padding:14px 20px;width:100%;max-width:380px;text-align:center;" class="anim anim-4">
-      <p style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:4px;">⚡ Solo quedan</p>
-      <p style="font-family:'Fraunces',serif;font-size:28px;font-weight:800;color:var(--white);"><span id="spots2">6</span> cupos disponibles</p>
-      <p style="font-size:11px;color:rgba(255,255,255,.5);">Precio Kallpa Warmi · Reserva hasta el 31 de mayo</p>
-    </div>
-  </div>
-  <div class="slide-num">11 / 12</div>
-</div>
-
-<!-- SLIDE 12: PAYMENT CTA -->
+<!-- SLIDE 14: PAYMENT CTA -->
 <div id="pagar" class="slide light" data-theme="light">
   <div class="content">
-    <div class="badge badge-teal anim anim-1">Reserva tu cupo hoy</div>
+    <div class="badge badge-teal anim anim-1">Último paso</div>
     <div class="price-big anim anim-2">
-      <div class="price-was">Valor real: S/. 13,450</div>
+      <div class="price-was">Valor real: S/. 8,850+</div>
       <div class="price-now" style="color:var(--ink);">S/.300</div>
-      <div class="price-period" style="color:var(--dim);">Junio completo · Empiezas el 1 de junio</div>
-      <div class="price-save"><span style="color:var(--green);">▲</span> Exclusivo para Kallpa Warmi</div>
+      <div class="price-period" style="color:var(--dim);">Inversión junio · Página + catálogo + publicidad</div>
+      <div class="price-save"><span style="color:var(--green);">▲</span> Exclusivo Kallpa Warmi · Cierra 30 mayo</div>
+    </div>
+    <div class="invest-box anim anim-3">
+      No es un gasto — es poner tu negocio donde te encuentren y te compren.<br>
+      <strong>1 venta extra al mes ya paga esto 10 veces.</strong>
     </div>
     <div class="steps-pay anim anim-3">
       <div class="step-pay">
@@ -912,18 +1025,18 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
       Respaldo: <a href="#" id="backupJairo" target="_blank">Jairo 953 865 163</a> · <a href="#" id="backupShantall" target="_blank">Shantall 990 551 461</a>
     </div>
     <div style="width:100%;max-width:360px;display:flex;flex-direction:column;gap:10px;" class="anim anim-4">
-      <a href="#" class="btn btn-wa" id="payConfirmWa" target="_blank">💬 Ya Yapeé — enviar comprobante →</a>
-      <a href="#" class="btn" id="payQuestionWa" style="background:var(--off);color:var(--ink);border:1.5px solid var(--line);font-size:14px;padding:12px 24px;" target="_blank">Tengo una pregunta primero</a>
+      <a href="#" class="btn btn-invest" id="payConfirmWa" target="_blank">💜 Invertir S/. 300 — enviar comprobante →</a>
+      <a href="#" class="btn btn-wa" id="payQuestionWa" style="font-size:14px;padding:12px 24px;" target="_blank">Tengo una duda — hablar por WhatsApp</a>
     </div>
     <div class="anim anim-5" style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--dim);text-align:center;flex-wrap:wrap;justify-content:center;">
       <span>🛡️ Garantía semana 1</span>
       <span>·</span>
       <span>✓ Todo lo construido es tuyo</span>
       <span>·</span>
-      <span>⚡ <span id="spots3">8</span> cupos restantes</span>
+      <span>⚡ <span id="spots3">10</span> cupos · cierra 30 mayo</span>
     </div>
   </div>
-  <div class="slide-num">12 / 12</div>
+  <div class="slide-num">14 / 14</div>
 </div>
 
 </div><!-- /deck -->
@@ -937,12 +1050,14 @@ const ADIS = {
   YAPE: '953 865 163',
   PLIN: '990 551 461',
   PRECIO: 300,
-  CUPOS: 8,
-  PAY_SLIDE: 11,
-  DEL_SLIDE: 6,
-  MSG_PAGO: 'Hola ADIS! Vi adis.lat y quiero reservar mi cupo de junio por S/. 300. Ya hice el Yape, adjunto comprobante.',
-  MSG_DUDA: 'Hola ADIS! Vi la propuesta para Kallpa Warmi y tengo una pregunta antes de reservar.',
-  MSG_LISTA: 'Hola ADIS! Vi adis.lat y quiero la lista completa de los 30 entregables de junio por favor.'
+  CUPOS: 10,
+  CUPOS_TOTAL: 10,
+  PAY_SLIDE: 13,
+  DEL_SLIDE: 7,
+  DEADLINE: new Date('2026-05-30T23:59:59-05:00'),
+  MSG_PAGO: 'Hola ADIS! Vi adis.lat y quiero invertir en mi cupo de junio por S/. 300. Ya hice el Yape, adjunto comprobante.',
+  MSG_DUDA: 'Hola ADIS! Vi la propuesta exclusiva Kallpa Warmi y tengo una pregunta antes de reservar.',
+  MSG_LISTA: 'Hola ADIS! Vi adis.lat y quiero la lista completa de los 30 bonus de junio por favor.'
 };
 
 function waUrl(num, text){ return 'https://wa.me/' + num + '?text=' + encodeURIComponent(text); }
@@ -963,16 +1078,16 @@ function copyYape(e){
 }
 
 function applyConfig(){
-  const spots = document.querySelectorAll('#spots, #spots2, #spots3');
+  const spots = document.querySelectorAll('#spots, #spots2, #spots3, #spotsNav');
   spots.forEach(el=>{ if(el) el.textContent = ADIS.CUPOS; });
 
   const waPay = waUrl(ADIS.WA_EMPRESA, ADIS.MSG_PAGO);
   const waDuda = waUrl(ADIS.WA_EMPRESA, ADIS.MSG_DUDA);
   const waLista = waUrl(ADIS.WA_EMPRESA, ADIS.MSG_LISTA);
 
-  ['heroWaBtn','stickyWa','payConfirmWa'].forEach(id=>{
+  ['heroWaBtn','stickyWa','payConfirmWa','faqWaBtn'].forEach(id=>{
     const el = document.getElementById(id);
-    if(el){ el.href = id==='heroWaBtn' ? waDuda : waPay; }
+    if(el){ el.href = id==='payConfirmWa' ? waPay : waDuda; }
   });
   const q = document.getElementById('payQuestionWa');
   if(q) q.href = waDuda;
@@ -1001,12 +1116,24 @@ function applyConfig(){
   bindPayNav(document.getElementById('navPayBtn'));
   bindPayNav(document.getElementById('heroPayBtn'));
   bindPayNav(document.getElementById('kallpaPayBtn'));
+  bindPayNav(document.getElementById('corePayBtn'));
   bindPayNav(document.getElementById('stickyYape'));
+}
+
+function updateCountdown(){
+  const el = document.getElementById('countdown');
+  if(!el) return;
+  const diff = ADIS.DEADLINE - Date.now();
+  if(diff <= 0){ el.textContent = 'CERRADO'; return; }
+  const h = Math.floor(diff / 3600000);
+  const m = Math.floor((diff % 3600000) / 60000);
+  const s = Math.floor((diff % 60000) / 1000);
+  el.textContent = `${h}h ${String(m).padStart(2,'0')}m ${String(s).padStart(2,'0')}s`;
 }
 
 // ===== STATE =====
 let current = 0;
-const total = 12;
+const total = 14;
 let delIdx = 0;
 const delTotal = 10;
 let lastTheme = 'light';
@@ -1096,6 +1223,8 @@ document.getElementById('overviewDelBtn')?.addEventListener('click', e=>{
 
 slides[0].classList.add('active');
 applyConfig();
+updateCountdown();
+setInterval(updateCountdown, 1000);
 updateUI();
 </script>
 </body>

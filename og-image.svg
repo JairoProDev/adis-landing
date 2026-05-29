@@ -6,10 +6,10 @@
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <text x="80" y="200" font-family="Georgia, serif" font-size="88" font-weight="bold" fill="#ffffff">ADIS</text>
-  <text x="80" y="300" font-family="system-ui, sans-serif" font-size="42" fill="rgba(255,255,255,0.9)">M�s ventas por WhatsApp y Google Maps</text>
-  <text x="80" y="380" font-family="system-ui, sans-serif" font-size="32" fill="#F59E0B">Junio completo � S/. 300 � Kallpa Warmi</text>
-  <text x="80" y="520" font-family="system-ui, sans-serif" font-size="28" fill="rgba(255,255,255,0.65)">adis.lat � Reserva hoy � Empiezas 1 de junio</text>
-  <circle cx="1050" cy="315" r="120" fill="rgba(14,165,233,0.25)"/>
-  <text x="1050" y="330" text-anchor="middle" font-family="system-ui" font-size="72" fill="#ffffff">=�</text>
+  <rect x="60" y="60" width="200" height="36" rx="18" fill="#DC2626"/>
+  <text x="160" y="84" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle">CIERRA 30 MAYO</text>
+  <text x="80" y="180" font-family="Georgia,serif" font-size="72" font-weight="bold" fill="#ffffff">Página + Catálogo</text>
+  <text x="80" y="260" font-family="system-ui,sans-serif" font-size="36" fill="rgba(255,255,255,0.9)">Inversión S/. 300 · Solo 10 cupos Kallpa Warmi</text>
+  <text x="80" y="340" font-family="system-ui,sans-serif" font-size="28" fill="#F59E0B">buscadis.com · publicadis.com · adis.lat</text>
+  <text x="80" y="520" font-family="system-ui,sans-serif" font-size="24" fill="rgba(255,255,255,0.65)">Quival · Agril Sur · +500 emprendedores en Cusco</text>
 </svg>
