@@ -123,6 +123,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
   font-size:13px;font-weight:600;text-decoration:none;
   white-space:nowrap;
 }
+.nav-cta.is-hidden{display:none;}
 
 /* ===== SLIDE DOWN HINT ===== */
 #hint{
@@ -556,6 +557,29 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 }
 .hero-trust span{white-space:nowrap;}
 .hero-trust strong{color:var(--teal);}
+.hero-price{
+  display:flex;align-items:center;justify-content:center;
+  flex-wrap:nowrap;gap:clamp(6px,2vw,10px);
+  white-space:nowrap;width:100%;max-width:360px;
+}
+.hero-price-was{
+  font-family:'Fraunces',serif;
+  text-decoration:line-through;color:var(--dim);
+  font-weight:400;font-size:clamp(16px,4.5vw,26px);flex-shrink:0;
+}
+.hero-price-badge{
+  background:linear-gradient(90deg,#ef4444,#fbbf24);
+  color:var(--white);padding:2px 7px;border-radius:6px;
+  font-size:clamp(11px,3vw,14px);font-weight:700;flex-shrink:0;
+}
+.hero-price-now{
+  font-family:'Fraunces',serif;
+  font-size:clamp(28px,8vw,40px);font-weight:800;
+  color:var(--ink);line-height:1;flex-shrink:0;
+}
+.hero-wa-link{font-size:13px;margin-top:4px;}
+.hero-wa-link a{color:var(--dim);font-weight:500;text-decoration:none;border-bottom:1px solid var(--line2);}
+.hero-wa-link a:active{color:var(--teal);}
 .cred-mini{font-size:11px;color:rgba(255,255,255,.6);line-height:1.5;max-width:380px;text-align:center;}
 @media (max-width:380px){
   :root{--countdown-h:38px;--nav-h:44px;--sticky-h:46px;}
@@ -582,7 +606,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 <!-- NAV -->
 <nav id="nav">
   <div class="nav-logo"><span class="a">AD</span><span class="d" id="navD">IS</span></div>
-  <a href="#pagar" class="nav-cta" id="navPayBtn">Invertir S/. 300 →</a>
+  <a href="#pagar" class="nav-cta" id="navPayBtn">Crecer en mi negocio →</a>
 </nav>
 
 <!-- NAV DOTS -->
@@ -590,7 +614,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 
 <!-- STICKY CTA -->
 <div id="sticky-cta">
-  <a href="#pagar" class="sticky-btn sticky-yape" id="stickyYape">💜 Invertir S/. 300</a>
+  <a href="#pagar" class="sticky-btn sticky-yape" id="stickyYape">💜 Invertir solo S/. 300</a>
   <a href="#" class="sticky-btn sticky-wa" id="stickyWa" target="_blank">WhatsApp</a>
 </div>
 
@@ -610,14 +634,12 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
     </h1>
     <p class="hero-pain anim anim-3">Tienes un buen producto.<br><em>Pero si no te encuentran, no te compran.</em></p>
     <p class="hero-sub anim anim-4" style="text-align:center;">Nosotros hacemos el trabajo digital por ti: fotos bonitas, catálogo online, mensajes que venden y plan claro. Tú sigues atendiendo tu negocio.</p>
-    <div class="anim anim-5" style="font-family:'Fraunces',serif;font-size:42px;font-weight:800;color:var(--ink);line-height:1;">
-      <span style="text-decoration:line-through;color:var(--dim);font-weight:400;font-size:28px;vertical-align:middle;margin-right:10px;">S/. 3,000</span>
-      <span style="background: linear-gradient(90deg, #ef4444, #fbbf24); color:white; padding:2px 8px; border-radius:6px; font-size:15px; font-weight:700; margin-right:10px; vertical-align:middle;">
-        -90%
-      </span>
-      S/. 300
+    <div class="hero-price anim anim-5">
+      <span class="hero-price-was">S/. 3,000</span>
+      <span class="hero-price-badge">-90%</span>
+      <span class="hero-price-now">S/. 300!</span>
     </div>
-    <p class="anim anim-5" style="font-size:13px;color:var(--dim);margin-top:-8px;"><strong style="color:var(--red);">Inversión inteligente</strong> · Junio completo · Cierra 30 mayo</p>
+    <p class="anim anim-5" style="font-size:13px;color:var(--dim);margin-top:6px;"><strong style="color:var(--red);">Inversión inteligente</strong> · Junio completo · Cierra 30 mayo</p>
     <div class="hero-trust anim anim-5">
       <span><strong>14+</strong> páginas vivas</span>
       <span>·</span>
@@ -625,10 +647,10 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
       <span>·</span>
       <span>Noticiadis <strong>~2K</strong></span>
     </div>
-    <div style="width:100%;display:flex;flex-direction:column;gap:10px;max-width:340px;" class="anim anim-5">
+    <div style="width:100%;display:flex;flex-direction:column;gap:8px;max-width:340px;" class="anim anim-5">
       <a href="#pagar" class="btn btn-invest" id="heroPayBtn">Reservar mi cupo ahora →</a>
       <p class="btn-invest-sub">Menos que 1 día sin clientes. Tu página + catálogo + publicidad incluidos.</p>
-      <a href="#" class="btn btn-wa" id="heroWaBtn" target="_blank">💬 Tengo una duda — escríbenos</a>
+      <p class="hero-wa-link"><a href="#" id="heroWaBtn" target="_blank">¿Tienes dudas? Escríbenos por WhatsApp</a></p>
     </div>
   </div>
   <div class="slide-num">01 / 17</div>
@@ -644,7 +666,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
     <div class="kallpa-list anim anim-4">
       <div class="kallpa-item"><span>✓</span><span>Solo <strong style="color:var(--white);">10 cupos</strong> — cuando se llenen, cierra. No habrá segunda oportunidad a este precio.</span></div>
       <div class="kallpa-item"><span>✓</span><span>Precio comunidad: <strong style="color:var(--white);">S/. 300</strong> (página + catálogo + publicidad — no S/. 1,500+ de agencia)</span></div>
-      <div class="kallpa-item"><span>✓</span><span>Reserva hasta el <strong style="color:var(--red);">30 de mayo</strong> · Empiezas el 1 de junio</span></div>
+      <div class="kallpa-item"><span>✓</span><span>Reserva hasta el <strong style="color:var(--green);">30 de mayo</strong> · Empiezas el 1 de junio</span></div>
       <div class="kallpa-item"><span>✓</span><span>WhatsApp ADIS <strong style="color:var(--white);">937 054 328</strong> + respaldo Jairo y Shantall</span></div>
     </div>
     <a href="#pagar" class="btn btn-white anim anim-5" id="kallpaPayBtn">Asegurar uno de los 10 cupos →</a>
@@ -1482,8 +1504,11 @@ function updateUI(){
     lastTheme = theme;
   }
   const sticky = document.getElementById('sticky-cta');
+  const navPay = document.getElementById('navPayBtn');
+  const onHero = current === 0;
   const onPaySlide = current === total - 1;
-  sticky?.classList.toggle('is-hidden', onPaySlide);
+  sticky?.classList.toggle('is-hidden', onHero || onPaySlide);
+  navPay?.classList.toggle('is-hidden', onHero);
   hint.classList.toggle('hide', current !== 0);
 }
 
