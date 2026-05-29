@@ -38,6 +38,12 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
   --dim:#64748B;
   --line:#E2E8F0;
   --line2:#CBD5E1;
+  --countdown-h:34px;
+  --nav-h:48px;
+  --top-safe:calc(var(--countdown-h) + var(--nav-h) + 12px);
+  --urgency-h:32px;
+  --sticky-h:50px;
+  --bottom-safe:calc(var(--urgency-h) + var(--sticky-h) + 20px);
 }
 
 /* ===== SLIDES ENGINE ===== */
@@ -58,7 +64,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  padding:24px 20px 80px;
+  padding:var(--top-safe) 20px var(--bottom-safe);
   position:relative;
   overflow:hidden;
 }
@@ -97,8 +103,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 
 /* ===== STICKY NAV ===== */
 #nav{
-  position:fixed;top:0;left:0;right:0;
-  padding:12px 20px;
+  position:fixed;top:var(--countdown-h);left:0;right:0;
+  height:var(--nav-h);
+  padding:0 20px;
   display:flex;align-items:center;justify-content:space-between;
   z-index:150;
   background:rgba(255,255,255,.92);
@@ -119,7 +126,9 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 
 /* ===== SLIDE DOWN HINT ===== */
 #hint{
-  position:fixed;bottom:24px;left:50%;transform:translateX(-50%);
+  position:fixed;
+  bottom:calc(var(--urgency-h) + var(--sticky-h) + 28px);
+  left:50%;transform:translateX(-50%);
   display:flex;flex-direction:column;align-items:center;gap:6px;
   z-index:100;opacity:1;transition:opacity .5s;
 }
@@ -263,15 +272,20 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 /* ===== URGENCY STRIP ===== */
 .urgency{
   background:var(--gold);color:var(--ink);
-  padding:10px 20px;text-align:center;
-  font-size:13px;font-weight:600;
+  padding:6px 16px;text-align:center;
+  font-size:12px;font-weight:600;line-height:1.25;
   position:fixed;bottom:0;left:0;right:0;z-index:200;
+  height:var(--urgency-h);
+  display:flex;align-items:center;justify-content:center;
 }
 
 /* ===== SCROLL INDICATOR OVERLAY ===== */
 .slide-num{
-  position:absolute;bottom:72px;left:20px;
+  position:absolute;
+  bottom:calc(var(--urgency-h) + var(--sticky-h) + 6px);
+  left:20px;
   font-size:11px;color:var(--dim);font-weight:500;letter-spacing:.04em;
+  z-index:10;pointer-events:none;
 }
 .slide.dark .slide-num,.slide.teal .slide-num,.slide.dark2 .slide-num,.slide.gold .slide-num{
   color:rgba(255,255,255,.3);
@@ -340,14 +354,19 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 
 /* ===== STICKY CTA BAR ===== */
 #sticky-cta{
-  position:fixed;bottom:40px;left:0;right:0;
-  padding:8px 12px;z-index:190;
+  position:fixed;bottom:var(--urgency-h);left:0;right:0;
+  padding:6px 12px;z-index:190;
   display:flex;gap:8px;max-width:480px;margin:0 auto;
+  transition:transform .25s ease,opacity .25s ease;
+}
+#sticky-cta.is-hidden{
+  transform:translateY(110%);
+  opacity:0;pointer-events:none;
 }
 .sticky-btn{
   flex:1;display:flex;align-items:center;justify-content:center;gap:6px;
-  padding:12px 10px;border-radius:12px;
-  font-size:14px;font-weight:600;text-decoration:none;
+  padding:10px 10px;border-radius:12px;
+  font-size:13px;font-weight:600;text-decoration:none;
   font-family:'DM Sans',sans-serif;border:none;cursor:pointer;
 }
 .sticky-yape{background:#7B2D8E;color:var(--white);flex:1.2;}
@@ -394,19 +413,16 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 .guar-list li{font-size:12px;color:rgba(255,255,255,.7);padding:4px 0 4px 18px;position:relative;line-height:1.4;}
 .guar-list li::before{content:'✓';position:absolute;left:0;color:var(--green);font-weight:700;}
 
-/* ===== SLIDE PADDING (sticky + urgency) ===== */
-.slide{padding-bottom:130px;}
-#hint{bottom:100px;}
-.slide-num{bottom:112px;}
-
 /* ===== COUNTDOWN ===== */
 #countdown-bar{
-  position:fixed;top:52px;left:0;right:0;z-index:140;
+  position:fixed;top:0;left:0;right:0;z-index:160;
+  height:var(--countdown-h);
   background:linear-gradient(90deg,#7F1D1D,#DC2626);
-  color:var(--white);padding:8px 14px;text-align:center;
-  font-size:12px;font-weight:600;line-height:1.4;
+  color:var(--white);padding:0 14px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:11px;font-weight:600;line-height:1.2;
 }
-#countdown-bar .cd-time{font-family:'Fraunces',serif;font-size:18px;font-weight:800;letter-spacing:.04em;}
+#countdown-bar .cd-time{font-family:'Fraunces',serif;font-size:16px;font-weight:800;letter-spacing:.04em;}
 .hero-pain{
   font-size:clamp(16px,4.2vw,19px);font-weight:600;color:var(--ink);
   line-height:1.45;max-width:360px;text-align:center;
@@ -457,12 +473,15 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
   border-radius:12px;padding:14px;font-size:12px;color:var(--dim);line-height:1.5;text-align:center;
 }
 .invest-box strong{color:var(--green);}
-#nav{top:36px;}
-body.has-countdown #countdown-bar{top:0;}
 
 /* ===== SCROLLABLE SLIDE ===== */
-.slide.scroll-y{justify-content:flex-start;padding-top:72px;overflow-y:auto;align-items:center;}
-.slide.scroll-y .content{padding-bottom:20px;}
+.slide.scroll-y{
+  justify-content:flex-start;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  align-items:center;
+}
+.slide.scroll-y .content{padding-bottom:12px;min-height:min-content;}
 
 /* ===== PORTFOLIO ===== */
 .port-scroll{
@@ -509,7 +528,8 @@ body.has-countdown #countdown-bar{top:0;}
 /* ===== PREVIEW MODAL ===== */
 #previewModal{
   position:fixed;inset:0;z-index:500;background:rgba(0,0,0,.85);
-  display:none;flex-direction:column;padding:12px;padding-top:48px;
+  display:none;flex-direction:column;
+  padding:var(--top-safe) 12px var(--bottom-safe);
 }
 #previewModal.open{display:flex;}
 .preview-head{
@@ -537,6 +557,12 @@ body.has-countdown #countdown-bar{top:0;}
 .hero-trust span{white-space:nowrap;}
 .hero-trust strong{color:var(--teal);}
 .cred-mini{font-size:11px;color:rgba(255,255,255,.6);line-height:1.5;max-width:380px;text-align:center;}
+@media (max-width:380px){
+  :root{--countdown-h:38px;--nav-h:44px;--sticky-h:46px;}
+  .nav-cta{font-size:11px;padding:7px 12px;}
+  #countdown-bar{font-size:10px;}
+  .urgency{font-size:11px;padding:4px 10px;}
+}
 </style>
 </head>
 <body class="has-countdown">
@@ -573,7 +599,7 @@ body.has-countdown #countdown-bar{top:0;}
 </div>
 
 <!-- URGENCY STRIP -->
-<div class="urgency" id="urgencyStrip">⚡ Quedan <span id="spots">10</span> de 10 cupos · Exclusivo Kallpa Warmi · Cierra 30 mayo</div>
+<div class="urgency" id="urgencyStrip">⚡ <span id="spots">10</span> cupos · Kallpa Warmi · Cierra 30 mayo</div>
 
 <!-- ============================== SLIDES ============================== -->
 <div id="deck">
@@ -771,7 +797,7 @@ body.has-countdown #countdown-bar{top:0;}
 </div>
 
 <!-- SLIDE 9: REDES Y MEDIOS -->
-<div class="slide dark" data-theme="dark">
+<div class="slide dark scroll-y" data-theme="dark">
   <div class="content">
     <div class="badge badge-white anim anim-1">Redes + medios</div>
     <h2 class="section-h white-text anim anim-2">Tu negocio en manos<br>de quien ya sabe comunicar.</h2>
@@ -794,10 +820,11 @@ body.has-countdown #countdown-bar{top:0;}
         <h4>Publicadis</h4>
         <p>Publicidad para emprendedores · diseño + difusión multicanal</p>
       </div>
-      <div class="social-card" style="background:rgba(14,165,233,.12);">
-        <div style="height:72px;display:flex;align-items:center;justify-content:center;font-size:28px;">📺</div>
+      <div class="social-card">
+        <img src="assets/shantall-bmc.png" alt="Shantall · Biblioteca Municipal Cusco">
+        <div class="social-stat">13K+</div>
         <h4>Shantall · Medios</h4>
-        <p>Inkavisión · Exitosa Noticias · Radio · TV · Biblioteca Municipal Cusco (13K) · Valley Camp Urubamba</p>
+        <p>Inkavisión · Exitosa Noticias · Radio · TV · Biblioteca Municipal · Valley Camp</p>
       </div>
     </div>
     <p class="cred-mini anim anim-4">No te enseñamos desde un PDF. Ya movimos cientos de negocios, un canal de noticias y perfiles con miles de seguidores.</p>
@@ -1053,7 +1080,7 @@ body.has-countdown #countdown-bar{top:0;}
 </div>
 
 <!-- SLIDE 14: FAQ -->
-<div class="slide light" data-theme="light">
+<div class="slide light scroll-y" data-theme="light">
   <div class="content">
     <div class="badge badge-teal anim anim-1">Antes de decidir</div>
     <h2 class="section-h anim anim-2">Las 4 dudas<br>que todas tienen.</h2>
@@ -1135,7 +1162,7 @@ body.has-countdown #countdown-bar{top:0;}
 </div>
 
 <!-- SLIDE 17: PAYMENT CTA -->
-<div id="pagar" class="slide light" data-theme="light">
+<div id="pagar" class="slide light scroll-y" data-theme="light">
   <div class="content">
     <div class="badge badge-teal anim anim-1">Último paso</div>
     <div class="price-big anim anim-2">
@@ -1151,7 +1178,7 @@ body.has-countdown #countdown-bar{top:0;}
     <div class="steps-pay anim anim-3">
       <div class="step-pay">
         <div class="step-num">1</div>
-        <div><h4>Yapea S/. 300</h4><p id="yapeStepText">953 865 163 · Jairo / ADIS</p></div>
+        <div><h4>Yapea S/. 300</h4><p id="yapeStepText">990 551 461 · Shantall / ADIS</p></div>
       </div>
       <div class="step-pay">
         <div class="step-num">2</div>
@@ -1167,7 +1194,7 @@ body.has-countdown #countdown-bar{top:0;}
         <div class="pay-icon">💜</div>
         <div class="pay-info">
           <h4>Yape (recomendado)</h4>
-          <p id="yapeDisplay">953 865 163 · Jairo / ADIS</p>
+          <p id="yapeDisplay">990 551 461 · Shantall / ADIS</p>
           <small>Toca para copiar número</small>
         </div>
       </div>
@@ -1181,7 +1208,7 @@ body.has-countdown #countdown-bar{top:0;}
       </div>
     </div>
     <div class="backup-box anim anim-4">
-      ¿No te responde el WhatsApp empresa en 10 min?<br>
+      ¿No te responde el WhatsApp empresa en 1 min?<br>
       Respaldo: <a href="#" id="backupJairo" target="_blank">Jairo 953 865 163</a> · <a href="#" id="backupShantall" target="_blank">Shantall 990 551 461</a>
     </div>
     <div style="width:100%;max-width:360px;display:flex;flex-direction:column;gap:10px;" class="anim anim-4">
@@ -1220,7 +1247,7 @@ const ADIS = {
   WA_EMPRESA: '51937054328',
   WA_JAIRO: '51953865163',
   WA_SHANTALL: '51990551461',
-  YAPE: '953 865 163',
+  YAPE: '990 551 461',
   PLIN: '990 551 461',
   PRECIO: 300,
   CUPOS: 10,
@@ -1302,20 +1329,20 @@ function applyConfig(){
 }
 
 const PORTFOLIO = [
-  { title: 'Buscadis', url: 'https://buscadis.com', tag: 'Marketplace · Cusco', color: '#0EA5E9', letter: 'B' },
-  { title: 'PublicAdis', url: 'https://publicadis.com', tag: 'Publicidad digital', color: '#F97316', letter: 'P' },
-  { title: 'ADIS.lat', url: 'https://adis.lat', tag: 'Esta propuesta', color: '#2563EB', letter: 'A' },
+  { title: 'Buscadis', url: 'https://buscadis.com', tag: 'Marketplace · Cusco', img: 'assets/buscadis.com.png' },
+  { title: 'PublicAdis', url: 'https://publicadis.com', tag: 'Publicidad digital', img: 'assets/publicadis.com.png' },
+  { title: 'ADIS.lat', url: 'https://adis.lat', tag: 'Esta propuesta', img: 'assets/adis.lat.png' },
   { title: 'Quival', url: 'https://www.buscadis.com/quival', tag: 'Cliente · 510 productos', img: 'assets/quival-catalogo.png' },
   { title: 'Agril Sur', url: 'https://www.buscadis.com/agrilsur', tag: 'Destilería · Cusco', img: 'assets/agrilsur-catalogo.png' },
   { title: 'Agril Sur Web', url: 'https://agrilsur.vercel.app/', tag: 'Landing premium', img: 'assets/agrilsur-buscadis.png' },
-  { title: 'SAP Adventures', url: 'https://sapadventures.org/', tag: 'Turismo · Machu Picchu', color: '#1E3A5F', letter: 'S' },
-  { title: 'La Tatuadora', url: 'https://latatuadora.com/', tag: 'Academia · Landing', color: '#B8860B', letter: 'T' },
-  { title: 'Jairo Saul', url: 'https://jairosaul.com/', tag: 'Portfolio tech', color: '#1D4ED8', letter: 'J' },
-  { title: 'Shantall Zarai', url: 'https://shantallzarai.com/', tag: 'Marketing · CMO', color: '#312E81', letter: 'S' },
-  { title: 'GlowApplify', url: 'https://gloway.vercel.app/', tag: 'Startup · IA', color: '#7C3AED', letter: 'G' },
-  { title: 'Candidatazo', url: 'https://candidatazo-elector.vercel.app/', tag: 'Cívica · Elecciones', color: '#DC2626', letter: 'C' },
-  { title: 'Vector', url: 'https://vector-livid.vercel.app/', tag: 'Innovación · IA', color: '#0F172A', letter: 'V' },
-  { title: 'Vectorify', url: 'https://convectorify.com/', tag: 'SaaS · Negocios', color: '#0284C7', letter: 'V' }
+  { title: 'SAP Adventures', url: 'https://sapadventures.org/', tag: 'Turismo · Machu Picchu', img: 'assets/sapadventures.org.png' },
+  { title: 'La Tatuadora', url: 'https://latatuadora.com/', tag: 'Academia · Landing', img: 'assets/latatuadora.com.png' },
+  { title: 'Jairo Saul', url: 'https://jairosaul.com/', tag: 'Portfolio tech', img: 'assets/jairosaul.com.png' },
+  { title: 'Shantall Zarai', url: 'https://shantallzarai.com/', tag: 'Marketing · CMO', img: 'assets/shantall-influencer.png' },
+  { title: 'GlowApplify', url: 'https://gloway.vercel.app/', tag: 'Startup · IA', img: 'assets/glowapplify.png' },
+  { title: 'Candidatazo', url: 'https://candidatazo-elector.vercel.app/', tag: 'Cívica · Elecciones', img: 'assets/candidatazo.png' },
+  { title: 'Vector', url: 'https://vector-livid.vercel.app/', tag: 'Innovación · IA', img: 'assets/vector.png' },
+  { title: 'Vectorify', url: 'https://convectorify.com/', tag: 'SaaS · Negocios', img: 'assets/vectorify.png' }
 ];
 
 function portThumb(item){
@@ -1348,6 +1375,7 @@ function openPreview(url, title){
   const head = document.getElementById('previewTitle');
   const link = document.getElementById('previewOpenLink');
   const fb = document.getElementById('previewFallback');
+  const sticky = document.getElementById('sticky-cta');
   if(!modal || !frame) return;
   head.textContent = title;
   link.href = url;
@@ -1356,15 +1384,12 @@ function openPreview(url, title){
   frame.src = url;
   modal.classList.add('open');
   document.body.style.overflow = 'hidden';
+  sticky?.classList.add('is-hidden');
   setTimeout(()=>{
     try{
       const doc = frame.contentDocument;
-      if(!doc || !doc.body || doc.body.innerHTML === ''){
-        fb.hidden = false;
-      }
-    }catch(_){
-      fb.hidden = false;
-    }
+      if(!doc || !doc.body || doc.body.innerHTML === '') fb.hidden = false;
+    }catch(_){ fb.hidden = false; }
   }, 2500);
 }
 
@@ -1374,6 +1399,7 @@ function closePreview(){
   if(modal) modal.classList.remove('open');
   if(frame) frame.src = 'about:blank';
   document.body.style.overflow = '';
+  updateUI();
 }
 
 document.getElementById('previewClose')?.addEventListener('click', closePreview);
@@ -1450,6 +1476,10 @@ function updateUI(){
     navD.classList.toggle('w', theme==='dark');
     lastTheme = theme;
   }
+  const sticky = document.getElementById('sticky-cta');
+  const onPaySlide = current === total - 1;
+  sticky?.classList.toggle('is-hidden', onPaySlide);
+  hint.classList.toggle('hide', current !== 0);
 }
 
 function goToSlide(i){
