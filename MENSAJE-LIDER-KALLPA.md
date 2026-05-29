@@ -19,6 +19,8 @@ Este junio nos ofrecen un programa completo para que nuestro negocio:
 ✓ Tenga fotos bonitas de nuestros productos
 ✓ Sin aprender tecnología — ellos hacen todo
 
+Ellos ya tienen buscadis.com, publicadis.com, canal Noticiadis (~2K seguidores) y más de 14 páginas hechas — Quival y Agril Sur ya confían en ellos. En adis.lat pueden ver todo el portafolio.
+
 💰 Precio solo comunidad: S/. 300 por TODO junio
 📅 Empiezan el 1 de junio — hay solo 10 cupos
 🔗 Entren aquí: https://adis.lat
@@ -59,7 +61,7 @@ Si te animas hoy: Yape S/. 300 al 953 865 163 y me mandas captura al 937 054 328
 ```
 Hola [nombre]! Vi que entraste a ver la propuesta de ADIS 😊
 
-¿Te quedó alguna duda? Los cupos para junio son solo 8 y varias hermanas ya están preguntando.
+¿Te quedó alguna duda? Los cupos para junio son solo 10 y cierran el 30 de mayo — varias hermanas ya están preguntando.
 
 Si quieres reservar: Yape S/. 300 → captura al 937 054 328 y listo, empiezas el 1 de junio con todo el apoyo.
 

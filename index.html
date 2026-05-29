@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>ADIS — Invierte S/. 300 · Página + Catálogo · Kallpa Warmi</title>
-<meta name="description" content="Exclusivo Kallpa Warmi: página, catálogo y publicidad en Buscadis por S/. 300. Solo 10 cupos. Cierra 30 mayo. Quival y Agril Sur ya confían en ADIS.">
+<meta name="description" content="Exclusivo Kallpa Warmi: página, catálogo y publicidad en Buscadis por S/. 300. 14+ páginas en portafolio, Noticiadis ~2K. Solo 10 cupos. Cierra 30 mayo.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://adis.lat">
 <meta property="og:title" content="ADIS — Tu negocio online en junio · S/. 300 · 10 cupos">
@@ -459,6 +459,84 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 .invest-box strong{color:var(--green);}
 #nav{top:36px;}
 body.has-countdown #countdown-bar{top:0;}
+
+/* ===== SCROLLABLE SLIDE ===== */
+.slide.scroll-y{justify-content:flex-start;padding-top:72px;overflow-y:auto;align-items:center;}
+.slide.scroll-y .content{padding-bottom:20px;}
+
+/* ===== PORTFOLIO ===== */
+.port-scroll{
+  display:flex;gap:10px;overflow-x:auto;width:100%;max-width:420px;
+  padding:4px 2px 12px;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;
+}
+.port-scroll::-webkit-scrollbar{height:4px;}
+.port-scroll::-webkit-scrollbar-thumb{background:var(--line2);border-radius:99px;}
+.port-card{
+  flex:0 0 148px;scroll-snap-align:start;background:var(--white);
+  border:1px solid var(--line);border-radius:12px;overflow:hidden;
+  cursor:pointer;text-decoration:none;color:inherit;transition:transform .2s,box-shadow .2s;
+  font:inherit;text-align:left;padding:0;appearance:none;-webkit-appearance:none;
+}
+.port-card:active{transform:scale(.97);}
+.port-card.on-dark{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.15);}
+.port-thumb{width:100%;height:88px;object-fit:cover;object-position:top;display:block;background:var(--gray);}
+.port-thumb-placeholder{
+  width:100%;height:88px;display:flex;align-items:center;justify-content:center;
+  font-family:'Fraunces',serif;font-size:22px;font-weight:800;color:var(--white);
+}
+.port-body{padding:10px 10px 12px;}
+.port-body h4{font-size:12px;font-weight:700;color:var(--ink);line-height:1.25;margin-bottom:3px;}
+.port-card.on-dark .port-body h4{color:var(--white);}
+.port-body p{font-size:10px;color:var(--dim);line-height:1.35;}
+.port-card.on-dark .port-body p{color:rgba(255,255,255,.55);}
+.port-tag{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--teal);margin-bottom:4px;display:block;}
+.eco-pills{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;max-width:400px;}
+.eco-pill{
+  font-size:11px;font-weight:600;padding:6px 12px;border-radius:99px;
+  background:rgba(255,255,255,.12);color:var(--white);border:1px solid rgba(255,255,255,.2);
+  text-decoration:none;
+}
+.social-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%;max-width:400px;}
+.social-card{
+  background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);
+  border-radius:12px;padding:10px;text-align:left;overflow:hidden;
+}
+.social-card img{width:100%;height:72px;object-fit:cover;border-radius:8px;margin-bottom:8px;display:block;}
+.social-card h4{font-size:12px;font-weight:700;color:var(--white);margin-bottom:2px;}
+.social-card p{font-size:10px;color:rgba(255,255,255,.55);line-height:1.35;}
+.social-stat{font-family:'Fraunces',serif;font-size:18px;font-weight:800;color:var(--gold);}
+
+/* ===== PREVIEW MODAL ===== */
+#previewModal{
+  position:fixed;inset:0;z-index:500;background:rgba(0,0,0,.85);
+  display:none;flex-direction:column;padding:12px;padding-top:48px;
+}
+#previewModal.open{display:flex;}
+.preview-head{
+  display:flex;align-items:center;justify-content:space-between;
+  color:var(--white);margin-bottom:8px;max-width:480px;width:100%;margin-left:auto;margin-right:auto;
+}
+.preview-head h3{font-size:14px;font-weight:600;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.preview-close{background:rgba(255,255,255,.15);border:none;color:var(--white);width:36px;height:36px;border-radius:50%;font-size:18px;cursor:pointer;flex-shrink:0;margin-left:8px;}
+.preview-frame-wrap{
+  flex:1;max-width:480px;width:100%;margin:0 auto;background:var(--white);
+  border-radius:12px;overflow:hidden;display:flex;flex-direction:column;min-height:0;
+}
+#previewFrame{flex:1;width:100%;border:none;min-height:50vh;}
+.preview-open{
+  display:block;text-align:center;padding:12px;background:var(--ink);color:var(--white);
+  font-size:13px;font-weight:600;text-decoration:none;
+}
+.preview-fallback{
+  font-size:12px;color:var(--dim);text-align:center;padding:8px 12px;background:var(--gray);
+}
+.hero-trust{
+  display:flex;flex-wrap:wrap;gap:6px 10px;justify-content:center;
+  font-size:11px;color:var(--dim);max-width:340px;margin-top:4px;
+}
+.hero-trust span{white-space:nowrap;}
+.hero-trust strong{color:var(--teal);}
+.cred-mini{font-size:11px;color:rgba(255,255,255,.6);line-height:1.5;max-width:380px;text-align:center;}
 </style>
 </head>
 <body class="has-countdown">
@@ -509,13 +587,20 @@ body.has-countdown #countdown-bar{top:0;}
     <p class="hero-sub anim anim-4" style="text-align:center;">Nosotros hacemos el trabajo digital por ti: fotos bonitas, catálogo online, mensajes que venden y plan claro. Tú sigues atendiendo tu negocio.</p>
     <div class="anim anim-5" style="font-family:'Fraunces',serif;font-size:42px;font-weight:800;color:var(--ink);line-height:1;">S/. 300</div>
     <p class="anim anim-5" style="font-size:13px;color:var(--dim);margin-top:-8px;"><strong style="color:var(--red);">Inversión inteligente</strong> · Junio completo · Cierra 30 mayo</p>
+    <div class="hero-trust anim anim-5">
+      <span><strong>14+</strong> páginas vivas</span>
+      <span>·</span>
+      <span><strong>500+</strong> negocios publicados</span>
+      <span>·</span>
+      <span>Noticiadis <strong>~2K</strong></span>
+    </div>
     <div style="width:100%;display:flex;flex-direction:column;gap:10px;max-width:340px;" class="anim anim-5">
       <a href="#pagar" class="btn btn-invest" id="heroPayBtn">Reservar mi cupo ahora →</a>
       <p class="btn-invest-sub">Menos que 1 día sin clientes. Tu página + catálogo + publicidad incluidos.</p>
       <a href="#" class="btn btn-wa" id="heroWaBtn" target="_blank">💬 Tengo una duda — escríbenos</a>
     </div>
   </div>
-  <div class="slide-num">01 / 14</div>
+  <div class="slide-num">01 / 17</div>
 </div>
 
 <!-- SLIDE 2: KALLPA WARMI -->
@@ -533,7 +618,7 @@ body.has-countdown #countdown-bar{top:0;}
     </div>
     <a href="#pagar" class="btn btn-white anim anim-5" id="kallpaPayBtn">Asegurar uno de los 10 cupos →</a>
   </div>
-  <div class="slide-num">02 / 14</div>
+  <div class="slide-num">02 / 17</div>
 </div>
 
 <!-- SLIDE 3: CORE OFFER — LO PRINCIPAL -->
@@ -555,7 +640,7 @@ body.has-countdown #countdown-bar{top:0;}
     </div>
     <a href="#pagar" class="btn btn-invest anim anim-5" id="corePayBtn">Quiero mi página + catálogo →</a>
   </div>
-  <div class="slide-num">03 / 14</div>
+  <div class="slide-num">03 / 17</div>
 </div>
 
 <!-- SLIDE 4: EL PROBLEMA -->
@@ -582,7 +667,7 @@ body.has-countdown #countdown-bar{top:0;}
       </div>
     </div>
   </div>
-  <div class="slide-num">04 / 14</div>
+  <div class="slide-num">04 / 17</div>
 </div>
 
 <!-- SLIDE 5: BEFORE / AFTER -->
@@ -612,7 +697,7 @@ body.has-countdown #countdown-bar{top:0;}
     </div>
     <p class="anim anim-4" style="font-size:13px;color:rgba(255,255,255,.5);text-align:center;max-width:320px;">Todo esto sin que tengas que aprender tecnología ni pasar horas en una pantalla. Nosotros hacemos todo.</p>
   </div>
-  <div class="slide-num">05 / 14</div>
+  <div class="slide-num">05 / 17</div>
 </div>
 
 <!-- SLIDE 6: QUIÉNES SOMOS -->
@@ -622,14 +707,14 @@ body.has-countdown #countdown-bar{top:0;}
     <h2 class="section-h white-text anim anim-2">Dos expertos de Cusco.<br>Un solo objetivo:<br><span style="opacity:.8;">hacer crecer tu negocio.</span></h2>
     <div class="team-row anim anim-3">
       <div class="team-card">
-        <div class="team-av av-teal has-img"><img src="https://ui-avatars.com/api/?name=Jairo&background=0EA5E9&color=fff&size=128&bold=true" alt="Jairo" width="56" height="56"></div>
+        <div class="team-av av-teal has-img"><img src="assets/jairo.png" alt="Jairo" width="56" height="56"></div>
         <h4>Jairo</h4>
-        <p>Programador · 5 años · innovación, transformación digital y presencia online</p>
+        <p>Programador · 5 años · Buscadis, Vectorify, Candidatazo y +12 productos digitales</p>
       </div>
       <div class="team-card">
-        <div class="team-av av-gold has-img"><img src="https://ui-avatars.com/api/?name=Shantall&background=F59E0B&color=fff&size=128&bold=true" alt="Shantall" width="56" height="56"></div>
+        <div class="team-av av-gold has-img"><img src="assets/shantall.png" alt="Shantall" width="56" height="56"></div>
         <h4>Shantall</h4>
-        <p>Comunicadora UNSAAC · marketing digital, diseño, foto, video y redes</p>
+        <p>Comunicadora UNSAAC · ex prensa Inkavisión & Exitosa · Biblioteca Municipal Cusco</p>
       </div>
     </div>
     <div class="cred-row anim anim-4">
@@ -647,10 +732,80 @@ body.has-countdown #countdown-bar{top:0;}
       </div>
     </div>
   </div>
-  <div class="slide-num">06 / 14</div>
+  <div class="slide-num">06 / 17</div>
 </div>
 
-<!-- SLIDE 7: JUNIO COMPLETO -->
+<!-- SLIDE 7: ECOSISTEMA ADIS -->
+<div class="slide dark2" data-theme="dark">
+  <div class="content">
+    <div class="badge badge-teal anim anim-1">No somos nuevos</div>
+    <h2 class="section-h white-text anim anim-2">El ecosistema ADIS<br><span class="hl-teal">ya existe y funciona.</span></h2>
+    <div class="traction-row anim anim-3">
+      <div class="traction-stat"><div class="n">500+</div><div class="l">Emprendedores<br>publicados</div></div>
+      <div class="traction-stat"><div class="n">2K</div><div class="l">Seguidores<br>Noticiadis</div></div>
+      <div class="traction-stat"><div class="n">13K</div><div class="l">Biblioteca<br>Municipal</div></div>
+    </div>
+    <div class="eco-pills anim anim-4">
+      <a href="https://buscadis.com" target="_blank" rel="noopener" class="eco-pill">🔍 buscadis.com</a>
+      <a href="https://publicadis.com" target="_blank" rel="noopener" class="eco-pill">📢 publicadis.com</a>
+      <a href="https://adis.lat" class="eco-pill">⚡ adis.lat</a>
+    </div>
+    <p class="cred-mini anim anim-5">Marketplace + publicidad + páginas. Paqarina · IDEALAB · Startup Perú 13G. Tu negocio entra a una red que ya mueve Cusco.</p>
+    <a href="#pagar" class="btn btn-invest anim anim-5" id="ecoPayBtn">Quiero entrar al ecosistema →</a>
+  </div>
+  <div class="slide-num">07 / 17</div>
+</div>
+
+<!-- SLIDE 8: PORTAFOLIO WEB -->
+<div class="slide light scroll-y" data-theme="light">
+  <div class="content">
+    <div class="badge badge-teal anim anim-1">Portafolio real</div>
+    <h2 class="section-h anim anim-2" style="font-size:clamp(24px,6vw,36px);">Páginas que ya<br><span class="hl-teal">construimos y operamos.</span></h2>
+    <p class="section-sub anim anim-3">Toca cualquier tarjeta para ver la página aquí mismo · Desliza →</p>
+    <div class="port-scroll anim anim-4" id="portRow1"></div>
+    <div class="port-scroll anim anim-5" id="portRow2"></div>
+    <p style="font-size:11px;color:var(--dim);text-align:center;margin-top:4px;">+ muchos casos más en Cusco y LATAM</p>
+    <a href="#pagar" class="btn btn-invest anim anim-5" id="portPayBtn" style="margin-top:8px;">Quiero una página como estas →</a>
+  </div>
+  <div class="slide-num">08 / 17</div>
+</div>
+
+<!-- SLIDE 9: REDES Y MEDIOS -->
+<div class="slide dark" data-theme="dark">
+  <div class="content">
+    <div class="badge badge-white anim anim-1">Redes + medios</div>
+    <h2 class="section-h white-text anim anim-2">Tu negocio en manos<br>de quien ya sabe comunicar.</h2>
+    <div class="social-grid anim anim-3">
+      <div class="social-card">
+        <img src="assets/noticiadis.png" alt="Noticiadis Cusco Hoy">
+        <div class="social-stat">~2,000</div>
+        <h4>Noticiadis Cusco Hoy</h4>
+        <p>Canal propio de noticias locales · post promocional incluido para ti</p>
+      </div>
+      <div class="social-card">
+        <img src="assets/buscadis-tiktok.png" alt="Buscadis TikTok">
+        <div class="social-stat">864+</div>
+        <h4>Buscadis · TikTok</h4>
+        <p>Avisos clasificados · empleos · inmuebles · vehículos en Cusco</p>
+      </div>
+      <div class="social-card">
+        <img src="assets/publicadis-fb.png" alt="Publicadis">
+        <div class="social-stat">62+</div>
+        <h4>Publicadis</h4>
+        <p>Publicidad para emprendedores · diseño + difusión multicanal</p>
+      </div>
+      <div class="social-card" style="background:rgba(14,165,233,.12);">
+        <div style="height:72px;display:flex;align-items:center;justify-content:center;font-size:28px;">📺</div>
+        <h4>Shantall · Medios</h4>
+        <p>Inkavisión · Exitosa Noticias · Radio · TV · Biblioteca Municipal Cusco (13K) · Valley Camp Urubamba</p>
+      </div>
+    </div>
+    <p class="cred-mini anim anim-4">No te enseñamos desde un PDF. Ya movimos cientos de negocios, un canal de noticias y perfiles con miles de seguidores.</p>
+  </div>
+  <div class="slide-num">09 / 17</div>
+</div>
+
+<!-- SLIDE 10: JUNIO COMPLETO -->
 <div class="slide off" data-theme="light">
   <div class="content">
     <div class="badge badge-teal anim anim-1">Junio completo + después</div>
@@ -679,10 +834,10 @@ body.has-countdown #countdown-bar{top:0;}
     </div>
     <a href="#" class="btn btn-teal anim anim-5" id="overviewDelBtn">Ver los 30 bonus →</a>
   </div>
-  <div class="slide-num">07 / 14</div>
+  <div class="slide-num">10 / 17</div>
 </div>
 
-<!-- SLIDE 8: DELIVERABLES CAROUSEL -->
+<!-- SLIDE 11: DELIVERABLES CAROUSEL -->
 <div class="slide light" data-theme="light">
   <div class="content" style="gap:10px;">
     <div class="badge badge-teal anim anim-1">Bonus incluidos · desliza →</div>
@@ -800,10 +955,10 @@ body.has-countdown #countdown-bar{top:0;}
     </div>
     <p style="font-size:12px;color:var(--dim);text-align:center;">10 ejemplos de 30 · <a href="#" style="color:var(--teal);" id="delFullPlanLink">lista completa por WhatsApp →</a></p>
   </div>
-  <div class="slide-num">08 / 14</div>
+  <div class="slide-num">11 / 17</div>
 </div>
 
-<!-- SLIDE 9: VALUE STACK -->
+<!-- SLIDE 12: VALUE STACK -->
 <div class="slide dark" data-theme="dark">
   <div class="content">
     <div class="badge badge-gold anim anim-1">La ecuación simple</div>
@@ -843,10 +998,10 @@ body.has-countdown #countdown-bar{top:0;}
     </div>
     <p class="anim anim-5" style="font-size:13px;text-align:center;color:rgba(255,255,255,.5);max-width:340px;">Después de junio: S/. 300/mes mantiene tu página activa, catálogo actualizado y visibilidad en Buscadis. Sin reconstruir todo.</p>
   </div>
-  <div class="slide-num">09 / 14</div>
+  <div class="slide-num">12 / 17</div>
 </div>
 
-<!-- SLIDE 10: COMPARISON -->
+<!-- SLIDE 13: COMPARISON -->
 <div class="slide dark2" data-theme="dark">
   <div class="content">
     <div class="badge badge-teal anim anim-1">ADIS vs las alternativas</div>
@@ -894,14 +1049,14 @@ body.has-countdown #countdown-bar{top:0;}
       </div>
     </div>
   </div>
-  <div class="slide-num">10 / 14</div>
+  <div class="slide-num">13 / 17</div>
 </div>
 
-<!-- SLIDE 11: FAQ -->
+<!-- SLIDE 14: FAQ -->
 <div class="slide light" data-theme="light">
   <div class="content">
     <div class="badge badge-teal anim anim-1">Antes de decidir</div>
-    <h2 class="section-h anim anim-2">Las 3 dudas<br>que todas tienen.</h2>
+    <h2 class="section-h anim anim-2">Las 4 dudas<br>que todas tienen.</h2>
     <div class="faq-list anim anim-3">
       <div class="faq-item">
         <h4>“¿Y si no sé de tecnología?”</h4>
@@ -915,13 +1070,17 @@ body.has-countdown #countdown-bar{top:0;}
         <h4>“¿Qué pasa después de junio?”</h4>
         <p>Tu página y catálogo ya están hechos. Por S/. 300/mes los mantenemos activos, actualizamos productos y te damos visibilidad en buscadis.com. Sin volver a pagar por construir todo desde cero.</p>
       </div>
+      <div class="faq-item">
+        <h4>“¿Por qué confiar en ustedes?”</h4>
+        <p>Llevamos años en Cusco: buscadis.com, publicadis.com, Noticiadis (~2K seguidores), Biblioteca Municipal (13K), medios como Inkavisión y Exitosa. Ya construimos 14+ páginas — Quival pagó S/. 250 y hoy vende con 510 productos online. Desliza al portafolio y mira tú misma.</p>
+      </div>
     </div>
     <a href="#" class="btn btn-wa anim anim-4" id="faqWaBtn" target="_blank">💬 Otra duda — pregúntanos sin compromiso</a>
   </div>
-  <div class="slide-num">11 / 14</div>
+  <div class="slide-num">14 / 17</div>
 </div>
 
-<!-- SLIDE 12: REAL PROOF -->
+<!-- SLIDE 15: REAL PROOF -->
 <div class="slide gold" data-theme="dark">
   <div class="content">
     <div class="badge badge-white anim anim-1">Resultados reales · Cusco</div>
@@ -947,11 +1106,12 @@ body.has-countdown #countdown-bar{top:0;}
         <p>Página, catálogo y múltiples versiones digitales de su línea de bebidas artesanales andinas.</p>
       </div>
     </div>
+    <a href="#" class="btn btn-white anim anim-5" id="proofPortBtn">Ver las 14+ páginas aquí →</a>
   </div>
-  <div class="slide-num">12 / 14</div>
+  <div class="slide-num">15 / 17</div>
 </div>
 
-<!-- SLIDE 13: GUARANTEE + URGENCY -->
+<!-- SLIDE 16: GUARANTEE + URGENCY -->
 <div class="slide dark" data-theme="dark">
   <div class="content">
     <div class="badge badge-green anim anim-1">Sin riesgos</div>
@@ -971,10 +1131,10 @@ body.has-countdown #countdown-bar{top:0;}
       <p style="font-size:11px;color:rgba(255,255,255,.5);margin-top:4px;">Cuando se llenen, este precio no vuelve</p>
     </div>
   </div>
-  <div class="slide-num">13 / 14</div>
+  <div class="slide-num">16 / 17</div>
 </div>
 
-<!-- SLIDE 14: PAYMENT CTA -->
+<!-- SLIDE 17: PAYMENT CTA -->
 <div id="pagar" class="slide light" data-theme="light">
   <div class="content">
     <div class="badge badge-teal anim anim-1">Último paso</div>
@@ -1036,10 +1196,23 @@ body.has-countdown #countdown-bar{top:0;}
       <span>⚡ <span id="spots3">10</span> cupos · cierra 30 mayo</span>
     </div>
   </div>
-  <div class="slide-num">14 / 14</div>
+  <div class="slide-num">17 / 17</div>
 </div>
 
 </div><!-- /deck -->
+
+<!-- PREVIEW MODAL -->
+<div id="previewModal" role="dialog" aria-modal="true" aria-labelledby="previewTitle">
+  <div class="preview-head">
+    <h3 id="previewTitle">Vista previa</h3>
+    <button type="button" class="preview-close" id="previewClose" aria-label="Cerrar">✕</button>
+  </div>
+  <div class="preview-frame-wrap">
+    <iframe id="previewFrame" title="Vista previa del sitio" sandbox="allow-scripts allow-same-origin allow-popups allow-forms"></iframe>
+    <p id="previewFallback" class="preview-fallback" hidden>Algunos sitios no permiten vista embebida. Ábrelo completo abajo ↓</p>
+    <a href="#" class="preview-open" id="previewOpenLink" target="_blank" rel="noopener">Abrir sitio completo →</a>
+  </div>
+</div>
 
 <script>
 // ===== CONFIG (editar aquí) =====
@@ -1052,8 +1225,9 @@ const ADIS = {
   PRECIO: 300,
   CUPOS: 10,
   CUPOS_TOTAL: 10,
-  PAY_SLIDE: 13,
-  DEL_SLIDE: 7,
+  PAY_SLIDE: 16,
+  DEL_SLIDE: 10,
+  PORT_SLIDE: 7,
   DEADLINE: new Date('2026-05-30T23:59:59-05:00'),
   MSG_PAGO: 'Hola ADIS! Vi adis.lat y quiero invertir en mi cupo de junio por S/. 300. Ya hice el Yape, adjunto comprobante.',
   MSG_DUDA: 'Hola ADIS! Vi la propuesta exclusiva Kallpa Warmi y tengo una pregunta antes de reservar.',
@@ -1118,7 +1292,97 @@ function applyConfig(){
   bindPayNav(document.getElementById('kallpaPayBtn'));
   bindPayNav(document.getElementById('corePayBtn'));
   bindPayNav(document.getElementById('stickyYape'));
+  bindPayNav(document.getElementById('ecoPayBtn'));
+  bindPayNav(document.getElementById('portPayBtn'));
+
+  document.getElementById('proofPortBtn')?.addEventListener('click', e=>{
+    e.preventDefault();
+    goToSlide(ADIS.PORT_SLIDE);
+  });
 }
+
+const PORTFOLIO = [
+  { title: 'Buscadis', url: 'https://buscadis.com', tag: 'Marketplace · Cusco', color: '#0EA5E9', letter: 'B' },
+  { title: 'PublicAdis', url: 'https://publicadis.com', tag: 'Publicidad digital', color: '#F97316', letter: 'P' },
+  { title: 'ADIS.lat', url: 'https://adis.lat', tag: 'Esta propuesta', color: '#2563EB', letter: 'A' },
+  { title: 'Quival', url: 'https://www.buscadis.com/quival', tag: 'Cliente · 510 productos', img: 'assets/quival-catalogo.png' },
+  { title: 'Agril Sur', url: 'https://www.buscadis.com/agrilsur', tag: 'Destilería · Cusco', img: 'assets/agrilsur-catalogo.png' },
+  { title: 'Agril Sur Web', url: 'https://agrilsur.vercel.app/', tag: 'Landing premium', img: 'assets/agrilsur-buscadis.png' },
+  { title: 'SAP Adventures', url: 'https://sapadventures.org/', tag: 'Turismo · Machu Picchu', color: '#1E3A5F', letter: 'S' },
+  { title: 'La Tatuadora', url: 'https://latatuadora.com/', tag: 'Academia · Landing', color: '#B8860B', letter: 'T' },
+  { title: 'Jairo Saul', url: 'https://jairosaul.com/', tag: 'Portfolio tech', color: '#1D4ED8', letter: 'J' },
+  { title: 'Shantall Zarai', url: 'https://shantallzarai.com/', tag: 'Marketing · CMO', color: '#312E81', letter: 'S' },
+  { title: 'GlowApplify', url: 'https://gloway.vercel.app/', tag: 'Startup · IA', color: '#7C3AED', letter: 'G' },
+  { title: 'Candidatazo', url: 'https://candidatazo-elector.vercel.app/', tag: 'Cívica · Elecciones', color: '#DC2626', letter: 'C' },
+  { title: 'Vector', url: 'https://vector-livid.vercel.app/', tag: 'Innovación · IA', color: '#0F172A', letter: 'V' },
+  { title: 'Vectorify', url: 'https://convectorify.com/', tag: 'SaaS · Negocios', color: '#0284C7', letter: 'V' }
+];
+
+function portThumb(item){
+  if(item.img) return `<img class="port-thumb" src="${item.img}" alt="${item.title}" loading="lazy">`;
+  const c = item.color || '#0EA5E9';
+  return `<div class="port-thumb-placeholder" style="background:linear-gradient(135deg,${c},${c}99);">${item.letter || item.title[0]}</div>`;
+}
+
+function portCard(item){
+  const el = document.createElement('button');
+  el.type = 'button';
+  el.className = 'port-card';
+  el.innerHTML = `${portThumb(item)}<div class="port-body"><span class="port-tag">${item.tag}</span><h4>${item.title}</h4><p>Toca para ver ↗</p></div>`;
+  el.addEventListener('click', ()=> openPreview(item.url, item.title));
+  return el;
+}
+
+function renderPortfolio(){
+  const r1 = document.getElementById('portRow1');
+  const r2 = document.getElementById('portRow2');
+  if(!r1 || !r2) return;
+  const half = Math.ceil(PORTFOLIO.length / 2);
+  PORTFOLIO.slice(0, half).forEach(item => r1.appendChild(portCard(item)));
+  PORTFOLIO.slice(half).forEach(item => r2.appendChild(portCard(item)));
+}
+
+function openPreview(url, title){
+  const modal = document.getElementById('previewModal');
+  const frame = document.getElementById('previewFrame');
+  const head = document.getElementById('previewTitle');
+  const link = document.getElementById('previewOpenLink');
+  const fb = document.getElementById('previewFallback');
+  if(!modal || !frame) return;
+  head.textContent = title;
+  link.href = url;
+  fb.hidden = true;
+  frame.hidden = false;
+  frame.src = url;
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  setTimeout(()=>{
+    try{
+      const doc = frame.contentDocument;
+      if(!doc || !doc.body || doc.body.innerHTML === ''){
+        fb.hidden = false;
+      }
+    }catch(_){
+      fb.hidden = false;
+    }
+  }, 2500);
+}
+
+function closePreview(){
+  const modal = document.getElementById('previewModal');
+  const frame = document.getElementById('previewFrame');
+  if(modal) modal.classList.remove('open');
+  if(frame) frame.src = 'about:blank';
+  document.body.style.overflow = '';
+}
+
+document.getElementById('previewClose')?.addEventListener('click', closePreview);
+document.getElementById('previewModal')?.addEventListener('click', e=>{
+  if(e.target.id === 'previewModal') closePreview();
+});
+document.addEventListener('keydown', e=>{
+  if(e.key === 'Escape') closePreview();
+});
 
 function updateCountdown(){
   const el = document.getElementById('countdown');
@@ -1133,7 +1397,7 @@ function updateCountdown(){
 
 // ===== STATE =====
 let current = 0;
-const total = 14;
+const total = 17;
 let delIdx = 0;
 const delTotal = 10;
 let lastTheme = 'light';
@@ -1222,6 +1486,7 @@ document.getElementById('overviewDelBtn')?.addEventListener('click', e=>{
 });
 
 slides[0].classList.add('active');
+renderPortfolio();
 applyConfig();
 updateCountdown();
 setInterval(updateCountdown, 1000);
