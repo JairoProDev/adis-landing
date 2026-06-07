@@ -2,7 +2,7 @@
 
 Copia, personaliza `[corchetes]` y envía **texto + link** cuando corresponda (no solo el link en el primer contacto).
 
-**Regla de oro:** vende la imagen mental (*"mi negocio se ve profesional y vende más"*), no la lista de servicios.
+**Regla de oro:** vende la imagen mental (*"más clientes me encuentran y me compran por WhatsApp"*), no la lista de servicios.
 
 **Programa:** 90 días / 3 meses · 30 entregables × 3 días · S/. 300 · Ver `OFERTA-ADIS-COMPLETA.md`
 
@@ -10,7 +10,7 @@ Copia, personaliza `[corchetes]` y envía **texto + link** cuando corresponda (n
 
 ## Preview WhatsApp (og:tags — adis.lat)
 
-**Título:** Tu negocio se ve profesional · S/. 300 · 3 meses  
+**Título:** Más clientes por WhatsApp · S/. 300 · 3 meses  
 **Descripción:** Más clientes por WhatsApp e internet. Fotos pro, catálogo online — nosotros lo hacemos por ti.
 
 ---
@@ -47,7 +47,7 @@ Hola [nombre]!
 Te comparto lo que hacemos en ADIS:
 👉 https://adis.lat
 
-En una frase: hacemos que tu negocio se vea profesional para VENDER MÁS — página web, fotos pro, catálogo, Google Maps, WhatsApp que vende. Tú sigues atendiendo, nosotros hacemos lo digital.
+En una frase: hacemos que más clientes te encuentren y te compren por WhatsApp e internet — página web, fotos pro, catálogo, Google Maps. Tú sigues atendiendo, nosotros hacemos lo digital.
 
 S/. 300 por todo el programa (3 meses · 90 días).
 
@@ -143,7 +143,7 @@ Yape 990 551 461 → captura al 937 054 328
 
 | ❌ Evitar | ✅ Mejor |
 |---|---|
-| "Página + catálogo + publicidad" | "Tu negocio se ve profesional y vende más" |
+| "Página + catálogo + publicidad" | "Más clientes que te encuentren y te compren" |
 | "30 entregables" sin contexto | "90 días, un bloque cada 3 días" |
 | "Sin aprender tecnología" | "Sin complicaciones técnicas" |
 | Precio en primer mensaje | Pregunta sobre su negocio primero |

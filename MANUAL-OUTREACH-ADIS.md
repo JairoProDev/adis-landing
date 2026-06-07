@@ -106,7 +106,7 @@ Lo que me cuentas de [su dolor] lo vemos mucho en negocios de Cusco.
 ```
 Justo para eso armamos un programa de 3 meses — no es un curso genérico.
 
-La idea: tu negocio se vea profesional por internet y vendas más por WhatsApp, mientras nosotros hacemos lo digital.
+La idea: más clientes te encuentren y te compren por WhatsApp e internet, mientras nosotros hacemos lo digital.
 
 ¿Te gustaría que te cuente en 2 minutos cómo lo hacemos, pensando en [SU negocio]?
 ```

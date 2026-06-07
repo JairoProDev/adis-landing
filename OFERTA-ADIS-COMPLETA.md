@@ -89,7 +89,7 @@ Hola [nombre]! Soy [Shantall/Jairo] de ADIS.
 
 Pensé en [negocio] y quería contarte algo:
 
-🎯 3 meses (90 días) para que tu negocio se vea profesional, te encuentren por internet y vendas más por WhatsApp.
+🎯 3 meses (90 días) para que más clientes te encuentren por internet y te compren por WhatsApp.
 
 📋 Cómo funciona:
 · 30 entregables grandes, cada uno en 3 días (no todo de golpe).
