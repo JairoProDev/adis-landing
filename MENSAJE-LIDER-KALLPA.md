@@ -4,7 +4,7 @@ Copia, personaliza lo marcado con `[corchetes]` y envía **texto + link** (no so
 
 **Regla de oro:** vende la imagen mental (*“mi negocio se ve profesional y vende más”*), no la lista de servicios (*“página + catálogo”*).
 
-**Nota equipo:** los 3 días de mayo (bono) = **investigación** (auditoría, competencia, plan). Junio = ejecución día a día. Ver `OFERTA-KALLPA-WARMI-COMPLETA.md`.
+**Nota equipo:** Programa **90 días / 3 meses** — 30 entregables × 3 días c/u. Bono mayo = Entregable 1 (investigación). Ver `OFERTA-KALLPA-WARMI-COMPLETA.md`.
 
 ---
 
@@ -31,11 +31,11 @@ Ya nos han apoyado antes con videos, fotos, concursos, en ferias y también cono
 Ellos ya lo hicieron con otros negocios que tienen en su portafolio empresas y emprendimientos como Distribuidora Quival (510 productos online), Agril Sur que ya tiene su página y catálogo en línea, y tienen 14+ páginas en funcionamiento, un canal de noticias en redes con casi 2 mil lectores. Todo el portafolio está en:
 👉 https://adis.lat
 
-💰 S/. 300 por todo junio (valor real S/. 3,000+)
+💰 S/. 300 por **3 meses** de acompañamiento (valor real S/. 4,350+)
 📅 Solo 10 cupos, quedan 8 · cierran el 30 de mayo
 
 🔥 BONO SOLO HOY (29 mayo):
-Solo para quienes se animen HOY, arrancan de inmediato contigo — 3 días EXTRA de mayo GRATIS (hoy 29, mañana 30 y pasado 31). Mañana ya no incluye este regalo.
+Solo para quienes se animen HOY, arrancan Entregable 1 (investigación) — 3 días EXTRA de mayo GRATIS (hoy 29, mañana 30 y pasado 31). Mañana ya no incluye este regalo.
 
 Cómo reservar:
 1) Yape S/. 300 al 990 551 461 (Shantall / ADIS)
@@ -51,7 +51,7 @@ Cualquier duda, escríbanme o directo a ADIS. Esto cambiará por completo cómo 
 ```
 Hermosas 💜 ¿Quieres que tu negocio se vea profesional y venda más por WhatsApp?
 
-ADIS · solo Kallpa Warmi · S/. 300 · 10 cupos
+S/. 300 · 3 meses · solo 10 cupos
 🔥 Paga HOY → 3 días extra mayo GRATIS (solo 29 mayo)
 
 👉 https://adis.lat
@@ -70,7 +70,7 @@ Te comparto la propuesta exclusiva Kallpa Warmi:
 
 En una frase: hacemos que tu negocio se vea profesional para VENDER MÁS — página web, fotos pro, catálogo, Google Maps, WhatsApp que vende. Tú sigues atendiendo, nosotros hacemos lo digital.
 
-S/. 300 todo junio.
+S/. 300 todo el programa (3 meses).
 
 🔥 Si te animas HOY (29 mayo): 3 días extra de mayo GRATIS — empezamos ya, no esperas al 1 de junio. Mañana este bono ya no está.
 
@@ -104,7 +104,7 @@ Sin presión — solo no quiero que pierdas el bono de hoy si te interesa 💜
 ```
 ¡Recibido, [nombre]! 🎉 Tu cupo está CONFIRMADO.
 
-Como pagaste HOY, arrancamos YA — estos 3 días de mayo son tuyos de regalo (29, 30 y 31). El 1 de junio seguimos con el programa completo de junio.
+Como pagaste HOY, arrancamos Entregable 1 (investigación) — estos 3 días de mayo son tuyos de regalo (29, 30 y 31). Del 1 de junio sigues el calendario de 90 días (30 entregables × 3 días).
 
 Hoy mismo te escribimos para los primeros pasos.
 
@@ -123,9 +123,9 @@ Mientras tanto, mándanos:
 ## 5b. Respuesta al pagar — SI PAGÓ 30 mayo en adelante
 
 ```
-¡Recibido, [nombre]! 🎉 Tu cupo para junio está CONFIRMADO.
+¡Recibido, [nombre]! 🎉 Tu cupo para el programa 3 meses está CONFIRMADO.
 
-El 1 de junio te escribimos con tu plan personalizado y primeros pasos.
+El 1 de junio te escribimos con tu calendario de 90 días y primeros pasos.
 
 Mientras tanto, mándanos:
 1) Nombre de tu negocio
@@ -137,12 +137,12 @@ Mientras tanto, mándanos:
 
 ---
 
-## 6. Si preguntan “¿es mensual?” / “¿después de junio?”
+## 6. Si preguntan “¿es mensual?” / “¿después de los 3 meses?”
 
 ```
-Los S/. 300 son por TODO junio — tu negocio se ve profesional y vende más online.
+Los S/. 300 son por TODO el programa — 3 meses (90 días): página, catálogo, fotos, Maps, contenido, publicidad ADIS y más.
 
-Después de junio, si quieres seguir: S/. 300/mes mantiene tu página activa, catálogo actualizado y visibilidad en buscadis.com. Sin compromiso hoy.
+Después de los 3 meses, si quieres seguir: S/. 300/mes mantiene tu página activa, catálogo actualizado y visibilidad en buscadis.com. Sin compromiso hoy.
 
 Lo importante: reserva cupo antes del 30 de mayo.
 ```
@@ -154,7 +154,7 @@ Lo importante: reserva cupo antes del 30 de mayo.
 ```
 Solo para quien paga HOY 29 de mayo:
 
-Empezamos de inmediato con tu negocio — hoy, mañana 30 y pasado 31 — sin costo extra. Son 3 días de ventaja antes de que empiece junio para todas.
+Empezamos Entregable 1 (investigación) — hoy, mañana 30 y pasado 31 — sin costo extra. Son 3 días de ventaja antes del calendario de 90 días.
 
 Si pagas mañana (30) o después, entras normal el 1 de junio. El bono de mayo no aplica.
 
@@ -172,7 +172,7 @@ Buenos días emprendedoras de Kallpa Warmi 💜
 
 Soy Shantall, de ADIS — muchas ya nos conocemos de ferias, talleres y concursos.
 
-Este junio preparamos algo solo para ustedes:
+Este trimestre preparamos algo solo para ustedes (3 meses de acompañamiento):
 
 👉 https://adis.lat
 
@@ -227,6 +227,6 @@ Yape 990 551 461 → captura al 937 054 328
 ## Lista completa de entregables
 
 Ver **`OFERTA-KALLPA-WARMI-COMPLETA.md`**:
-- **Mensaje 0** — ultra corto (10 estrellas · primer contacto)
-- Mensajes personal + día por día (~165 piezas)
-- Precios ref. y total S/. 4,100
+- **90 días / 3 meses** · 30 entregables × 3 días
+- Mensaje 0 ultra corto + calendario completo
+- Precio S/. 300 (promo Kallpa) · valor ref. S/. 4,350
