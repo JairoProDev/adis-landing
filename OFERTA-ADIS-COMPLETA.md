@@ -53,13 +53,13 @@ Te escribo porque vi [negocio / tu perfil] y creo que podemos ayudarte:
 
 Por S/. 300 recibes **3 meses de acompañamiento digital** (90 días). Nosotros hacemos lo digital; tú ves resultados:
 
-1️⃣ Página + catálogo online → vendes 24/7 con un link
-2️⃣ Google Maps → te encuentran en Cusco
-3️⃣ Fotos pro → productos que convencen
-4️⃣ WhatsApp con mensajes listos → cierras más ventas
-5️⃣ Publicidad Buscadis + Noticiadis → clientes nuevos
-6️⃣ Posts y contenido del trimestre → redes sin bloqueo
-7️⃣ Informes, guías y estrategia → claridad todo el camino
+1️⃣ Página web profesional personalizada → tu vitrina online 24/7
+2️⃣ Catálogo virtual interactivo → todos tus productos en un link
+3️⃣ Publicidad Buscadis + Noticiadis + nuestras redes → te promocionamos
+4️⃣ Fotos nivel estudio → productos que convencen (tú no podrías hacerlas solo)
+5️⃣ Posts y contenido del trimestre → redes sin bloqueo
+6️⃣ Informes, guías y estrategia → claridad todo el camino
+7️⃣ +30 entregables extra → cosas que por tu cuenta no harías
 8️⃣ Garantía mes 1 → o devolución 100%
 9️⃣ 10 cupos limitados
 🔟 Valor ref. S/. 4,350 · tú pagas S/. 300
@@ -75,7 +75,7 @@ Yape 990 → captura 937 054 328
 ```
 [nombre] · ADIS · 3 MESES · S/. 300
 
-Página · Maps · fotos · WA · publicidad · contenido · estrategia · garantía mes 1 · cupos limitados
+Página web · catálogo · publicidad · fotos estudio · contenido · estrategia · garantía mes 1 · cupos limitados
 
 adis.lat · Yape 990 → 937 054 328
 ```
@@ -89,12 +89,12 @@ Hola [nombre]! Soy [Shantall/Jairo] de ADIS.
 
 Pensé en [negocio] y quería contarte algo:
 
-🎯 3 meses (90 días) para que más clientes te encuentren por internet y te compren por WhatsApp.
+🎯 3 meses (90 días) para tener tu página web profesional, catálogo virtual y publicidad en nuestro ecosistema.
 
 📋 Cómo funciona:
 · 30 entregables grandes, cada uno en 3 días (no todo de golpe).
 · Empezamos con investigación de tu rubro y competencia.
-· Construimos página, catálogo, fotos, Maps, contenido, publicidad ADIS…
+· Diseñamos tu página web, armamos tu catálogo, te hacemos publicidad, fotos nivel estudio y más…
 
 👉 https://adis.lat · Quival, Agril Sur, 14+ páginas, Noticiadis ~2K
 
@@ -113,7 +113,7 @@ Perfecto [nombre] 💜
 
 30 entregables × 3 días = 90 días de programa (~3 meses):
 
-MES 1 · Presencia (Maps, web, catálogo, WA, fotos)
+MES 1 · Presencia (página web, catálogo, fotos estudio, publicidad)
 MES 2 · Ventas y contenido (plantillas, posts, flyers, video, publicidad ADIS)
 MES 3 · Estrategia y cierre (Canvas, CRM, planes, auditoría, kit final)
 

@@ -58,7 +58,7 @@
 | Cuándo | Flyer |
 |--------|--------|
 | "¿Qué incluye?" | Resumen 3 meses |
-| Preguntan catálogo/Maps/fotos | Flyer de ese entregable |
+| Preguntan página/catálogo/fotos | Flyer de ese entregable |
 | "¿Cómo es el proceso?" | Timeline 90 días |
 | Casi cierran | Cupos limitados + precio |
 
@@ -106,7 +106,7 @@ Lo que me cuentas de [su dolor] lo vemos mucho en negocios de Cusco.
 ```
 Justo para eso armamos un programa de 3 meses — no es un curso genérico.
 
-La idea: más clientes te encuentren y te compren por WhatsApp e internet, mientras nosotros hacemos lo digital.
+La idea: tu página web profesional y catálogo virtual listos, con publicidad en nuestro ecosistema — mientras nosotros hacemos lo digital.
 
 ¿Te gustaría que te cuente en 2 minutos cómo lo hacemos, pensando en [SU negocio]?
 ```

@@ -2,7 +2,7 @@
 
 Copia, personaliza `[corchetes]` y envía **texto + link** cuando corresponda (no solo el link en el primer contacto).
 
-**Regla de oro:** vende la imagen mental (*"más clientes me encuentran y me compran por WhatsApp"*), no la lista de servicios.
+**Regla de oro:** vende la imagen mental (*"tengo mi página web profesional y catálogo virtual, con publicidad en Buscadis"*), no la lista de servicios.
 
 **Programa:** 90 días / 3 meses · 30 entregables × 3 días · S/. 300 · Ver `OFERTA-ADIS-COMPLETA.md`
 
@@ -10,8 +10,8 @@ Copia, personaliza `[corchetes]` y envía **texto + link** cuando corresponda (n
 
 ## Preview WhatsApp (og:tags — adis.lat)
 
-**Título:** Más clientes por WhatsApp · S/. 300 · 3 meses  
-**Descripción:** Más clientes por WhatsApp e internet. Fotos pro, catálogo online — nosotros lo hacemos por ti.
+**Título:** Tu página web profesional · S/. 300 · 3 meses  
+**Descripción:** Página web personalizada, catálogo virtual interactivo y publicidad en Buscadis — nosotros lo diseñamos y desarrollamos por ti.
 
 ---
 
@@ -47,7 +47,7 @@ Hola [nombre]!
 Te comparto lo que hacemos en ADIS:
 👉 https://adis.lat
 
-En una frase: hacemos que más clientes te encuentren y te compren por WhatsApp e internet — página web, fotos pro, catálogo, Google Maps. Tú sigues atendiendo, nosotros hacemos lo digital.
+En una frase: diseñamos y desarrollamos tu página web profesional y catálogo virtual interactivo, te promocionamos en Buscadis y nuestras redes, y además fotos nivel estudio y +30 entregables que por tu cuenta no harías. Tú sigues atendiendo, nosotros hacemos lo digital.
 
 S/. 300 por todo el programa (3 meses · 90 días).
 
@@ -63,7 +63,7 @@ Yape 990 551 461 → captura al 937 054 328.
 ```
 [nombre] — ADIS · 3 meses · S/. 300 · cupos limitados
 
-Página · Maps · fotos · WA · publicidad · contenido · estrategia
+Página web · catálogo · publicidad · fotos estudio · contenido · estrategia
 
 👉 https://adis.lat
 Yape 990 → captura 937 054 328
@@ -109,7 +109,7 @@ Mientras tanto, mándanos:
 ## 7. Si preguntan "¿es mensual?" / "¿después de los 3 meses?"
 
 ```
-Los S/. 300 son por TODO el programa — 3 meses (90 días): página, catálogo, fotos, Maps, contenido, publicidad ADIS y más.
+Los S/. 300 son por TODO el programa — 3 meses (90 días): página web, catálogo virtual, publicidad ADIS, fotos nivel estudio, contenido y +30 entregables extra.
 
 Después de los 3 meses, si quieres seguir: S/. 300/mes mantiene tu página activa, catálogo actualizado y visibilidad en buscadis.com. Sin compromiso hoy.
 
@@ -127,7 +127,7 @@ Este trimestre abrimos cupos para acompañar negocios con su presencia digital:
 
 👉 https://adis.lat
 
-Página web, fotos profesionales, catálogo online y más clientes por WhatsApp — sin complicaciones técnicas. Nosotros hacemos lo digital. Tú ves los resultados.
+Página web profesional, catálogo virtual interactivo y publicidad en Buscadis — sin complicaciones técnicas. Nosotros diseñamos y desarrollamos. Tú ves los resultados.
 
 S/. 300 · 3 meses · cupos limitados
 
@@ -143,7 +143,7 @@ Yape 990 551 461 → captura al 937 054 328
 
 | ❌ Evitar | ✅ Mejor |
 |---|---|
-| "Página + catálogo + publicidad" | "Más clientes que te encuentren y te compren" |
+| "Página + catálogo + publicidad" | "Tu página web profesional con catálogo y publicidad en Buscadis" |
 | "30 entregables" sin contexto | "90 días, un bloque cada 3 días" |
 | "Sin aprender tecnología" | "Sin complicaciones técnicas" |
 | Precio en primer mensaje | Pregunta sobre su negocio primero |
