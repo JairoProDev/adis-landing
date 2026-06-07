@@ -1,12 +1,12 @@
-# ADIS × Kallpa Warmi — Oferta completa · 90 días (3 meses)
+# ADIS — Oferta completa · 90 días (3 meses)
 
 **Uso:** envío personal WhatsApp. Personalizar `[nombre]` y `[negocio]`.  
 **Link:** https://adis.lat  
 **Estructura:** **30 entregables** · **3 días cada uno** · **90 días de programa** · ~**6 piezas por bloque** = **~180 entregables** repartidos.  
 **Ritmo interno:** Día 1 = preparación · Día 2 = entrega principal · Día 3 = refinamiento + contenido + guía.  
-**Tono:** *“nosotros hacemos lo digital, tú ves resultados”* · *“sin complicaciones técnicas”*.
+**Tono:** *"nosotros hacemos lo digital, tú ves resultados"* · *"sin complicaciones técnicas"*.
 
-> Copia de respaldo de la versión 33 días: `OFERTA-KALLPA-WARMI-COMPLETA copy.md`
+> Versión histórica comunidad Kallpa Warmi: rama git `kallpa-warmi`
 
 ---
 
@@ -18,7 +18,7 @@
 | Yape / Plin | **990 551 461** · Shantall |
 | Respaldo Jairo | 953 865 163 |
 
-**Reserva:** Yape S/. 300 → captura **937 054 328** · **10 cupos** (quedan 8) · cierra **30 mayo**
+**Reserva:** Yape S/. 300 → captura **937 054 328** · **10 cupos limitados**
 
 ---
 
@@ -26,31 +26,30 @@
 
 | Fase | Duración | Qué es |
 |------|----------|--------|
-| **Bono mayo** *(solo pago 29 mayo)* | 3 días calendario (29·30·31) | = **Entregable 1** adelantado (investigación + diagnóstico). Empiezas antes que todas. |
+| **Inicio** | Días 1–3 | **Entregable 1:** investigación y diagnóstico digital de tu negocio |
 | **Programa principal** | **90 días · 30 entregables × 3** | Construcción robusta, un bloque cada 3 días. ~3 meses. |
 | **Continuidad** *(opcional)* | Mes 4+ | S/. 300/mes: mantenimiento página, catálogo, Buscadis |
 
 **Por qué 3 días por entregable:** más tiempo = entregas más completas, menos estrés del equipo, más calidad. Si un bloque se acelera, genial; el calendario es el **mínimo** comprometido.
 
-**Calendario ejemplo (pago 29 mayo):**
+**Calendario ejemplo (desde confirmación de pago):**
 
-| Hito | Fechas aprox. |
-|------|----------------|
-| Entregable 1 (bono) | 29–31 mayo |
-| Entregables 2–10 (Mes 1) | 1–30 junio |
-| Entregables 11–20 (Mes 2) | 1–31 julio |
-| Entregables 21–30 (Mes 3) | 1–29 agosto |
+| Hito | Días |
+|------|------|
+| Entregables 1–10 (Mes 1) | 1–30 |
+| Entregables 11–20 (Mes 2) | 31–60 |
+| Entregables 21–30 (Mes 3) | 61–90 |
 
-**Valor ref. total:** S/. 4,350 · **Precio Kallpa Warmi:** S/. 300 **(3 meses completos)**
+**Valor ref. total:** S/. 4,350 · **Precio programa ADIS:** S/. 300 **(3 meses completos)**
 
 ---
 
 ## Mensaje 0 — ULTRA CORTO (10 estrellas)
 
 ```
-Hola [nombre]! 💜 Soy [Shantall/Jairo] de ADIS.
+Hola [nombre]! Soy [Shantall/Jairo] de ADIS.
 
-Te escribo solo a Kallpa Warmi — pensé en [negocio]:
+Te escribo porque vi [negocio / tu perfil] y creo que podemos ayudarte:
 
 Por S/. 300 recibes **3 meses de acompañamiento digital** (90 días). Nosotros hacemos lo digital; tú ves resultados:
 
@@ -61,9 +60,9 @@ Por S/. 300 recibes **3 meses de acompañamiento digital** (90 días). Nosotros 
 5️⃣ Publicidad Buscadis + Noticiadis → clientes nuevos
 6️⃣ Posts y contenido del trimestre → redes sin bloqueo
 7️⃣ Informes, guías y estrategia → claridad todo el camino
-8️⃣ 🔥 Paga HOY: 3 días mayo GRATIS (investigación antes que todas)
-9️⃣ Garantía mes 1 → o devolución 100%
-🔟 Valor ref. S/. 4,350 · tú pagas S/. 300 · 10 cupos
+8️⃣ Garantía mes 1 → o devolución 100%
+9️⃣ 10 cupos limitados
+🔟 Valor ref. S/. 4,350 · tú pagas S/. 300
 
 👉 https://adis.lat
 Yape 990 → captura 937 054 328
@@ -74,11 +73,11 @@ Yape 990 → captura 937 054 328
 ### Variante mínima
 
 ```
-[nombre] 💜 ADIS · Kallpa · 3 MESES · S/. 300
+[nombre] · ADIS · 3 MESES · S/. 300
 
-Página · Maps · fotos · WA · publicidad · contenido · estrategia · 🔥3 días mayo si pagas HOY · garantía mes 1
+Página · Maps · fotos · WA · publicidad · contenido · estrategia · garantía mes 1 · cupos limitados
 
-adis.lat · Yape 990 → 937 054 328 · 8 cupos
+adis.lat · Yape 990 → 937 054 328
 ```
 
 ---
@@ -86,28 +85,28 @@ adis.lat · Yape 990 → 937 054 328 · 8 cupos
 ## Mensaje personal (versión media)
 
 ```
-Hola [nombre]! 💜 Soy [Shantall/Jairo] de ADIS.
+Hola [nombre]! Soy [Shantall/Jairo] de ADIS.
 
-Algo exclusivo Kallpa Warmi — pensé en [negocio]:
+Pensé en [negocio] y quería contarte algo:
 
 🎯 3 meses (90 días) para que tu negocio se vea profesional, te encuentren por internet y vendas más por WhatsApp.
 
 📋 Cómo funciona:
 · 30 entregables grandes, cada uno en 3 días (no todo de golpe).
-· 🔥 Si pagas HOY: arrancamos 29–31 mayo con investigación de tu rubro y competencia.
-· Del 1 de junio al ~29 agosto: construimos página, catálogo, fotos, Maps, contenido, publicidad ADIS…
+· Empezamos con investigación de tu rubro y competencia.
+· Construimos página, catálogo, fotos, Maps, contenido, publicidad ADIS…
 
 👉 https://adis.lat · Quival, Agril Sur, 14+ páginas, Noticiadis ~2K
 
 💰 S/. 300 los 3 meses · quedan [X]/10 cupos
 Yape 990 551 461 → captura 937 054 328
 
-¿Calendario completo o alguna duda? 💜
+¿Calendario completo o alguna duda?
 ```
 
 ---
 
-## Mensaje 2 — si dicen “sí”
+## Mensaje 2 — si dicen "sí"
 
 ```
 Perfecto [nombre] 💜
@@ -121,7 +120,7 @@ MES 3 · Estrategia y cierre (Canvas, CRM, planes, auditoría, kit final)
 ~180 piezas repartidas: informes, guías, fotos, posts, configs…
 
 Valor ref.: S/. 4,350
-Tu precio Kallpa: S/. 300 (3 meses)
+Tu precio: S/. 300 (3 meses)
 
 Garantía fin mes 1: página + catálogo en marcha, 10 fotos, plantillas WA — o devolución 100%.
 
@@ -141,7 +140,7 @@ Garantía fin mes 1: página + catálogo en marcha, 10 fotos, plantillas WA — 
 ---
 
 ### Entregable 1 · Diagnóstico e investigación digital — Días 1–3
-*Bono mayo si pagan 29 · Mes 1 inicio*
+*Inicio del programa · días 1–3*
 
 | Día | Entregamos | Ref. |
 |-----|------------|------|
@@ -505,7 +504,7 @@ Garantía fin mes 1: página + catálogo en marcha, 10 fotos, plantillas WA — 
 |-----|------------|------|
 | 1 | Carpeta digital todos links + inventario entregables | S/. 30 |
 | 2 | ZIP completo (flyers, plantillas, informes, fotos) | S/. 40 |
-| 3 | Certificado Kallpa × ADIS + propuesta continuidad S/. 300/mes + post cierre | S/. 45 |
+| 3 | Certificado de participación ADIS + propuesta continuidad S/. 300/mes + post cierre | S/. 45 |
 
 **Bloque:** S/. 115 · **Ganas:** paquete cerrado y negocio digital funcionando 3 meses.
 
@@ -524,11 +523,11 @@ Garantía fin mes 1: página + catálogo en marcha, 10 fotos, plantillas WA — 
 
 ```
 Valor referencial:           S/. 4,350
-Precio Kallpa Warmi:         S/. 300  (3 meses completos)
+Precio programa ADIS:         S/. 300  (3 meses completos)
 Ahorro referencial:          S/. 4,050  (~93%)
 ```
 
-**Cómo decirlo:** *“30 entregables grandes, 3 días cada uno, 90 días de acompañamiento. No te damos todo el día 1 — construimos contigo un trimestre. S/. 300 porque es promo única Kallpa Warmi.”*
+**Cómo decirlo:** *“30 entregables grandes, 3 días cada uno, 90 días de acompañamiento. No te damos todo el día 1 — construimos contigo un trimestre. S/. 300 porque es programa de acompañamiento ADIS.”*
 
 ---
 
@@ -560,17 +559,17 @@ Si al cierre del entregable 10 no tienes:
 
 ## Mensajes seguimiento
 
-### Respuesta al pagar — 29 mayo
+### Respuesta al pagar
 
 ```
 ¡Recibido, [nombre]! 🎉 Cupo CONFIRMADO — 3 MESES.
 
 Arrancamos Entregable 1 (días 1–3):
-· 29 mayo — checklist + materiales
-· 30 mayo — auditoría + score digital
-· 31 mayo — plan 90 días + primer post
+· Día 1 — checklist + materiales
+· Día 2 — auditoría + score digital
+· Día 3 — plan 90 días + primer post
 
-Del 1 junio: un entregable cada 3 días hasta completar los 30.
+Luego: un entregable cada 3 días hasta completar los 30.
 
 Envíanos: nombre negocio · link redes · 3 fotos productos.
 
@@ -588,7 +587,7 @@ Cada entregable tiene 3 días: preparamos, entregamos algo sólido y refinamos. 
 ### Si preguntan “¿qué incluyen los 3 meses por S/. 300?”
 
 ```
-Todo el calendario: 30 entregables (página, catálogo, Maps, fotos, WA, publicidad ADIS, 30+ posts, estrategia, informes…). No es un mes suelto — son 3 meses de acompañamiento por promo Kallpa.
+Todo el calendario: 30 entregables (página, catálogo, Maps, fotos, WA, publicidad ADIS, 30+ posts, estrategia, informes…). Son 3 meses de acompañamiento digital completo.
 ```
 
 ---
@@ -597,10 +596,10 @@ Todo el calendario: 30 entregables (página, catálogo, Maps, fotos, WA, publici
 
 | ❌ Evitar | ✅ Mejor |
 |---------|----------|
-| “30 entregables en junio” | “30 entregables en 90 días / 3 meses” |
+| “30 entregables en un mes” | “30 entregables en 90 días / 3 meses” |
 | “Todo el día 1” | “Un bloque cada 3 días” |
 | “Sin aprender tecnología” | “Sin complicaciones técnicas” |
-| Prometer mes suelto | “S/. 300 = 3 meses promo Kallpa” |
+| Prometer mes suelto | “S/. 300 = 3 meses completos” |
 
 ---
 
@@ -609,17 +608,16 @@ Todo el calendario: 30 entregables (página, catálogo, Maps, fotos, WA, publici
 - [ ] Calendario 90 días en Notion/Sheet por cliente  
 - [ ] Cupos reales ([X]/10)  
 - [ ] Entregable = 3 días mínimo (acelerar ok, retrasar comunicar)  
-- [ ] Mensajes grupo: `MENSAJE-LIDER-KALLPA.md` *(actualizar copy 3 meses)*  
+- [ ] Mensajes clientes: `MENSAJE-CLIENTES-ADIS.md`  
 
 ---
 
 ## Nota interna
 
 - **Ritmo sostenible:** ~1 entregable bloque / 3 días = ~2.3 bloques/semana.  
-- **Mayo bono** = Entregable 1 adelantado; no duplicar investigación en junio.  
-- Copia versión 33 días: `OFERTA-KALLPA-WARMI-COMPLETA copy.md`  
-- Landing `index.html` aún dice “junio” — alinear en siguiente paso.
+- **Entregable 1** arranca al confirmar pago (investigación digital).  
+- Versión Kallpa Warmi archivada en rama git `kallpa-warmi`.  
 
 ---
 
-*ADIS · Jairo & Shantall · Kallpa Warmi · Programa 90 días*
+*ADIS · Jairo & Shantall · Programa 90 días*
