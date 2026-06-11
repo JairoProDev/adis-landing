@@ -4,13 +4,13 @@ Copia, personaliza `[corchetes]` y envía **texto + link** cuando corresponda (n
 
 **Regla de oro:** vende la imagen mental (*"tengo mi página web profesional y catálogo virtual, con publicidad en Buscadis"*), no la lista de servicios.
 
-**Programa:** 90 días / 3 meses · 30 entregables × 3 días · S/. 300 · Ver `OFERTA-ADIS-COMPLETA.md`
+**Programa:** 90 días / 3 meses · 30 entregables × 3 días · S/. 350 · Ver `OFERTA-ADIS-COMPLETA.md`
 
 ---
 
 ## Preview WhatsApp (og:tags — adis.lat)
 
-**Título:** Tu página web profesional · S/. 300 · 3 meses  
+**Título:** Tu página web profesional · S/. 350 · 3 meses  
 **Descripción:** Página web personalizada, catálogo virtual interactivo y publicidad en Buscadis — nosotros lo diseñamos y desarrollamos por ti.
 
 ---
@@ -49,7 +49,7 @@ Te comparto lo que hacemos en ADIS:
 
 En una frase: diseñamos y desarrollamos tu página web profesional y catálogo virtual interactivo, te promocionamos en Buscadis y nuestras redes, y además fotos nivel estudio y +30 entregables que por tu cuenta no harías. Tú sigues atendiendo, nosotros hacemos lo digital.
 
-S/. 300 por todo el programa (3 meses · 90 días).
+S/. 350 por todo el programa (3 meses · 90 días).
 
 Yape 990 551 461 → captura al 937 054 328.
 
@@ -61,7 +61,7 @@ Yape 990 551 461 → captura al 937 054 328.
 ## 4. Mensaje corto (si ya hubo conversación)
 
 ```
-[nombre] — ADIS · 3 meses · S/. 300 · cupos limitados
+[nombre] — ADIS · 3 meses · S/. 350 · cupos limitados
 
 Página web · catálogo · publicidad · fotos estudio · contenido · estrategia
 
@@ -109,9 +109,9 @@ Mientras tanto, mándanos:
 ## 7. Si preguntan "¿es mensual?" / "¿después de los 3 meses?"
 
 ```
-Los S/. 300 son por TODO el programa — 3 meses (90 días): página web, catálogo virtual, publicidad ADIS, fotos nivel estudio, contenido y +30 entregables extra.
+Los S/. 350 son por TODO el programa — 3 meses (90 días): página web, catálogo virtual, publicidad ADIS, fotos nivel estudio, contenido y +30 entregables extra.
 
-Después de los 3 meses, si quieres seguir: S/. 300/mes mantiene tu página activa, catálogo actualizado y visibilidad en buscadis.com. Sin compromiso hoy.
+Después de los 3 meses, si quieres seguir: S/. 350/mes mantiene tu página activa, catálogo actualizado y visibilidad en buscadis.com. Sin compromiso hoy.
 
 Lo importante: cuando te animes, reservas uno de los cupos limitados.
 ```
@@ -129,7 +129,7 @@ Este trimestre abrimos cupos para acompañar negocios con su presencia digital:
 
 Página web profesional, catálogo virtual interactivo y publicidad en Buscadis — sin complicaciones técnicas. Nosotros diseñamos y desarrollamos. Tú ves los resultados.
 
-S/. 300 · 3 meses · cupos limitados
+S/. 350 · 3 meses · cupos limitados
 
 Yape 990 551 461 → captura al 937 054 328
 

@@ -1,7 +1,7 @@
 # Manual paso a paso — Outreach personal ADIS
 
 **Para:** Shantall (WhatsApp personal) + Jairo (apoyo)  
-**Objetivo:** conversaciones 1 a 1 naturales → interés genuino → reserva cupo (S/. 300 · 3 meses)  
+**Objetivo:** conversaciones 1 a 1 naturales → interés genuino → reserva cupo (S/. 350 · 3 meses)  
 **Documentos:** `OFERTA-ADIS-COMPLETA.md` · `MENSAJE-CLIENTES-ADIS.md`
 
 ---

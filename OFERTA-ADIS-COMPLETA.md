@@ -18,7 +18,7 @@
 | Yape / Plin | **990 551 461** · Shantall |
 | Respaldo Jairo | 953 865 163 |
 
-**Reserva:** Yape S/. 300 → captura **937 054 328** · **10 cupos limitados**
+**Reserva:** Yape S/. 350 → captura **937 054 328** · **10 cupos limitados**
 
 ---
 
@@ -28,7 +28,7 @@
 |------|----------|--------|
 | **Inicio** | Días 1–3 | **Entregable 1:** investigación y diagnóstico digital de tu negocio |
 | **Programa principal** | **90 días · 30 entregables × 3** | Construcción robusta, un bloque cada 3 días. ~3 meses. |
-| **Continuidad** *(opcional)* | Mes 4+ | S/. 300/mes: mantenimiento página, catálogo, Buscadis |
+| **Continuidad** *(opcional)* | Mes 4+ | S/. 350/mes: mantenimiento página, catálogo, Buscadis |
 
 **Por qué 3 días por entregable:** más tiempo = entregas más completas, menos estrés del equipo, más calidad. Si un bloque se acelera, genial; el calendario es el **mínimo** comprometido.
 
@@ -40,7 +40,7 @@
 | Entregables 11–20 (Mes 2) | 31–60 |
 | Entregables 21–30 (Mes 3) | 61–90 |
 
-**Valor ref. total:** S/. 4,350 · **Precio programa ADIS:** S/. 300 **(3 meses completos)**
+**Valor ref. total:** S/. 4,350 · **Precio programa ADIS:** S/. 350 **(3 meses completos)**
 
 ---
 
@@ -51,7 +51,7 @@ Hola [nombre]! Soy [Shantall/Jairo] de ADIS.
 
 Te escribo porque vi [negocio / tu perfil] y creo que podemos ayudarte:
 
-Por S/. 300 recibes **3 meses de acompañamiento digital** (90 días). Nosotros hacemos lo digital; tú ves resultados:
+Por S/. 350 recibes **3 meses de acompañamiento digital** (90 días). Nosotros hacemos lo digital; tú ves resultados:
 
 1️⃣ Página web profesional personalizada → tu vitrina online 24/7
 2️⃣ Catálogo virtual interactivo → todos tus productos en un link
@@ -62,7 +62,7 @@ Por S/. 300 recibes **3 meses de acompañamiento digital** (90 días). Nosotros 
 7️⃣ +30 entregables extra → cosas que por tu cuenta no harías
 8️⃣ Garantía mes 1 → o devolución 100%
 9️⃣ 10 cupos limitados
-🔟 Valor ref. S/. 4,350 · tú pagas S/. 300
+🔟 Valor ref. S/. 4,350 · tú pagas S/. 350
 
 👉 https://adis.lat
 Yape 990 → captura 937 054 328
@@ -73,7 +73,7 @@ Yape 990 → captura 937 054 328
 ### Variante mínima
 
 ```
-[nombre] · ADIS · 3 MESES · S/. 300
+[nombre] · ADIS · 3 MESES · S/. 350
 
 Página web · catálogo · publicidad · fotos estudio · contenido · estrategia · garantía mes 1 · cupos limitados
 
@@ -98,7 +98,7 @@ Pensé en [negocio] y quería contarte algo:
 
 👉 https://adis.lat · Quival, Agril Sur, 14+ páginas, Noticiadis ~2K
 
-💰 S/. 300 los 3 meses · quedan [X]/10 cupos
+💰 S/. 350 los 3 meses · quedan [X]/10 cupos
 Yape 990 551 461 → captura 937 054 328
 
 ¿Calendario completo o alguna duda?
@@ -120,7 +120,7 @@ MES 3 · Estrategia y cierre (Canvas, CRM, planes, auditoría, kit final)
 ~180 piezas repartidas: informes, guías, fotos, posts, configs…
 
 Valor ref.: S/. 4,350
-Tu precio: S/. 300 (3 meses)
+Tu precio: S/. 350 (3 meses)
 
 Garantía fin mes 1: página + catálogo en marcha, 10 fotos, plantillas WA — o devolución 100%.
 
@@ -504,7 +504,7 @@ Garantía fin mes 1: página + catálogo en marcha, 10 fotos, plantillas WA — 
 |-----|------------|------|
 | 1 | Carpeta digital todos links + inventario entregables | S/. 30 |
 | 2 | ZIP completo (flyers, plantillas, informes, fotos) | S/. 40 |
-| 3 | Certificado de participación ADIS + propuesta continuidad S/. 300/mes + post cierre | S/. 45 |
+| 3 | Certificado de participación ADIS + propuesta continuidad S/. 350/mes + post cierre | S/. 45 |
 
 **Bloque:** S/. 115 · **Ganas:** paquete cerrado y negocio digital funcionando 3 meses.
 
@@ -523,11 +523,11 @@ Garantía fin mes 1: página + catálogo en marcha, 10 fotos, plantillas WA — 
 
 ```
 Valor referencial:           S/. 4,350
-Precio programa ADIS:         S/. 300  (3 meses completos)
+Precio programa ADIS:         S/. 350  (3 meses completos)
 Ahorro referencial:          S/. 4,050  (~93%)
 ```
 
-**Cómo decirlo:** *“30 entregables grandes, 3 días cada uno, 90 días de acompañamiento. No te damos todo el día 1 — construimos contigo un trimestre. S/. 300 porque es programa de acompañamiento ADIS.”*
+**Cómo decirlo:** *“30 entregables grandes, 3 días cada uno, 90 días de acompañamiento. No te damos todo el día 1 — construimos contigo un trimestre. S/. 350 porque es programa de acompañamiento ADIS.”*
 
 ---
 
@@ -544,7 +544,7 @@ Si al cierre del entregable 10 no tienes:
 
 ## Después de los 90 días
 
-**S/. 300/mes** (opcional): mantenimiento página, catálogo actualizado, visibilidad Buscadis, soporte básico.
+**S/. 350/mes** (opcional): mantenimiento página, catálogo actualizado, visibilidad Buscadis, soporte básico.
 
 ---
 
@@ -584,7 +584,7 @@ Es justamente para NO apurarnos 😊
 Cada entregable tiene 3 días: preparamos, entregamos algo sólido y refinamos. Así recibes más calidad y nosotros cumplimos. Si algo se adelanta, mejor para ti.
 ```
 
-### Si preguntan “¿qué incluyen los 3 meses por S/. 300?”
+### Si preguntan “¿qué incluyen los 3 meses por S/. 350?”
 
 ```
 Todo el calendario: 30 entregables (página, catálogo, Maps, fotos, WA, publicidad ADIS, 30+ posts, estrategia, informes…). Son 3 meses de acompañamiento digital completo.
@@ -599,7 +599,7 @@ Todo el calendario: 30 entregables (página, catálogo, Maps, fotos, WA, publici
 | “30 entregables en un mes” | “30 entregables en 90 días / 3 meses” |
 | “Todo el día 1” | “Un bloque cada 3 días” |
 | “Sin aprender tecnología” | “Sin complicaciones técnicas” |
-| Prometer mes suelto | “S/. 300 = 3 meses completos” |
+| Prometer mes suelto | “S/. 350 = 3 meses completos” |
 
 ---
 
