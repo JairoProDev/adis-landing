@@ -6,7 +6,9 @@
 **Ritmo interno:** Día 1 = preparación · Día 2 = entrega principal · Día 3 = refinamiento + contenido + guía.  
 **Tono:** *"nosotros hacemos lo digital, tú ves resultados"* · *"sin complicaciones técnicas"*.
 
-> Versión histórica comunidad Kallpa Warmi: rama git `kallpa-warmi`
+> **Oferta actual (main):** ver `OFERTA-PLANES-ADIS.md` — 3 planes S/. 30 / 300 / 3,000  
+> Versión histórica programa único S/. 350: rama git `oferta-programa-350`  
+> Versión histórica Kallpa Warmi: rama git `kallpa-warmi`
 
 ---
 

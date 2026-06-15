@@ -2,7 +2,9 @@
 
 **Para:** Shantall (WhatsApp personal) + Jairo (apoyo)  
 **Objetivo:** conversaciones 1 a 1 naturales → interés genuino → reserva cupo (S/. 350 · 3 meses)  
-**Documentos:** `OFERTA-ADIS-COMPLETA.md` · `MENSAJE-CLIENTES-ADIS.md`
+**Documentos:** `OFERTA-PLANES-ADIS.md` · `MENSAJE-CLIENTES-ADIS.md`
+
+**Planes actuales:** Básico S/. 30 · Potente S/. 300 ⭐ · Premium S/. 3,000
 
 ---
 
@@ -166,10 +168,10 @@ Si en algún momento quieres que veamos tu negocio online juntos, aquí estoy. �
 
 | Recurso | Archivo |
 |---------|---------|
-| Oferta 90 días | `OFERTA-ADIS-COMPLETA.md` |
+| Oferta 3 planes | `OFERTA-PLANES-ADIS.md` |
 | Plantillas | `MENSAJE-CLIENTES-ADIS.md` |
 | Landing | https://adis.lat |
-| Histórico Kallpa | rama git `kallpa-warmi` |
+| Histórico programa único | rama git `oferta-programa-350` |
 
 ---
 

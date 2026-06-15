@@ -3,17 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>ADIS — Tu página web profesional · S/. 350 · 3 meses</title>
-<meta name="description" content="Diseñamos y desarrollamos tu página web personalizada, catálogo virtual interactivo y publicidad en Buscadis y nuestras redes. S/. 350 · 3 meses · cupos limitados.">
+<title>ADIS — 3 planes para tu negocio · desde S/. 30</title>
+<meta name="description" content="Plan Básico S/. 30 · Plan Potente S/. 300 · Plan Premium S/. 3,000. Página web, catálogo virtual y publicidad en Buscadis. Elige tu plan en adis.lat.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://adis.lat">
-<meta property="og:title" content="Tu página web profesional · S/. 350">
-<meta property="og:description" content="Página web personalizada, catálogo virtual interactivo y publicidad en todo nuestro ecosistema. Nosotros lo diseñamos y desarrollamos por ti. S/. 350 · 3 meses.">
+<meta property="og:title" content="3 planes para tu negocio · desde S/. 30">
+<meta property="og:description" content="Básico S/. 30 · Potente S/. 300 ⭐ · Premium S/. 3,000. Página web, catálogo y publicidad en Buscadis — nosotros lo hacemos por ti.">
 <meta property="og:image" content="https://adis.lat/assets/og-image-v2.jpg">
 <meta property="og:image:width" content="1024">
 <meta property="og:image:height" content="682">
 <meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:alt" content="Página web profesional + catálogo virtual — S/. 350 · 3 meses · adis.lat">
+<meta property="og:image:alt" content="3 planes ADIS — Básico S/. 30 · Potente S/. 300 · Premium S/. 3,000 · adis.lat">
 <meta name="twitter:image" content="https://adis.lat/assets/og-image-v2.jpg">
 <meta property="og:locale" content="es_PE">
 <meta name="twitter:card" content="summary_large_image">
@@ -564,6 +564,44 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 }
 .invest-box strong{color:var(--green);}
 
+/* ===== PRICING PLANS ===== */
+.plans-grid{width:100%;max-width:400px;display:flex;flex-direction:column;gap:10px;}
+.plan-card{
+  background:var(--white);border:2px solid var(--line);border-radius:14px;
+  padding:14px 16px;text-align:left;cursor:pointer;transition:border-color .2s,box-shadow .2s;
+}
+.plan-card.on-dark{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.15);}
+.plan-card.featured{border-color:var(--teal);box-shadow:0 4px 20px rgba(14,165,233,.25);}
+.plan-card.selected{border-color:var(--green);background:var(--green-l);}
+.plan-card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:4px;}
+.plan-card-name{font-family:'Fraunces',serif;font-size:17px;font-weight:700;color:var(--ink);line-height:1.2;}
+.plan-card.on-dark .plan-card-name{color:var(--white);}
+.plan-card-tag{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;padding:3px 8px;border-radius:99px;background:var(--gold-l);color:var(--gold);white-space:nowrap;}
+.plan-card-tag.star{background:var(--teal);color:var(--white);}
+.plan-price{font-family:'Fraunces',serif;font-size:26px;font-weight:800;color:var(--teal);line-height:1;margin:6px 0 4px;}
+.plan-card.on-dark .plan-price{color:var(--gold);}
+.plan-subtitle{font-size:12px;color:var(--dim);margin-bottom:8px;}
+.plan-card.on-dark .plan-subtitle{color:rgba(255,255,255,.55);}
+.plan-features{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:5px;}
+.plan-features li{font-size:12px;color:var(--dim);padding-left:16px;position:relative;line-height:1.4;}
+.plan-card.on-dark .plan-features li{color:rgba(255,255,255,.75);}
+.plan-features li::before{content:'✓';position:absolute;left:0;color:var(--green);font-weight:700;}
+.plan-card.compact .plan-features li:nth-child(n+4){display:none;}
+.plan-card-btn{
+  display:block;width:100%;margin-top:10px;padding:10px;border-radius:10px;
+  border:1px solid var(--line);background:var(--off);font-size:13px;font-weight:600;
+  color:var(--ink);cursor:pointer;text-align:center;
+}
+.plan-card.featured .plan-card-btn{background:var(--teal);color:var(--white);border-color:var(--teal);}
+.plan-card.selected .plan-card-btn{background:var(--green);color:var(--white);border-color:var(--green);}
+.plan-card.on-dark .plan-card-btn{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:var(--white);}
+.plan-card.on-dark.featured .plan-card-btn{background:var(--teal);border-color:var(--teal);}
+.plan-compare{width:100%;max-width:400px;border-collapse:collapse;font-size:11px;}
+.plan-compare th,.plan-compare td{padding:8px 6px;text-align:center;border-bottom:1px solid var(--line);}
+.plan-compare th:first-child,.plan-compare td:first-child{text-align:left;font-weight:600;color:var(--ink);}
+.plan-compare .yes{color:var(--green);font-weight:700;}
+.plan-compare .no{color:var(--dim);}
+
 /* ===== SCROLLABLE SLIDE (solo slides con mucho contenido, no el hero) ===== */
 .slide.scroll-y{
   justify-content:flex-start;
@@ -735,7 +773,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 <!-- NAV -->
 <nav id="nav">
   <div class="nav-logo"><span class="a">AD</span><span class="d" id="navD">IS</span></div>
-  <a href="#pagar" class="nav-cta" id="navPayBtn">Crecer en mi negocio →</a>
+  <a href="#pagar" class="nav-cta" id="navPayBtn">Ver planes →</a>
 </nav>
 
 <!-- NAV DOTS -->
@@ -743,12 +781,12 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 
 <!-- STICKY CTA -->
 <div id="sticky-cta">
-  <a href="#pagar" class="sticky-btn sticky-yape" id="stickyYape">💜 Invertir solo S/. 350</a>
+  <a href="#pagar" class="sticky-btn sticky-yape" id="stickyYape">💜 Plan Potente · S/. 300</a>
   <a href="#" class="sticky-btn sticky-wa" id="stickyWa" target="_blank">WhatsApp</a>
 </div>
 
 <!-- URGENCY STRIP -->
-<div class="urgency" id="urgencyStrip">⚡ <span id="spots">10</span> cupos limitados · ADIS</div>
+<div class="urgency" id="urgencyStrip">⚡ 3 planes · desde S/. 30 · ADIS Cusco</div>
 
 <!-- ============================== SLIDES ============================== -->
 <div id="deck">
@@ -758,22 +796,22 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
   <div class="content hero-layout" style="align-items:center;text-align:center;">
 
     <div class="hero-block anim anim-1">
-      <div class="badge badge-gold">Programa 3 meses · Cupos limitados</div>
+      <div class="badge badge-gold">3 planes · Elige el tuyo</div>
     </div>
 
     <div class="hero-block hero-block-head anim anim-2">
       <h1 class="hero-h" style="text-align:center;">
-        Tu <span class="hl-teal">página web</span> profesional, diseñada para <span class="hl-teal">vender más</span>
+        Tu negocio en internet,<br>con el <span class="hl-teal">plan que necesitas</span>
       </h1>
-      <p class="hero-pain">Tienes un buen producto. <em>Pero sin página web ni catálogo online, pierdes ventas todos los días.</em></p>
+      <p class="hero-pain">Desde S/. 30 para aparecer en Buscadis — hasta tu página web completa con publicidad por S/. 300.</p>
     </div>
 
     <div class="hero-block anim anim-3">
       <div class="hero-perks">
-        <div class="hero-perk"><span class="hero-perk-ico">🌐</span><span>Página web profesional a tu medida</span></div>
-        <div class="hero-perk"><span class="hero-perk-ico">🛒</span><span>Catálogo virtual interactivo</span></div>
+        <div class="hero-perk"><span class="hero-perk-ico">🏪</span><span>Básico S/. 30 — perfil en marketplace</span></div>
+        <div class="hero-perk"><span class="hero-perk-ico">🌐</span><span>Potente S/. 300 — página web + catálogo ⭐</span></div>
+        <div class="hero-perk"><span class="hero-perk-ico">🚀</span><span>Premium S/. 3,000 — crecimiento total</span></div>
         <div class="hero-perk"><span class="hero-perk-ico">📣</span><span>Publicidad en Buscadis y nuestras redes</span></div>
-        <div class="hero-perk"><span class="hero-perk-ico">📸</span><span>Fotos nivel estudio — tú no podrías hacerlas solo</span></div>
       </div>
     </div>
 
@@ -781,10 +819,10 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
       <div class="hero-offer">
         <div class="hero-price">
           <span class="hero-price-was">S/. 3,000</span>
-          <span class="hero-price-badge">-90%</span>
-          <span class="hero-price-now">S/. 350</span>
+          <span class="hero-price-badge">⭐</span>
+          <span class="hero-price-now">S/. 300</span>
         </div>
-        <p class="hero-offer-tag"><strong>Página web + catálogo + publicidad ADIS</strong> · 3 meses · 90 días</p>
+        <p class="hero-offer-tag"><strong>Plan Potente</strong> · Motor de Ventas · el más elegido</p>
       </div>
       <div class="hero-stats">
         <div class="hero-stat">
@@ -807,14 +845,14 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 
     <div class="hero-block hero-block-cta anim anim-5">
       <div class="hero-cta-wrap">
-        <a href="#pagar" class="btn btn-invest" id="heroPayBtn">Quiero mi página web profesional →</a>
-        <p class="btn-invest-sub">Diseño y desarrollo a tu medida — catálogo interactivo, publicidad y fotos nivel estudio incluidas.</p>
+        <a href="#planes" class="btn btn-invest" id="heroPayBtn">Ver los 3 planes →</a>
+        <p class="btn-invest-sub">Empieza con S/. 30 en Buscadis o elige el Plan Potente con página web, catálogo y publicidad.</p>
         <p class="hero-wa-link"><a href="#" id="heroWaBtn" target="_blank">💬 ¿Tienes dudas? Escríbenos por WhatsApp</a></p>
       </div>
     </div>
 
   </div>
-  <div class="slide-num">01 / 17</div>
+  <div class="slide-num">01 / 14</div>
 </div>
 
 <!-- SLIDE 2: POR QUÉ ADIS -->
@@ -831,35 +869,71 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
       <div class="trust-item"><span>✓</span><span><strong style="color:var(--white);">500+ negocios</strong> en Buscadis + <strong style="color:var(--white);">14+ páginas</strong> vivas</span></div>
       <div class="trust-item"><span>✓</span><span>Contacto ADIS <strong style="color:var(--white);">937 054 328</strong> + respaldo Jairo y Shantall</span></div>
     </div>
-    <a href="#pagar" class="btn btn-white anim anim-5" id="trustPayBtn">Asegurar uno de los 10 cupos →</a>
+    <a href="#planes" class="btn btn-white anim anim-5" id="trustPayBtn">Ver los 3 planes →</a>
   </div>
-  <div class="slide-num">02 / 17</div>
+  <div class="slide-num">02 / 14</div>
 </div>
 
-<!-- SLIDE 3: CORE OFFER — LO PRINCIPAL -->
-<div class="slide off" data-theme="light">
+<!-- SLIDE 3: LOS 3 PLANES -->
+<div id="planes" class="slide off scroll-y" data-theme="light">
   <div class="content">
-    <div class="badge badge-teal anim anim-1">Lo que realmente compras</div>
-    <h2 class="section-h anim anim-2">Tu página web + catálogo<br><span class="hl-teal">+ publicidad en todo Cusco.</span></h2>
-    <p class="section-sub anim anim-3">Lo principal: diseñamos y desarrollamos tu página web profesional y catálogo virtual. Luego te promocionamos en <strong>buscadis.com</strong>, <strong>publicadis.com</strong> y nuestras redes. El resto son extras que por tu cuenta no harías.</p>
-    <div class="offer-grid anim anim-4">
-      <div class="offer-main">
-        <h3>🌐 Página web profesional</h3>
-        <p>Diseño y desarrollo personalizado, optimizado para tu negocio — como la de Quival con 510 productos o Agril Sur con su línea de bebidas artesanales. Tu vitrina online 24/7, con tu marca y tu estilo.</p>
+    <div class="badge badge-teal anim anim-1">Elige tu plan</div>
+    <h2 class="section-h anim anim-2">3 planes para<br><span class="hl-teal">cada etapa de tu negocio.</span></h2>
+    <p class="section-sub anim anim-3">Empieza barato con presencia en Buscadis — o elige el Plan Potente con página web, catálogo y publicidad hechos por nosotros.</p>
+    <div class="plans-grid anim anim-4">
+      <div class="plan-card compact" data-plan-select="basico" onclick="selectPlan('basico')">
+        <div class="plan-card-head">
+          <div class="plan-card-name">Plan Básico</div>
+          <span class="plan-card-tag">Presencia Inicial</span>
+        </div>
+        <div class="plan-price">S/. 30</div>
+        <div class="plan-subtitle">Aparece en Buscadis y administra tu perfil tú misma</div>
+        <ul class="plan-features">
+          <li>Perfil exclusivo en el marketplace Buscadis</li>
+          <li>Panel privado para cambiar datos, horarios y teléfono</li>
+          <li>Sube tus productos, fotos y precios por tu cuenta</li>
+        </ul>
+        <span class="plan-card-btn">Elegir Básico</span>
       </div>
-      <div class="offer-main" style="border-color:var(--teal);">
-        <h3>🛒 Catálogo virtual interactivo</h3>
-        <p>Todos tus productos organizados en un link que puedes compartir. Fotos, precios, descripciones — un catálogo que funciona mientras tú atiendes tu negocio.</p>
+      <div class="plan-card featured selected" data-plan-select="potente" onclick="selectPlan('potente')">
+        <div class="plan-card-head">
+          <div class="plan-card-name">Plan Potente ⭐</div>
+          <span class="plan-card-tag star">Predilecto</span>
+        </div>
+        <div class="plan-price">S/. 300</div>
+        <div class="plan-subtitle">Motor de Ventas — nosotros lo hacemos por ti</div>
+        <ul class="plan-features">
+          <li>Todo lo del Plan Básico</li>
+          <li>Página web profesional con el nombre de tu marca</li>
+          <li>Catálogo virtual ordenado y atractivo</li>
+          <li>Mejora de fotos a nivel profesional</li>
+          <li>Primera campaña publicitaria en redes</li>
+          <li>Anuncios destacados en Buscadis</li>
+        </ul>
+        <span class="plan-card-btn">Elegir Potente ⭐</span>
       </div>
-      <div class="offer-main" style="border-color:var(--green);">
-        <h3>📣 Publicidad en nuestro ecosistema</h3>
-        <p>Te promocionamos en Buscadis, Publicadis, Noticiadis y nuestras redes (TikTok, Instagram) — post dedicado, flyers y video para que tú también publiques.</p>
+      <div class="plan-card compact" data-plan-select="premium" onclick="selectPlan('premium')">
+        <div class="plan-card-head">
+          <div class="plan-card-name">Plan Premium</div>
+          <span class="plan-card-tag">Crecimiento Total</span>
+        </div>
+        <div class="plan-price">S/. 3,000</div>
+        <div class="plan-subtitle">Para negocios que quieren escalar sin límites</div>
+        <ul class="plan-features">
+          <li>Todo lo del Plan Potente</li>
+          <li>Manejo completo de Facebook, Instagram y TikTok</li>
+          <li>Fotos y videos profesionales en tu local</li>
+          <li>Renovación de logo y colores de marca</li>
+          <li>Tienda online con pagos automáticos 24/7</li>
+          <li>Asistente inteligente con IA (Adis)</li>
+          <li>Asesoría de negocios mensual</li>
+        </ul>
+        <span class="plan-card-btn">Elegir Premium</span>
       </div>
-      <div class="offer-bonus">🎁 <strong>Y además:</strong> fotos nivel estudio, edición profesional, estrategia digital, community management, preparación para fondos concursables y +30 entregables que por tu cuenta no harías.</div>
     </div>
-    <a href="#pagar" class="btn btn-invest anim anim-5" id="corePayBtn">Quiero mi página + catálogo →</a>
+    <a href="#pagar" class="btn btn-invest anim anim-5" id="corePayBtn">Reservar mi plan →</a>
   </div>
-  <div class="slide-num">03 / 17</div>
+  <div class="slide-num">03 / 14</div>
 </div>
 
 <!-- SLIDE 4: EL PROBLEMA -->
@@ -886,7 +960,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
       </div>
     </div>
   </div>
-  <div class="slide-num">04 / 17</div>
+  <div class="slide-num">04 / 14</div>
 </div>
 
 <!-- SLIDE 5: BEFORE / AFTER -->
@@ -916,7 +990,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
     </div>
     <p class="anim anim-4" style="font-size:13px;color:rgba(255,255,255,.5);text-align:center;max-width:320px;">Nosotros hacemos lo digital. Tú sigues atendiendo tu negocio y ves los resultados.</p>
   </div>
-  <div class="slide-num">05 / 17</div>
+  <div class="slide-num">05 / 14</div>
 </div>
 
 <!-- SLIDE 6: QUIÉNES SOMOS -->
@@ -951,7 +1025,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
       </div>
     </div>
   </div>
-  <div class="slide-num">06 / 17</div>
+  <div class="slide-num">06 / 14</div>
 </div>
 
 <!-- SLIDE 7: ECOSISTEMA ADIS -->
@@ -972,7 +1046,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
     <p class="cred-mini anim anim-5">Marketplace + publicidad + páginas. Paqarina · IDEALAB · Startup Perú 13G. Tu negocio entra a una red que ya mueve Cusco.</p>
     <a href="#pagar" class="btn btn-invest anim anim-5" id="ecoPayBtn">Quiero entrar al ecosistema →</a>
   </div>
-  <div class="slide-num">07 / 17</div>
+  <div class="slide-num">07 / 14</div>
 </div>
 
 <!-- SLIDE 8: PORTAFOLIO WEB -->
@@ -985,7 +1059,7 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
     <p style="font-size:11px;color:var(--dim);text-align:center;margin-top:4px;">+ muchos casos más en Cusco y LATAM</p>
     <a href="#pagar" class="btn btn-invest anim anim-5" id="portPayBtn" style="margin-top:8px;">Quiero una página como estas →</a>
   </div>
-  <div class="slide-num">08 / 17</div>
+  <div class="slide-num">08 / 14</div>
 </div>
 
 <!-- SLIDE 9: REDES Y MEDIOS -->
@@ -1021,285 +1095,85 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
     </div>
     <p class="cred-mini anim anim-4">No te enseñamos desde un PDF. Ya movimos cientos de negocios, un canal de noticias y perfiles con miles de seguidores.</p>
   </div>
-  <div class="slide-num">09 / 17</div>
+  <div class="slide-num">09 / 14</div>
 </div>
 
-<!-- SLIDE 10: PROGRAMA COMPLETO -->
-<div class="slide off" data-theme="light">
+<!-- SLIDE 10: PLAN POTENTE DESTACADO -->
+<div class="slide teal" data-theme="dark">
   <div class="content">
-    <div class="badge badge-teal anim anim-1">Programa 3 meses + después</div>
-    <h2 class="section-h anim anim-2">Todo lo que recibes<br><span class="hl-teal">en 90 días y más.</span></h2>
-    <p class="section-sub anim anim-3">Mes 1: construimos todo. Mes 2+: tu página activa, catálogo actualizado y visibilidad en buscadis.com por S/. 350/mes.</p>
-    <div class="stats-row anim anim-4" style="background:var(--ink);border-radius:16px;padding:16px;width:100%;max-width:400px;">
-      <div class="stat">
-        <div class="stat-n" style="font-size:22px;">1</div>
-        <div class="stat-l">Página<br>profesional</div>
-      </div>
-      <div style="width:1px;background:rgba(255,255,255,.1);"></div>
-      <div class="stat">
-        <div class="stat-n" style="font-size:22px;">∞</div>
-        <div class="stat-l">Catálogo<br>online</div>
-      </div>
-      <div style="width:1px;background:rgba(255,255,255,.1);"></div>
-      <div class="stat">
-        <div class="stat-n" style="font-size:22px;">+30</div>
-        <div class="stat-l">Extra<br>entregables</div>
-      </div>
+    <div class="badge badge-white anim anim-1">⭐ Plan Predilecto</div>
+    <h2 class="section-h white-text anim anim-2">Plan Potente · S/. 300<br><span style="opacity:.85;">Motor de Ventas</span></h2>
+    <p class="section-sub dimw anim anim-3" style="max-width:360px;">Lo que la mayoría elige: nosotros diseñamos tu página web, ordenamos tu catálogo, mejoramos tus fotos y te hacemos publicidad. Tú sigues con tu negocio.</p>
+    <div class="trust-list anim anim-4">
+      <div class="trust-item"><span>🌐</span><span><strong style="color:var(--white);">Página web profesional</strong> — diseñada con el nombre de tu marca para generar confianza</span></div>
+      <div class="trust-item"><span>🛍️</span><span><strong style="color:var(--white);">Catálogo virtual</strong> — productos ordenados para que elijan fácil lo que quieren comprar</span></div>
+      <div class="trust-item"><span>📸</span><span><strong style="color:var(--white);">Mejora de fotos</strong> — editamos tus imágenes para que se vean nítidas y profesionales</span></div>
+      <div class="trust-item"><span>📣</span><span><strong style="color:var(--white);">Publicidad en redes</strong> — primera campaña configurada para atraer clientes</span></div>
+      <div class="trust-item"><span>🏪</span><span><strong style="color:var(--white);">Anuncios en Buscadis</strong> — apareces en los primeros lugares del marketplace</span></div>
+      <div class="trust-item"><span>✅</span><span>Incluye todo el <strong style="color:var(--green);">Plan Básico</strong> (perfil autogestionable en Buscadis)</span></div>
     </div>
-    <div class="offer-bonus anim anim-5" style="max-width:400px;text-align:left;">
-      ✓ Post promocional en nuestras redes · ✓ Flyers y video para tus redes<br>
-      ✓ Community management · ✓ Plan innovación para fondos concursables<br>
-      ✓ Fotos nivel estudio · ✓ Estrategia 90 días · ✓ +30 entregables extra
-    </div>
-    <a href="#" class="btn btn-teal anim anim-5" id="overviewDelBtn">Ver los 30 entregables →</a>
+    <a href="#pagar" class="btn btn-white anim anim-5" id="potentePayBtn">Elegir Plan Potente →</a>
   </div>
-  <div class="slide-num">10 / 17</div>
+  <div class="slide-num">10 / 14</div>
 </div>
 
-<!-- SLIDE 11: DELIVERABLES CAROUSEL -->
-<div class="slide light" data-theme="light">
-  <div class="content" style="gap:10px;">
-    <div class="badge badge-teal anim anim-1">Entregables incluidos · desliza →</div>
-    <div class="del-container anim anim-2">
-      <div class="del-track" id="delTrack">
-        <!-- Card 1 -->
-        <div class="del-card">
-          <div class="del-inner">
-            <div class="del-num">Entregable #1 · Día 1-2 · Publicadis</div>
-            <div class="del-title">Auditoría Digital Completa</div>
-            <div class="del-desc">Diagnóstico exhaustivo de tu presencia digital. Score 1-11 de madurez. Lista priorizada de qué mejorar primero. Informe personalizado para tu negocio.</div>
-            <div class="del-tags"><span class="del-tag">Google Maps</span><span class="del-tag">Redes sociales</span><span class="del-tag">WhatsApp</span></div>
-            <div class="del-value"><span>Valor mercado:</span><span class="del-value-num">S/. 800</span><span style="color:var(--green);font-weight:600;font-size:13px;">→ Incluido</span></div>
-          </div>
-        </div>
-        <!-- Card 2 -->
-        <div class="del-card">
-          <div class="del-inner">
-            <div class="del-num">Entregable #2 · Día 3 · Publicadis</div>
-            <div class="del-title">Google Maps Profesional</div>
-            <div class="del-desc">Tu negocio en el top de búsquedas locales de Cusco. Perfil verificado, fotos, horarios, categorías exactas y keywords para que aparezcas cuando te busquen.</div>
-            <div class="del-tags"><span class="del-tag">SEO Local</span><span class="del-tag">Google Business</span><span class="del-tag">Visibilidad</span></div>
-            <div class="del-value"><span>Valor mercado:</span><span class="del-value-num">S/. 400</span><span style="color:var(--green);font-weight:600;font-size:13px;">→ Incluido</span></div>
-          </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="del-card">
-          <div class="del-inner">
-            <div class="del-num">Entregable #3 · Día 4 · Publicadis</div>
-            <div class="del-title">10 Fotos Transformadas con IA</div>
-            <div class="del-desc">Tus fotos del celular → calidad de estudio fotográfico. Fondo blanco, iluminación perfecta, sin desorden. Para tu catálogo, página web e Instagram.</div>
-            <div class="del-tags"><span class="del-tag">IA Generativa</span><span class="del-tag">Producto</span><span class="del-tag">Conversión</span></div>
-            <div class="del-value"><span>Valor mercado:</span><span class="del-value-num">S/. 500</span><span style="color:var(--green);font-weight:600;font-size:13px;">→ Incluido</span></div>
-          </div>
-        </div>
-        <!-- Card 4 -->
-        <div class="del-card">
-          <div class="del-inner">
-            <div class="del-num">Entregable #4 · Día 5 · Publicadis</div>
-            <div class="del-title">Catálogo Digital 24/7</div>
-            <div class="del-desc">Tu vitrina online que funciona mientras duermes. Fotos, precios, descripción. Un link que compartes con tus clientes. Botón de compra directo. Sin apps ni descargas.</div>
-            <div class="del-tags"><span class="del-tag">E-commerce</span><span class="del-tag">Catálogo</span><span class="del-tag">Ventas</span></div>
-            <div class="del-value"><span>Valor mercado:</span><span class="del-value-num">S/. 700</span><span style="color:var(--green);font-weight:600;font-size:13px;">→ Incluido</span></div>
-          </div>
-        </div>
-        <!-- Card 5 -->
-        <div class="del-card">
-          <div class="del-inner">
-            <div class="del-num">Entregable #5-6 · Día 6-7 · Publicadis</div>
-            <div class="del-title">Plantillas de WhatsApp que venden</div>
-            <div class="del-desc">15 mensajes listos para copiar y pegar: fuera de horario, precios, cierre de venta. Responde más rápido sin estar pegada al celular.</div>
-            <div class="del-tags"><span class="del-tag">WhatsApp Business</span><span class="del-tag">Ventas</span><span class="del-tag">24/7</span></div>
-            <div class="del-value"><span>Valor mercado:</span><span class="del-value-num">S/. 350</span><span style="color:var(--green);font-weight:600;font-size:13px;">→ Incluido</span></div>
-          </div>
-        </div>
-        <!-- Card 6 -->
-        <div class="del-card">
-          <div class="del-inner">
-            <div class="del-num">Entregable #7 · Día 8-9 · Publicadis</div>
-            <div class="del-title">30 Posts Listos para Publicar</div>
-            <div class="del-desc">Un mes completo de contenido escrito y listo. Texto, hashtags, cuándo publicar. Incluye posts de venta, educativos, stories y 2 guiones de Reels. Solo copias y pegas.</div>
-            <div class="del-tags"><span class="del-tag">Contenido</span><span class="del-tag">Instagram</span><span class="del-tag">TikTok</span></div>
-            <div class="del-value"><span>Valor mercado:</span><span class="del-value-num">S/. 700</span><span style="color:var(--green);font-weight:600;font-size:13px;">→ Incluido</span></div>
-          </div>
-        </div>
-        <!-- Card 7 -->
-        <div class="del-card">
-          <div class="del-inner">
-            <div class="del-num">Entregable #8-9 · Semana 2 · Publicadis</div>
-            <div class="del-title">SEO Local + Sistema de Reseñas</div>
-            <div class="del-desc">Textos optimizados para que Google te muestre cuando buscan en Cusco. QR físico para tu mostrador que lleva directo a dejar reseñas. Respondemos tus reseñas actuales con SEO.</div>
-            <div class="del-tags"><span class="del-tag">SEO</span><span class="del-tag">Google Reviews</span><span class="del-tag">QR</span></div>
-            <div class="del-value"><span>Valor mercado:</span><span class="del-value-num">S/. 850</span><span style="color:var(--green);font-weight:600;font-size:13px;">→ Incluido</span></div>
-          </div>
-        </div>
-        <!-- Card 8 - Vectorify -->
-        <div class="del-card">
-          <div class="del-inner b">
-            <div class="del-num">Entregable #16 · Día 3 · Vectorify</div>
-            <div class="del-title">Business Model Canvas</div>
-            <div class="del-desc">El mapa completo de tu negocio: quiénes son tus clientes, cómo ganas dinero, qué te hace diferente, cuánto cuesta operar. En lenguaje simple, visual, imprimible para tu pared.</div>
-            <div class="del-tags"><span class="del-tag">Estrategia</span><span class="del-tag">Modelo de negocio</span><span class="del-tag">Claridad</span></div>
-            <div class="del-value"><span>Valor mercado:</span><span class="del-value-num">S/. 500</span><span style="color:var(--green);font-weight:600;font-size:13px;">→ Incluido</span></div>
-          </div>
-        </div>
-        <!-- Card 9 - Vectorify -->
-        <div class="del-card">
-          <div class="del-inner b">
-            <div class="del-num">Entregable #19 · Día 8 · Vectorify</div>
-            <div class="del-title">Scripts de Objeciones de Venta</div>
-            <div class="del-desc">"Está caro" → respuesta ganadora que defiende tu precio. "Voy a pensarlo" → no pierdas la venta. "Ya tengo proveedor" → cómo diferenciarte. 8 objeciones de tu rubro específico resueltas.</div>
-            <div class="del-tags"><span class="del-tag">Ventas</span><span class="del-tag">Objeciones</span><span class="del-tag">Conversión</span></div>
-            <div class="del-value"><span>Valor mercado:</span><span class="del-value-num">S/. 400</span><span style="color:var(--green);font-weight:600;font-size:13px;">→ Incluido</span></div>
-          </div>
-        </div>
-        <!-- Card 10 - Vectorify -->
-        <div class="del-card">
-          <div class="del-inner b">
-            <div class="del-num">Entregable #21 · Día 11 · Vectorify</div>
-            <div class="del-title">Plan Estratégico 90 Días</div>
-            <div class="del-desc">Tu hoja de ruta al siguiente nivel. Objetivos claros, acciones semanales, métricas para saber si vas bien. Sin tecnicismos — solo qué hacer, cuándo y por qué.</div>
-            <div class="del-tags"><span class="del-tag">Estrategia</span><span class="del-tag">90 días</span><span class="del-tag">Metas</span></div>
-            <div class="del-value"><span>Valor mercado:</span><span class="del-value-num">S/. 600</span><span style="color:var(--green);font-weight:600;font-size:13px;">→ Incluido</span></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="del-nav anim anim-3">
-      <button class="del-arrow" id="delPrev" onclick="delMove(-1)">←</button>
-      <div style="display:flex;flex-direction:column;align-items:center;gap:6px;">
-        <div class="del-counter"><span id="delCur">1</span> / 10</div>
-        <div class="del-dots" id="delDots"></div>
-      </div>
-      <button class="del-arrow" id="delNext" onclick="delMove(1)">→</button>
-    </div>
-    <p style="font-size:12px;color:var(--dim);text-align:center;">10 ejemplos de 30 · <a href="#" style="color:var(--teal);" id="delFullPlanLink">lista completa por WhatsApp →</a></p>
-  </div>
-  <div class="slide-num">11 / 17</div>
-</div>
-
-<!-- SLIDE 12: VALUE STACK -->
-<div class="slide dark" data-theme="dark">
+<!-- SLIDE 11: COMPARATIVA DE PLANES -->
+<div class="slide off scroll-y" data-theme="light">
   <div class="content">
-    <div class="badge badge-gold anim anim-1">La ecuación simple</div>
-    <h2 class="section-h white-text anim anim-2">Inviertes S/. 350.<br><span class="hl-gold">Recibes S/. 3,000+.</span></h2>
-    <div class="value-table anim anim-3">
-      <div class="vt-row">
-        <span class="vt-name">Página + catálogo digital (Quival pagó S/. 250 solo esto)</span>
-        <span class="vt-price">S/. 1,200</span>
-      </div>
-      <div class="vt-row">
-        <span class="vt-name">Publicidad Buscadis + post en nuestras redes</span>
-        <span class="vt-price">S/. 800</span>
-      </div>
-      <div class="vt-row">
-        <span class="vt-name">Community management + flyers y video</span>
-        <span class="vt-price">S/. 600</span>
-      </div>
-      <div class="vt-row">
-        <span class="vt-name">+30 entregables extra (fotos estudio, IA, estrategia, fondos)</span>
-        <span class="vt-price">S/. 6,250</span>
-      </div>
-      <div class="vt-row">
-        <span class="vt-name">Visibilidad en marketplace buscadis.com</span>
-        <span class="vt-price">S/. —</span>
-      </div>
-      <div class="vt-row" style="margin-top:6px;">
-        <span class="vt-name" style="color:rgba(255,255,255,.4);font-size:12px;">Valor real del programa</span>
-        <span class="vt-total">S/. 8,850+</span>
-      </div>
-    </div>
-    <div style="width:100%;max-width:380px;" class="anim anim-4">
-      <div style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.25);border-radius:12px;padding:18px;text-align:center;">
-        <div style="font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:rgba(255,255,255,.4);margin-bottom:4px;">Tu inversión ADIS</div>
-        <div class="vt-total" style="color:var(--white);">S/. 350</div>
-        <div style="font-size:13px;color:var(--green);font-weight:600;margin-top:6px;">Ganas 29× lo que pagas en valor real</div>
-      </div>
-    </div>
-    <p class="anim anim-5" style="font-size:13px;text-align:center;color:rgba(255,255,255,.5);max-width:340px;">Después de los 3 meses: S/. 350/mes mantiene tu página activa, catálogo actualizado y visibilidad en Buscadis. Sin reconstruir todo.</p>
+    <div class="badge badge-teal anim anim-1">Compara y elige</div>
+    <h2 class="section-h anim anim-2">¿Qué plan<br><span class="hl-teal">va contigo?</span></h2>
+    <table class="plan-compare anim anim-3">
+      <thead>
+        <tr><th></th><th>Básico<br>S/. 30</th><th>Potente ⭐<br>S/. 300</th><th>Premium<br>S/. 3,000</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Perfil en Buscadis</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Panel autogestionable</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Página web profesional</td><td class="no">—</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Catálogo diseñado por ADIS</td><td class="no">—</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Mejora de fotos</td><td class="no">—</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Publicidad en redes</td><td class="no">—</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Manejo completo de redes</td><td class="no">—</td><td class="no">—</td><td class="yes">✓</td></tr>
+        <tr><td>Fotos/video en tu local</td><td class="no">—</td><td class="no">—</td><td class="yes">✓</td></tr>
+        <tr><td>Tienda con pagos online</td><td class="no">—</td><td class="no">—</td><td class="yes">✓</td></tr>
+        <tr><td>Asistente IA + asesoría</td><td class="no">—</td><td class="no">—</td><td class="yes">✓</td></tr>
+      </tbody>
+    </table>
+    <p class="anim anim-4" style="font-size:12px;color:var(--dim);text-align:center;max-width:340px;">¿Empiezas? Básico S/. 30. ¿Quieres página web y publicidad? Potente S/. 300. ¿Quieres que lo manejemos todo? Premium S/. 3,000.</p>
+    <a href="#pagar" class="btn btn-invest anim anim-5" id="portPayBtn">Reservar mi plan →</a>
   </div>
-  <div class="slide-num">12 / 17</div>
+  <div class="slide-num">11 / 14</div>
 </div>
 
-<!-- SLIDE 13: COMPARISON -->
-<div class="slide dark2" data-theme="dark">
-  <div class="content">
-    <div class="badge badge-teal anim anim-1">ADIS vs las alternativas</div>
-    <h2 class="section-h white-text anim anim-2">¿Por qué no simplemente<br><span class="hl-teal">contratar a alguien más?</span></h2>
-    <div class="comp-table anim anim-3">
-      <div class="comp-row">
-        <div class="col-l">Qué comparar</div>
-        <div class="col-mid">ADIS</div>
-        <div class="col-r">Alternativa</div>
-      </div>
-      <div class="comp-row">
-        <div class="col-l">Precio mensual</div>
-        <div class="col-mid">S/. 350</div>
-        <div class="col-r">S/. 1,500-3,000</div>
-      </div>
-      <div class="comp-row">
-        <div class="col-l">Página + catálogo + marketplace</div>
-        <div class="col-mid"><span class="comp-check">✓</span></div>
-        <div class="col-r"><span class="comp-x">Parcial</span></div>
-      </div>
-      <div class="comp-row">
-        <div class="col-l">Estrategia de negocio</div>
-        <div class="col-mid"><span class="comp-check">✓</span></div>
-        <div class="col-r"><span class="comp-x">No</span></div>
-      </div>
-      <div class="comp-row">
-        <div class="col-l">Herramientas de IA</div>
-        <div class="col-mid"><span class="comp-check">✓</span></div>
-        <div class="col-r"><span class="comp-x">No</span></div>
-      </div>
-      <div class="comp-row">
-        <div class="col-l">Hablan tu idioma (Cusco)</div>
-        <div class="col-mid"><span class="comp-check">✓</span></div>
-        <div class="col-r"><span class="comp-x">Rara vez</span></div>
-      </div>
-      <div class="comp-row">
-        <div class="col-l">Lo que construyen es tuyo</div>
-        <div class="col-mid"><span class="comp-check">✓ Siempre</span></div>
-        <div class="col-r"><span class="comp-x">Depende</span></div>
-      </div>
-      <div class="comp-row">
-        <div class="col-l">Garantía de resultados</div>
-        <div class="col-mid"><span class="comp-check">✓</span></div>
-        <div class="col-r"><span class="comp-x">Casi nunca</span></div>
-      </div>
-    </div>
-  </div>
-  <div class="slide-num">13 / 17</div>
-</div>
-
-<!-- SLIDE 14: FAQ -->
+<!-- SLIDE 12: FAQ -->
 <div class="slide light scroll-y" data-theme="light">
   <div class="content">
     <div class="badge badge-teal anim anim-1">Antes de decidir</div>
-    <h2 class="section-h anim anim-2">Las 5 dudas<br>que todas tienen.</h2>
+    <h2 class="section-h anim anim-2">Las dudas<br>que todas tienen.</h2>
     <div class="faq-list anim anim-3">
       <div class="faq-item">
-        <h4>“¿Tengo que configurar yo?”</h4>
-        <p>No cosas complejas. Nosotros diseñamos tu página web, armamos tu catálogo y te hacemos publicidad. Tú nos mandas fotos de tu celular y sigues atendiendo tu negocio. En 7 días ya ves resultados.</p>
+        <h4>“¿Cuál plan me conviene?”</h4>
+        <p><strong>Básico S/. 30</strong> si quieres aparecer en Buscadis y subir productos tú misma. <strong>Potente S/. 300</strong> si quieres que nosotros hagamos tu página web, catálogo y publicidad. <strong>Premium S/. 3,000</strong> si quieres que manejemos todo — redes, fotos en tu local, tienda online e IA.</p>
       </div>
       <div class="faq-item">
-        <h4>“¿S/. 350 no es mucho para mí?”</h4>
-        <p>Quival pagó S/. 250 solo por página y catálogo — sin publicidad ni extras. Tú recibes todo eso + promoción en Buscadis + 30 entregables del programa. Es menos que lo que pierdes en un fin de semana sin clientes online.</p>
+        <h4>“¿Tengo que saber de tecnología?”</h4>
+        <p>No. En el Plan Básico tienes un panel fácil para cambiar datos y subir productos. En Potente y Premium nosotros diseñamos y desarrollamos todo — tú nos mandas fotos de tu celular y sigues atendiendo tu negocio.</p>
       </div>
       <div class="faq-item">
-        <h4>“¿Qué pasa después de los 3 meses?”</h4>
-        <p>Tu página y catálogo ya están hechos. Por S/. 350/mes los mantenemos activos, actualizamos productos y te damos visibilidad en buscadis.com. Sin volver a pagar por construir todo desde cero.</p>
+        <h4>“¿S/. 300 no es mucho?”</h4>
+        <p>Quival pagó S/. 250 solo por página y catálogo — sin publicidad ni fotos mejoradas. El Plan Potente incluye todo eso + campaña publicitaria + anuncios en Buscadis por S/. 300.</p>
       </div>
       <div class="faq-item">
         <h4>“¿Por qué confiar en ustedes?”</h4>
-        <p>Llevamos años en Cusco: buscadis.com, publicadis.com, Noticiadis (~2K seguidores), Biblioteca Municipal (13K), medios como Inkavisión y Exitosa. Ya construimos 14+ páginas — Quival pagó S/. 250 y hoy vende con 510 productos online. Desliza al portafolio y mira tú misma.</p>
+        <p>Llevamos años en Cusco: buscadis.com, publicadis.com, Noticiadis (~2K seguidores), 14+ páginas vivas. Quival tiene 510 productos online. Desliza al portafolio y mira tú misma.</p>
       </div>
     </div>
     <a href="#" class="btn btn-wa anim anim-4" id="faqWaBtn" target="_blank">💬 Otra duda — pregúntanos sin compromiso</a>
   </div>
-  <div class="slide-num">14 / 17</div>
+  <div class="slide-num">12 / 14</div>
 </div>
 
-<!-- SLIDE 15: REAL PROOF -->
+<!-- SLIDE 13: REAL PROOF -->
 <div class="slide gold" data-theme="dark">
   <div class="content">
     <div class="badge badge-white anim anim-1">Resultados reales · Cusco</div>
@@ -1327,58 +1201,46 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
     </div>
     <a href="#" class="btn btn-white anim anim-5" id="proofPortBtn">Ver las 14+ páginas aquí →</a>
   </div>
-  <div class="slide-num">15 / 17</div>
+  <div class="slide-num">13 / 14</div>
 </div>
 
-<!-- SLIDE 16: GUARANTEE + URGENCY -->
-<div class="slide dark" data-theme="dark">
-  <div class="content">
-    <div class="badge badge-green anim anim-1">Sin riesgos</div>
-    <h2 class="section-h white-text anim anim-2">Semana 1 con resultados<br><span class="hl-green">o te devolvemos todo.</span></h2>
-    <div class="guar-box anim anim-3">
-      <p>En 7 días entregamos como mínimo:</p>
-      <ul class="guar-list">
-        <li>Tu página web profesional en marcha</li>
-        <li>Catálogo virtual interactivo activo</li>
-        <li>10 fotos de productos a nivel estudio</li>
-      </ul>
-      <p style="margin-top:12px;">Si no lo recibes: devolución 100% en 48 horas. Lo ya entregado es tuyo para siempre.</p>
-    </div>
-    <div style="background:rgba(239,68,68,.15);border:2px solid rgba(239,68,68,.4);border-radius:14px;padding:16px 20px;width:100%;max-width:380px;text-align:center;" class="anim anim-4">
-      <p style="font-size:12px;color:rgba(255,255,255,.7);margin-bottom:4px;">⚡ Cupos limitados · Programa 3 meses</p>
-      <p style="font-family:'Fraunces',serif;font-size:32px;font-weight:800;color:var(--white);"><span id="spots2">10</span> cupos</p>
-      <p style="font-size:11px;color:rgba(255,255,255,.5);margin-top:4px;">Cuando se llenen, este precio no vuelve</p>
-    </div>
-  </div>
-  <div class="slide-num">16 / 17</div>
-</div>
-
-<!-- SLIDE 17: PAYMENT CTA -->
+<!-- SLIDE 14: PAYMENT CTA -->
 <div id="pagar" class="slide light scroll-y" data-theme="light">
   <div class="content">
-    <div class="badge badge-teal anim anim-1">Último paso</div>
+    <div class="badge badge-teal anim anim-1">Último paso · elige tu plan</div>
+    <div class="plans-grid anim anim-2" style="margin-bottom:4px;">
+      <div class="plan-card compact" data-plan-select="basico" onclick="selectPlan('basico')">
+        <div class="plan-card-head"><div class="plan-card-name">Básico</div><div class="plan-price" style="font-size:22px;">S/. 30</div></div>
+        <div class="plan-subtitle">Presencia en Buscadis</div>
+      </div>
+      <div class="plan-card featured selected" data-plan-select="potente" onclick="selectPlan('potente')">
+        <div class="plan-card-head"><div class="plan-card-name">Potente ⭐</div><div class="plan-price" style="font-size:22px;">S/. 300</div></div>
+        <div class="plan-subtitle">Página web + catálogo + publicidad</div>
+      </div>
+      <div class="plan-card compact" data-plan-select="premium" onclick="selectPlan('premium')">
+        <div class="plan-card-head"><div class="plan-card-name">Premium</div><div class="plan-price" style="font-size:22px;">S/. 3,000</div></div>
+        <div class="plan-subtitle">Crecimiento total</div>
+      </div>
+    </div>
     <div class="price-big anim anim-2">
-      <div class="price-was">Valor real: S/. 8,850+</div>
-      <div class="price-now" style="color:var(--ink);">S/.350</div>
-      <div class="price-period" style="color:var(--dim);">Página web + catálogo + publicidad ADIS · 3 meses · 90 días</div>
-      <div class="price-save"><span style="color:var(--green);">▲</span> <span id="spotsPay">10</span> cupos limitados · Programa ADIS</div>
+      <div class="price-now" style="color:var(--ink);" id="payPriceDisplay">S/. 300</div>
+      <div class="price-period" style="color:var(--dim);" id="payPlanLabel">Plan Potente · Motor de Ventas</div>
     </div>
     <div class="invest-box anim anim-3">
-      Imagina tu negocio con su propia página web y catálogo que vende mientras tú atiendes.<br>
-      <strong>Eso es lo que diseñamos y desarrollamos por ti — sin complicarte con lo técnico.</strong>
+      <span id="payPlanDesc">Página web profesional, catálogo virtual, mejora de fotos y publicidad en Buscadis — nosotros lo hacemos por ti.</span>
     </div>
     <div class="steps-pay anim anim-3">
       <div class="step-pay">
         <div class="step-num">1</div>
-        <div><h4>Yapea S/. 350</h4><p id="yapeStepText">990 551 461 · Shantall / ADIS</p></div>
+        <div><h4 id="yapeStepTitle">Yapea S/. 300</h4><p id="yapeStepText">990 551 461 · Shantall / ADIS</p></div>
       </div>
       <div class="step-pay">
         <div class="step-num">2</div>
-        <div><h4>Manda captura al WhatsApp ADIS</h4><p>937 054 328 — confirmamos tu cupo en minutos</p></div>
+        <div><h4>Manda captura al WhatsApp ADIS</h4><p>937 054 328 — confirmamos en minutos</p></div>
       </div>
       <div class="step-pay">
         <div class="step-num">3</div>
-        <div><h4>Arrancamos en días</h4><p>Te escribimos con tu calendario de 90 días y primeros pasos</p></div>
+        <div><h4>Arrancamos contigo</h4><p>Te escribimos con los primeros pasos de tu plan</p></div>
       </div>
     </div>
     <div class="pay-methods anim anim-3">
@@ -1404,18 +1266,18 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
       Respaldo: <a href="#" id="backupJairo" target="_blank">Jairo 953 865 163</a> · <a href="#" id="backupShantall" target="_blank">Shantall 990 551 461</a>
     </div>
     <div style="width:100%;max-width:360px;display:flex;flex-direction:column;gap:10px;" class="anim anim-4">
-      <a href="#" class="btn btn-invest" id="payConfirmWa" target="_blank">💜 Invertir S/. 350 — enviar comprobante →</a>
+      <a href="#" class="btn btn-invest" id="payConfirmWa" target="_blank">💜 Pagar plan — enviar comprobante →</a>
       <a href="#" class="btn btn-wa" id="payQuestionWa" style="font-size:14px;padding:12px 24px;" target="_blank">Tengo una duda — hablar por WhatsApp</a>
     </div>
     <div class="anim anim-5" style="display:flex;align-items:center;gap:6px;font-size:12px;color:var(--dim);text-align:center;flex-wrap:wrap;justify-content:center;">
-      <span>🛡️ Garantía semana 1</span>
+      <span>🛡️ Garantía Plan Potente</span>
       <span>·</span>
       <span>✓ Todo lo construido es tuyo</span>
       <span>·</span>
-      <span>⚡ <span id="spots3">10</span> cupos limitados · ADIS</span>
+      <span>3 planes · ADIS Cusco</span>
     </div>
   </div>
-  <div class="slide-num">17 / 17</div>
+  <div class="slide-num">14 / 14</div>
 </div>
 
 </div><!-- /deck -->
@@ -1435,30 +1297,79 @@ html,body{width:100%;height:100%;overflow:hidden;font-family:'DM Sans',sans-seri
 
 <script>
 // ===== CONFIG (editar aquí) =====
+const PLANS = {
+  basico: {
+    id: 'basico',
+    name: 'Plan Básico',
+    label: 'Plan Básico · Presencia Inicial',
+    price: 30,
+    desc: 'Perfil en Buscadis, panel autogestionable y carga de productos por tu cuenta.',
+    msg: 'Hola ADIS! Vi adis.lat y quiero el Plan Básico (S/. 30) — perfil en Buscadis. Ya hice el Yape, adjunto comprobante.'
+  },
+  potente: {
+    id: 'potente',
+    name: 'Plan Potente',
+    label: 'Plan Potente · Motor de Ventas',
+    price: 300,
+    featured: true,
+    desc: 'Página web profesional, catálogo virtual, mejora de fotos y publicidad en Buscadis — nosotros lo hacemos por ti.',
+    msg: 'Hola ADIS! Vi adis.lat y quiero el Plan Potente (S/. 300) — página web + catálogo + publicidad. Ya hice el Yape, adjunto comprobante.'
+  },
+  premium: {
+    id: 'premium',
+    name: 'Plan Premium',
+    label: 'Plan Premium · Crecimiento Total',
+    price: 3000,
+    desc: 'Todo lo del Potente + manejo de redes, producción en tu local, tienda con pagos, IA y asesoría mensual.',
+    msg: 'Hola ADIS! Vi adis.lat y quiero el Plan Premium (S/. 3,000). Ya hice el Yape, adjunto comprobante.'
+  }
+};
+
 const ADIS = {
   WA_EMPRESA: '51937054328',
   WA_JAIRO: '51953865163',
   WA_SHANTALL: '51990551461',
   YAPE: '990 551 461',
   PLIN: '990 551 461',
-  PRECIO: 350,
   CUPOS: 10,
-  CUPOS_TOTAL: 10,
-  PAY_SLIDE: 16,
-  DEL_SLIDE: 10,
+  PLANS_SLIDE: 2,
+  PAY_SLIDE: 13,
   PORT_SLIDE: 7,
   DEADLINE: null,
   BONUS_DEADLINE: null,
-  MSG_PAGO: 'Hola ADIS! Vi adis.lat y quiero mi página web profesional y catálogo virtual con ustedes. Invierto S/. 350 en el programa 3 meses ADIS. Ya hice el Yape, adjunto comprobante.',
-  MSG_DUDA: 'Hola ADIS! Vi adis.lat y tengo una pregunta antes de reservar.',
-  MSG_LISTA: 'Hola ADIS! Vi adis.lat y quiero la lista completa de los 30 entregables del programa por favor.'
+  MSG_DUDA: 'Hola ADIS! Vi adis.lat y tengo una pregunta sobre los planes antes de reservar.'
 };
+
+let selectedPlan = 'potente';
+
+function fmtPrice(n){ return 'S/. ' + n.toLocaleString('es-PE'); }
+
+function selectPlan(id){
+  if(!PLANS[id]) return;
+  selectedPlan = id;
+  const plan = PLANS[id];
+  document.querySelectorAll('[data-plan-select]').forEach(el=>{
+    el.classList.toggle('selected', el.dataset.planSelect === id);
+  });
+  const payPrice = document.getElementById('payPriceDisplay');
+  const payLabel = document.getElementById('payPlanLabel');
+  const payDesc = document.getElementById('payPlanDesc');
+  const yapeTitle = document.getElementById('yapeStepTitle');
+  if(payPrice) payPrice.textContent = fmtPrice(plan.price);
+  if(payLabel) payLabel.textContent = plan.label;
+  if(payDesc) payDesc.textContent = plan.desc;
+  if(yapeTitle) yapeTitle.textContent = 'Yapea ' + fmtPrice(plan.price);
+  const sticky = document.getElementById('stickyYape');
+  if(sticky) sticky.textContent = '💜 ' + plan.name + ' · ' + fmtPrice(plan.price);
+  const payBtn = document.getElementById('payConfirmWa');
+  if(payBtn) payBtn.href = waUrl(ADIS.WA_EMPRESA, plan.msg);
+}
 
 function waUrl(num, text){ return 'https://wa.me/' + num + '?text=' + encodeURIComponent(text); }
 
-function bindPayNav(el){
+function bindPayNav(el, slide){
   if(!el) return;
-  el.addEventListener('click', e=>{ e.preventDefault(); goToSlide(ADIS.PAY_SLIDE); });
+  el.addEventListener('click', e=>{ e.preventDefault(); goToSlide(slide != null ? slide : ADIS.PAY_SLIDE); });
 }
 
 function copyYape(e){
@@ -1472,21 +1383,16 @@ function copyYape(e){
 }
 
 function applyConfig(){
-  const spots = document.querySelectorAll('#spots, #spots2, #spots3, #spotsNav, #spotsPay, #spotsNavInline');
-  spots.forEach(el=>{ if(el) el.textContent = ADIS.CUPOS; });
-
-  const waPay = waUrl(ADIS.WA_EMPRESA, ADIS.MSG_PAGO);
   const waDuda = waUrl(ADIS.WA_EMPRESA, ADIS.MSG_DUDA);
-  const waLista = waUrl(ADIS.WA_EMPRESA, ADIS.MSG_LISTA);
 
-  ['heroWaBtn','stickyWa','payConfirmWa','faqWaBtn'].forEach(id=>{
+  ['heroWaBtn','stickyWa','faqWaBtn'].forEach(id=>{
     const el = document.getElementById(id);
-    if(el){ el.href = id==='payConfirmWa' ? waPay : waDuda; }
+    if(el) el.href = waDuda;
   });
+  const payBtn = document.getElementById('payConfirmWa');
+  if(payBtn) payBtn.href = waUrl(ADIS.WA_EMPRESA, PLANS[selectedPlan].msg);
   const q = document.getElementById('payQuestionWa');
   if(q) q.href = waDuda;
-  const lista = document.getElementById('delFullPlanLink');
-  if(lista){ lista.href = waLista; lista.target = '_blank'; }
 
   const bj = document.getElementById('backupJairo');
   const bs = document.getElementById('backupShantall');
@@ -1507,12 +1413,13 @@ function applyConfig(){
     if(i===0) pm.addEventListener('click', copyYape);
   });
 
-  bindPayNav(document.getElementById('navPayBtn'));
-  bindPayNav(document.getElementById('heroPayBtn'));
-  bindPayNav(document.getElementById('trustPayBtn'));
+  bindPayNav(document.getElementById('navPayBtn'), ADIS.PLANS_SLIDE);
+  bindPayNav(document.getElementById('heroPayBtn'), ADIS.PLANS_SLIDE);
+  bindPayNav(document.getElementById('trustPayBtn'), ADIS.PLANS_SLIDE);
   bindPayNav(document.getElementById('corePayBtn'));
   bindPayNav(document.getElementById('stickyYape'));
   bindPayNav(document.getElementById('ecoPayBtn'));
+  bindPayNav(document.getElementById('potentePayBtn'));
   bindPayNav(document.getElementById('portPayBtn'));
 
   document.getElementById('proofPortBtn')?.addEventListener('click', e=>{
@@ -1625,7 +1532,7 @@ function updateBonusUI(){
   document.body.classList.toggle('has-countdown', bar && !bar.hidden);
   const mainText = document.getElementById('countdownMainText');
   if(mainText){
-    mainText.innerHTML = `⚡ <span id="spotsNavInline">${ADIS.CUPOS}</span> cupos limitados · Programa 3 meses ADIS`;
+    mainText.innerHTML = `3 planes ADIS · desde S/. 30 · Buscadis Cusco`;
   }
   syncChromeHeights();
 }
@@ -1647,9 +1554,7 @@ function updateCountdown(){
 
 // ===== STATE =====
 let current = 0;
-const total = 17;
-let delIdx = 0;
-const delTotal = 10;
+const total = 14;
 let lastTheme = 'light';
 
 // ===== DOTS INIT =====
@@ -1659,14 +1564,6 @@ for(let i=0;i<total;i++){
   d.className = 'dot' + (i===0?' active':'');
   d.onclick = ()=>goToSlide(i);
   dotsEl.appendChild(d);
-}
-
-// ===== DEL DOTS INIT =====
-const ddEl = document.getElementById('delDots');
-for(let i=0;i<delTotal;i++){
-  const d = document.createElement('div');
-  d.className = 'del-dot' + (i===0?' on':'');
-  ddEl.appendChild(d);
 }
 
 // ===== SLIDES REF =====
@@ -1731,33 +1628,12 @@ document.addEventListener('keydown', e=>{
   if(e.key==='ArrowUp'||e.key==='PageUp') goToSlide(Math.max(current-1,0));
 });
 
-const track = document.getElementById('delTrack');
-function delMove(dir){
-  delIdx = Math.max(0, Math.min(delTotal-1, delIdx+dir));
-  track.style.transform = `translateX(-${delIdx*100}%)`;
-  document.getElementById('delCur').textContent = delIdx+1;
-  document.querySelectorAll('.del-dot').forEach((d,i)=>{
-    d.classList.toggle('on', i===delIdx);
-  });
-}
-
-let delTouchX = 0;
-track.addEventListener('touchstart', e=>{ delTouchX = e.touches[0].clientX; }, {passive:true});
-track.addEventListener('touchend', e=>{
-  const diff = delTouchX - e.changedTouches[0].clientX;
-  if(Math.abs(diff)>40) delMove(diff>0?1:-1);
-});
-
-document.getElementById('overviewDelBtn')?.addEventListener('click', e=>{
-  e.preventDefault();
-  goToSlide(ADIS.DEL_SLIDE);
-});
-
 slides[0].classList.add('active');
 renderPortfolio();
 updateBonusUI();
 syncChromeHeights();
 applyConfig();
+selectPlan('potente');
 updateCountdown();
 setInterval(updateCountdown, 1000);
 updateUI();
